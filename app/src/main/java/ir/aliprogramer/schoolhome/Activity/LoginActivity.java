@@ -1,8 +1,6 @@
-package ir.aliprogramer.schoolhome;
+package ir.aliprogramer.schoolhome.Activity;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -13,10 +11,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import ir.aliprogramer.schoolhome.UserModel.UserResponse;
-import ir.aliprogramer.schoolhome.webService.APIClient;
-import ir.aliprogramer.schoolhome.webService.APIClientProvider;
-import ir.aliprogramer.schoolhome.webService.APIInterface;
+import ir.aliprogramer.schoolhome.AppPreferenceTools;
+import ir.aliprogramer.schoolhome.Model.UserModel.UserResponse;
+import ir.aliprogramer.schoolhome.Network.APIClient;
+import ir.aliprogramer.schoolhome.Network.APIInterface;
+import ir.aliprogramer.schoolhome.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

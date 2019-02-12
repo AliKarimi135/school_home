@@ -1,12 +1,11 @@
-package ir.aliprogramer.schoolhome.webService;
+package ir.aliprogramer.schoolhome.Network;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
-import ir.aliprogramer.schoolhome.HomeActivity;
-import ir.aliprogramer.schoolhome.TApplication;
+import ir.aliprogramer.schoolhome.Activity.HomeActivity;
 import okhttp3.Cache;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;

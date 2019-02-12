@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome.StudentModel;
+package ir.aliprogramer.schoolhome.Model.StudentModel;
 
 import com.google.gson.annotations.SerializedName;
 

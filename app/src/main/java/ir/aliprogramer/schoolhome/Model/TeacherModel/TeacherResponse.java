@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome.TeacherModel;
+package ir.aliprogramer.schoolhome.Model.TeacherModel;
 
 
 

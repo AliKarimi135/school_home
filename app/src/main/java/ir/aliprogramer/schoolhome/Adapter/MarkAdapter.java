@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome.RecycleAdapters;
+package ir.aliprogramer.schoolhome.Adapter;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -18,11 +18,10 @@ import android.widget.Toast;
 import java.util.List;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
-import ir.aliprogramer.schoolhome.MarkModel.Mark;
+import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.R;
-import ir.aliprogramer.schoolhome.webService.APIClient;
-import ir.aliprogramer.schoolhome.webService.APIClientProvider;
-import ir.aliprogramer.schoolhome.webService.APIInterface;
+import ir.aliprogramer.schoolhome.Network.APIClientProvider;
+import ir.aliprogramer.schoolhome.Network.APIInterface;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;

@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome;
+package ir.aliprogramer.schoolhome.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -10,7 +10,9 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.Fragments.CourseFragment;
+import ir.aliprogramer.schoolhome.R;
 
 
 public class HomeActivity extends AppCompatActivity {

@@ -1,6 +1,5 @@
 package ir.aliprogramer.schoolhome.Fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -13,21 +12,17 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CursorAdapter;
 import android.widget.Toast;
 
 import java.util.List;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
-import ir.aliprogramer.schoolhome.HomeActivity;
-import ir.aliprogramer.schoolhome.LoginActivity;
+import ir.aliprogramer.schoolhome.Activity.HomeActivity;
 import ir.aliprogramer.schoolhome.R;
-import ir.aliprogramer.schoolhome.RecycleAdapters.CourseAdapter;
-import ir.aliprogramer.schoolhome.RegisterActivity;
-import ir.aliprogramer.schoolhome.TeachingModel.Course;
-import ir.aliprogramer.schoolhome.webService.APIClient;
-import ir.aliprogramer.schoolhome.webService.APIClientProvider;
-import ir.aliprogramer.schoolhome.webService.APIInterface;
+import ir.aliprogramer.schoolhome.Adapter.CourseAdapter;
+import ir.aliprogramer.schoolhome.Model.TeachingModel.Course;
+import ir.aliprogramer.schoolhome.Network.APIClientProvider;
+import ir.aliprogramer.schoolhome.Network.APIInterface;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

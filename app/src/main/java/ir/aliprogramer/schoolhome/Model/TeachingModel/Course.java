@@ -1,8 +1,6 @@
-package ir.aliprogramer.schoolhome.TeachingModel;
+package ir.aliprogramer.schoolhome.Model.TeachingModel;
 
 import com.google.gson.annotations.SerializedName;
-
-import java.util.List;
 
 public class Course {
     @SerializedName("book_name")

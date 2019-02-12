@@ -3,7 +3,7 @@ package ir.aliprogramer.schoolhome;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import ir.aliprogramer.schoolhome.UserModel.UserResponse;
+import ir.aliprogramer.schoolhome.Model.UserModel.UserResponse;
 
 public class AppPreferenceTools {
     private Context mContext;

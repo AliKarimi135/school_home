@@ -1,19 +1,12 @@
-package ir.aliprogramer.schoolhome.webService;
+package ir.aliprogramer.schoolhome.Network;
 
 
 
-
-import android.content.Context;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
-import ir.aliprogramer.schoolhome.TApplication;
-import okhttp3.Cache;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
