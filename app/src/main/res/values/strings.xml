@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ارتباط خانه با مدرسه</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="login">ورود</string>
+    <string name="register">ثبت نام</string>
+    <string name="cancel">بازگشت</string>
+    <string name="code">کد پرسنلی معلم/ کد ملی دانش آموز</string>
+    <string name="confirmpassword">تکرار رمز عبور</string>
+    <string name="teacher">معلم</string>
+    <string name="parent">والدین</string>
+    <string name="description"> توضیحات: </string>
+    <string name="mark">نمره:  </string>
+    <string name="no">بازگشت</string>
+    <string name="yes">افزودن</string>
+    <string name="alertmark">افزودن نمره</string>
+    <string name="edith">ویرایش</string>
+    <string name="delete">حذف</string>
+    <string name="edith_mark_mess">ویرایش یا حذف نمره</string>
+</resources>
