@@ -16,7 +16,7 @@ import java.util.List;
 import ir.aliprogramer.schoolhome.Fragments.MarkFragment;
 import ir.aliprogramer.schoolhome.Fragments.StudentFragment;
 import ir.aliprogramer.schoolhome.R;
-import ir.aliprogramer.schoolhome.TeachingModel.Course;
+import ir.aliprogramer.schoolhome.Model.TeachingModel.Course;
 
 public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder>{
     Context context;

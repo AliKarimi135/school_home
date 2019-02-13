@@ -15,7 +15,7 @@ import java.util.List;
 
 import ir.aliprogramer.schoolhome.Fragments.MarkFragment;
 import ir.aliprogramer.schoolhome.R;
-import ir.aliprogramer.schoolhome.StudentModel.StudentResponse;
+import ir.aliprogramer.schoolhome.Model.StudentModel.StudentResponse;
 
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHolder> {
     Context context;

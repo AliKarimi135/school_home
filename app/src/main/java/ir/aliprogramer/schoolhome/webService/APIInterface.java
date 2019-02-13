@@ -4,14 +4,12 @@ import java.util.List;
 
 import ir.aliprogramer.schoolhome.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.MarkModel.MarkResponse;
-import ir.aliprogramer.schoolhome.ResponseModel;
-import ir.aliprogramer.schoolhome.StudentModel.StudentResponse;
-import ir.aliprogramer.schoolhome.TeacherModel.TeacherResponse;
-import ir.aliprogramer.schoolhome.TeachingModel.Course;
+import ir.aliprogramer.schoolhome.Model.ResponseModel;
+import ir.aliprogramer.schoolhome.Model.StudentModel.StudentResponse;
+import ir.aliprogramer.schoolhome.Model.TeachingModel.Course;
 import ir.aliprogramer.schoolhome.UserModel.UserResponse;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

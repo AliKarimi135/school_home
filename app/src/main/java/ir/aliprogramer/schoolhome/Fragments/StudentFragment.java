@@ -17,10 +17,10 @@ import android.widget.Toast;
 import java.util.List;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
-import ir.aliprogramer.schoolhome.HomeActivity;
+import ir.aliprogramer.schoolhome.Activity.HomeActivity;
 import ir.aliprogramer.schoolhome.R;
 import ir.aliprogramer.schoolhome.Adapters.StudentAdapter;
-import ir.aliprogramer.schoolhome.StudentModel.StudentResponse;
+import ir.aliprogramer.schoolhome.Model.StudentModel.StudentResponse;
 import ir.aliprogramer.schoolhome.webService.APIClientProvider;
 import ir.aliprogramer.schoolhome.webService.APIInterface;
 import retrofit2.Call;

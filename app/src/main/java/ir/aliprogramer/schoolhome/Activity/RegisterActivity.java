@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome;
+package ir.aliprogramer.schoolhome.Activity;
 
 import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
@@ -7,17 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatImageView;
-import android.util.Log;
 import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import java.io.IOException;
-
+import ir.aliprogramer.schoolhome.Model.ResponseModel;
+import ir.aliprogramer.schoolhome.R;
 import ir.aliprogramer.schoolhome.webService.APIClient;
-import ir.aliprogramer.schoolhome.webService.APIClientProvider;
 import ir.aliprogramer.schoolhome.webService.APIInterface;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
