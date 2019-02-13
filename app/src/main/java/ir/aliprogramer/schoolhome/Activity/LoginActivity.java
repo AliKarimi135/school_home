@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(!checkInput(username.getText().toString().trim(),password.getText().toString().trim()))
                     return;
-                APIInterface apiInterface= APIClient.getClient(appPreferenceTools.getAccessToken()).create(APIInterface.class);
+                APIInterface apiInterface= APIClient.getClient().create(APIInterface.class);
                 //APIClientProvider clientProvider=new APIClientProvider();
                 //APIInterface apiInterface=clientProvider.getService();
                 checkUser(apiInterface,username.getText().toString().trim(),password.getText().toString().trim());

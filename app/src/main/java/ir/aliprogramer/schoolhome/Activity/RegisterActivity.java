@@ -69,7 +69,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if(!checkInput(codeNumber,StPassword,StConfirmPassword))
                     return;
 
-                APIInterface apiInterface= APIClient.getClient("ali").create(APIInterface.class);
+                APIInterface apiInterface= APIClient.getClient().create(APIInterface.class);
                 //APIClientProvider clientProvider=new APIClientProvider();
                 //APIInterface apiInterface=clientProvider.getService();
                 if(radioGroup.getCheckedRadioButtonId()==R.id.teacher){

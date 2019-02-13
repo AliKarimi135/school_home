@@ -26,7 +26,7 @@ public class APIClient {
     public static final String BASE_URL="http://alideveloper.ir/app/v1/";
     private static  Retrofit retrofit=null;
 
-    public  static Retrofit getClient(final String token){
+    public  static Retrofit getClient(){
         if (retrofit==null){
             //Gson gson = new GsonBuilder().setLenient().create();
          /*   OkHttpClient client=new OkHttpClient.Builder()
@@ -49,10 +49,6 @@ public class APIClient {
                     Request.Builder requestBulder=orginal.newBuilder();
                     requestBulder.addHeader("Accept","Application/json");
                     requestBulder.addHeader("Content-Type", "Application/json;charset=UTF-8");
-                    if(!token.equals("ali")) {
-                        requestBulder.addHeader("Authorization", "bearer " + token);
-                        //orginal = orginal.newBuilder().header("Cache-Control", "public, max-age=" + 60).build();
-                    }
                     requestBulder.method(orginal.method(),orginal.body());
                     Request request=requestBulder.build();
                     return chain.proceed(request);
