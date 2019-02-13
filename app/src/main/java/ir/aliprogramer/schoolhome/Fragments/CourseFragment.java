@@ -1,5 +1,6 @@
 package ir.aliprogramer.schoolhome.Fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,6 +17,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import ir.aliprogramer.schoolhome.Activity.LoginActivity;
+import ir.aliprogramer.schoolhome.Activity.RegisterActivity;
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.Activity.HomeActivity;
 import ir.aliprogramer.schoolhome.R;
@@ -87,6 +90,8 @@ public class CourseFragment extends Fragment {
                         ((HomeActivity) getActivity()).hideProgressDialog();
                         if (response.code() == 405) {
                             Toast.makeText(getContext(), "عدم دسترسی", Toast.LENGTH_LONG).show();
+                            startActivity(new Intent(getContext(),LoginActivity.class));
+                            (getActivity()).finish();
                             return;
                         }
                         if (response.isSuccessful()) {

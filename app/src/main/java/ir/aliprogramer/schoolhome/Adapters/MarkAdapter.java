@@ -1,7 +1,9 @@
 package ir.aliprogramer.schoolhome.Adapters;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TextInputEditText;
@@ -17,6 +19,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import ir.aliprogramer.schoolhome.Activity.HomeActivity;
+import ir.aliprogramer.schoolhome.Activity.LoginActivity;
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.R;
@@ -159,6 +163,8 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405){
                     Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                    (context).startActivity(new Intent(context,LoginActivity.class));
+                    ((Activity)context).finish();
                     return;
                 }
               if(response.isSuccessful()){
@@ -190,6 +196,8 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405){
                     Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                    (context).startActivity(new Intent(context,LoginActivity.class));
+                    ((Activity)context).finish();
                     return;
                 }
                 if(response.isSuccessful()){

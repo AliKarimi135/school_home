@@ -3,6 +3,7 @@ package ir.aliprogramer.schoolhome.Fragments;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 import java.util.Collections;
 import java.util.List;
 
+import ir.aliprogramer.schoolhome.Activity.LoginActivity;
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.Activity.HomeActivity;
 import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
@@ -199,6 +201,8 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
                 public void onResponse(Call<MarkResponse> call, Response<MarkResponse> response) {
                     if(response.code()==405){
                         Toast.makeText(getContext(),"عدم دسترسی",Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(getContext(),LoginActivity.class));
+                        (getActivity()).finish();
                         return;
                     }
                     if(response.isSuccessful()){
