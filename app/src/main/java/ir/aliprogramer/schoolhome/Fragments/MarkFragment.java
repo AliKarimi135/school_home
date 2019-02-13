@@ -107,7 +107,7 @@ public class MarkFragment extends Fragment {
                 @Override
                 public void onResponse(Call<List<Mark>> call, Response<List<Mark>> response) {
                     ((HomeActivity) getActivity()).hideProgressDialog();
-                    if (response.code() == 405) {
+                    if (response.code() == 405 || response.code() == 401) {
                         Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                         return;
                     }

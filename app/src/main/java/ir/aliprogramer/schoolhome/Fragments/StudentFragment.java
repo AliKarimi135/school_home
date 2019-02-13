@@ -77,7 +77,7 @@ public class StudentFragment extends Fragment {
                 public void onResponse(Call<List<StudentResponse>> call, Response<List<StudentResponse>> response) {
                     Log.d("studentResponse", response.code() + "");
                     ((HomeActivity) getActivity()).hideProgressDialog();
-                    if (response.code() == 405) {
+                    if (response.code() == 405 || response.code() == 401) {
                         Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();
