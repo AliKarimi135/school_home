@@ -18,7 +18,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
-import ir.aliprogramer.schoolhome.MarkModel.Mark;
+import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.R;
 import ir.aliprogramer.schoolhome.webService.APIClientProvider;
 import ir.aliprogramer.schoolhome.webService.APIInterface;

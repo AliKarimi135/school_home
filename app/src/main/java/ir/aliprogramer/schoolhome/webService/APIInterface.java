@@ -2,8 +2,8 @@ package ir.aliprogramer.schoolhome.webService;
 
 import java.util.List;
 
-import ir.aliprogramer.schoolhome.MarkModel.Mark;
-import ir.aliprogramer.schoolhome.MarkModel.MarkResponse;
+import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
+import ir.aliprogramer.schoolhome.Model.MarkModel.MarkResponse;
 import ir.aliprogramer.schoolhome.Model.ResponseModel;
 import ir.aliprogramer.schoolhome.Model.StudentModel.StudentResponse;
 import ir.aliprogramer.schoolhome.Model.TeachingModel.Course;

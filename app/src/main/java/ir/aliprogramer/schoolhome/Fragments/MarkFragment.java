@@ -25,8 +25,8 @@ import java.util.List;
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.Activity.HomeActivity;
-import ir.aliprogramer.schoolhome.MarkModel.Mark;
-import ir.aliprogramer.schoolhome.MarkModel.MarkResponse;
+import ir.aliprogramer.schoolhome.Model.MarkModel.Mark;
+import ir.aliprogramer.schoolhome.Model.MarkModel.MarkResponse;
 import ir.aliprogramer.schoolhome.R;
 import ir.aliprogramer.schoolhome.Adapters.MarkAdapter;
 import ir.aliprogramer.schoolhome.webService.APIClientProvider;
@@ -79,11 +79,7 @@ public class MarkFragment extends Fragment {
         if(appPreferenceTools.getType()==0){
             btnAddMark.setVisibility(View.INVISIBLE);
         }
-        //APIInterface apiInterface= APIClient.getClient(appPreferenceTools.getAccessToken()).create(APIInterface.class);
-        APIClientProvider clientProvider=new APIClientProvider();
-        APIInterface apiInterface=clientProvider.getService();
-        Call<List<Mark>>listMark=apiInterface.getMarks(bookId,studentId);
-        //String title=" درس ";
+
         String title="";
         title+=bookName;
         if(!className.equals(" ")) {
@@ -99,42 +95,49 @@ public class MarkFragment extends Fragment {
             title+=bookName;
         }
         ((HomeActivity)getActivity()).changeToolBarText(title);
-        ((HomeActivity)getActivity()).showProgressDialog();
-        listMark.enqueue(new Callback<List<Mark>>() {
+        if(markList==null) {
+            APIClientProvider clientProvider=new APIClientProvider();
+            APIInterface apiInterface=clientProvider.getService();
+            Call<List<Mark>>listMark=apiInterface.getMarks(bookId,studentId);
+            ((HomeActivity) getActivity()).showProgressDialog();
+            listMark.enqueue(new Callback<List<Mark>>() {
 
-            @Override
-            public void onResponse(Call<List<Mark>> call, Response<List<Mark>> response) {
-                ((HomeActivity)getActivity()).hideProgressDialog();
-                if(response.code()==405){
-                    Toast.makeText(getContext(),"عدم دسترسی",Toast.LENGTH_LONG).show();
+                @Override
+                public void onResponse(Call<List<Mark>> call, Response<List<Mark>> response) {
+                    ((HomeActivity) getActivity()).hideProgressDialog();
+                    if (response.code() == 405) {
+                        Toast.makeText(getContext(), "عدم دسترسی", Toast.LENGTH_LONG).show();
+                        return;
+                    }
+                    if (response.isSuccessful()) {
+
+                        btnAddMark.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                MarkDialog markDialog = new MarkDialog(getActivity());
+                                markDialog.show();
+                                Window window = markDialog.getWindow();
+                                window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                            }
+                        });
+
+                        markList = response.body();
+                        Collections.reverse(markList);
+                        markAdapter = new MarkAdapter(getActivity(), markList);
+                        recyclerView.setAdapter(markAdapter);
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<List<Mark>> call, Throwable t) {
+                    ((HomeActivity) getActivity()).hideProgressDialog();
+                    Toast.makeText(getContext(), "اتصال اینترنت را بررسی کنید.", Toast.LENGTH_LONG).show();
                     return;
                 }
-                if(response.isSuccessful()){
-
-                    btnAddMark.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            MarkDialog markDialog=new MarkDialog(getActivity());
-                            markDialog.show();
-                            Window window = markDialog.getWindow();
-                            window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                        }
-                    });
-
-                    markList=response.body();
-                    Collections.reverse(markList);
-                    markAdapter=new MarkAdapter(getActivity(),markList);
-                    recyclerView.setAdapter(markAdapter);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<List<Mark>> call, Throwable t) {
-                ((HomeActivity) getActivity()).hideProgressDialog();
-                Toast.makeText(getContext(), "اتصال اینترنت را بررسی کنید.", Toast.LENGTH_LONG).show();
-                return;
-            }
-        });
+            });
+        }else{
+            recyclerView.setAdapter(markAdapter);
+        }
     }
 public class MarkDialog extends Dialog implements View.OnClickListener{
     private Context context;
