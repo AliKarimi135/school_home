@@ -88,7 +88,7 @@ public class CourseFragment extends Fragment {
                         Log.d("courseErr", response.errorBody() + "");
 
                         ((HomeActivity) getActivity()).hideProgressDialog();
-                        if (response.code() == 405 || response.code() == 401) {
+                        if ( response.code() == 401) {
                             Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(getContext(),LoginActivity.class));
                             (getActivity()).finish();
