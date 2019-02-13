@@ -162,7 +162,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405 || response.code() == 401){
-                    Toast.makeText(context,"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
+                    Toast.makeText(context,"نمره ویرایش نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
                     return;
@@ -195,7 +195,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405 || response.code() == 401){
-                    Toast.makeText(context,"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
+                    Toast.makeText(context,"نمره حذف نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
                     return;

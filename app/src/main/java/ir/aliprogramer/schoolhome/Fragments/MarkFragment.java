@@ -109,6 +109,8 @@ public class MarkFragment extends Fragment {
                     ((HomeActivity) getActivity()).hideProgressDialog();
                     if (response.code() == 405 || response.code() == 401) {
                         Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(getContext(),LoginActivity.class));
+                        (getActivity()).finish();
                         return;
                     }
                     if (response.isSuccessful()) {
@@ -199,8 +201,8 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
             listCall.enqueue(new Callback<MarkResponse>() {
                 @Override
                 public void onResponse(Call<MarkResponse> call, Response<MarkResponse> response) {
-                    if(response.code()==405){
-                        Toast.makeText(getContext(),"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
+                    if(response.code()==405 || response.code() == 401){
+                        Toast.makeText(getContext(),"نمره ثبت نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();
                         return;
