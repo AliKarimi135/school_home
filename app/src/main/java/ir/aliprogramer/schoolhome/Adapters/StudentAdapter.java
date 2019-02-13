@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome.RecycleAdapters;
+package ir.aliprogramer.schoolhome.Adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

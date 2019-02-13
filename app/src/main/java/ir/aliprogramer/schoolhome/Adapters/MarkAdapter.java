@@ -1,4 +1,4 @@
-package ir.aliprogramer.schoolhome.RecycleAdapters;
+package ir.aliprogramer.schoolhome.Adapters;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,7 +20,6 @@ import java.util.List;
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.R;
-import ir.aliprogramer.schoolhome.webService.APIClient;
 import ir.aliprogramer.schoolhome.webService.APIClientProvider;
 import ir.aliprogramer.schoolhome.webService.APIInterface;
 import okhttp3.ResponseBody;

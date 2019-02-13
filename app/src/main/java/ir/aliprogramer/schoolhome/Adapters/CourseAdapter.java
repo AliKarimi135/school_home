@@ -1,7 +1,6 @@
-package ir.aliprogramer.schoolhome.RecycleAdapters;
+package ir.aliprogramer.schoolhome.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -16,7 +15,6 @@ import java.util.List;
 
 import ir.aliprogramer.schoolhome.Fragments.MarkFragment;
 import ir.aliprogramer.schoolhome.Fragments.StudentFragment;
-import ir.aliprogramer.schoolhome.MarkModel.Mark;
 import ir.aliprogramer.schoolhome.R;
 import ir.aliprogramer.schoolhome.TeachingModel.Course;
 
