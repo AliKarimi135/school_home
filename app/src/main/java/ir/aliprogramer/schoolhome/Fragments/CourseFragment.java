@@ -89,7 +89,7 @@ public class CourseFragment extends Fragment {
 
                         ((HomeActivity) getActivity()).hideProgressDialog();
                         if (response.code() == 405) {
-                            Toast.makeText(getContext(), "عدم دسترسی", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(getContext(),LoginActivity.class));
                             (getActivity()).finish();
                             return;

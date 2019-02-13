@@ -162,7 +162,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405){
-                    Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                    Toast.makeText(context,"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
                     return;
@@ -182,7 +182,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
 
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
-                Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                Toast.makeText(context,"اتصال اینترنت را بررسی کنید.",Toast.LENGTH_LONG).show();
                 return;
             }
         });
@@ -195,7 +195,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.code()==405){
-                    Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                    Toast.makeText(context,"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
                     return;
@@ -211,7 +211,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
 
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
-                Toast.makeText(context,"عدم دسترسی",Toast.LENGTH_LONG).show();
+                Toast.makeText(context,"اتصال اینترنت را بررسی کنید.",Toast.LENGTH_LONG).show();
                 return;
             }
         });

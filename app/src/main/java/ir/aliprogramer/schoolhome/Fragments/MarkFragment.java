@@ -108,7 +108,7 @@ public class MarkFragment extends Fragment {
                 public void onResponse(Call<List<Mark>> call, Response<List<Mark>> response) {
                     ((HomeActivity) getActivity()).hideProgressDialog();
                     if (response.code() == 405) {
-                        Toast.makeText(getContext(), "عدم دسترسی", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                         return;
                     }
                     if (response.isSuccessful()) {
@@ -200,7 +200,7 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
                 @Override
                 public void onResponse(Call<MarkResponse> call, Response<MarkResponse> response) {
                     if(response.code()==405){
-                        Toast.makeText(getContext(),"عدم دسترسی",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(),"لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();
                         return;
@@ -224,6 +224,7 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
                 @Override
                 public void onFailure(Call<MarkResponse> call, Throwable t) {
                     Toast.makeText(getContext(),"اتصال اینترنت را بررسی کنید.",Toast.LENGTH_LONG).show();
+                    return;
                 }
             });
 
