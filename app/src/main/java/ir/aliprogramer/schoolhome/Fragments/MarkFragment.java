@@ -107,7 +107,7 @@ public class MarkFragment extends Fragment {
                 @Override
                 public void onResponse(Call<List<Mark>> call, Response<List<Mark>> response) {
                     ((HomeActivity) getActivity()).hideProgressDialog();
-                    if ( response.code() == 401) {
+                    if ( response.code() == 401 || response.code() == 400) {
                         Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();
@@ -194,14 +194,13 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
 }
 
     private void saveMark(final int mark, final String descriptionSt, int bookId, int studentId) {
-            //APIInterface apiInterface=APIClient.getClient(appPreferenceTools.getAccessToken()).create(APIInterface.class);
-                APIClientProvider clientProvider=new APIClientProvider();
-                APIInterface apiInterface=clientProvider.getService();
+            APIClientProvider clientProvider=new APIClientProvider();
+            APIInterface apiInterface=clientProvider.getService();
             Call<MarkResponse>listCall=apiInterface.setMark(bookId,studentId,mark,descriptionSt);
             listCall.enqueue(new Callback<MarkResponse>() {
                 @Override
                 public void onResponse(Call<MarkResponse> call, Response<MarkResponse> response) {
-                    if( response.code() == 401){
+                    if( response.code() == 401 || response.code() == 400){
                         Toast.makeText(getContext(),"نمره ثبت نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();

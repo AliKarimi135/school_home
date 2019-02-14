@@ -70,14 +70,14 @@ public class StudentFragment extends Fragment {
             APIClientProvider clientProvider = new APIClientProvider();
             APIInterface apiInterface2 = clientProvider.getService();
             Call<List<StudentResponse>> listCall = apiInterface2.getStudents(classId, bookId, groupId);
-            Log.d("dataForStudent", "class:" + classId + " book:" + bookId + " group:" + groupId);
+
             ((HomeActivity) getActivity()).showProgressDialog();
             listCall.enqueue(new Callback<List<StudentResponse>>() {
                 @Override
                 public void onResponse(Call<List<StudentResponse>> call, Response<List<StudentResponse>> response) {
-                    Log.d("studentResponse", response.code() + "");
+
                     ((HomeActivity) getActivity()).hideProgressDialog();
-                    if ( response.code() == 401) {
+                    if ( response.code() == 401 || response.code() == 400) {
                         Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getContext(),LoginActivity.class));
                         (getActivity()).finish();
@@ -85,7 +85,6 @@ public class StudentFragment extends Fragment {
                     }
                     if (response.isSuccessful()) {
                         studentList = response.body();
-                        Log.d("studentResponseSize", studentList.size() + "");
                         studentAdapter=new StudentAdapter(getActivity(), studentList, bookId, manager, className, bookName);
                         recyclerView.setAdapter(studentAdapter);
                     }

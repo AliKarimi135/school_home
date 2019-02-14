@@ -84,11 +84,9 @@ public class CourseFragment extends Fragment {
                 listCall.enqueue(new Callback<List<Course>>() {
                     @Override
                     public void onResponse(Call<List<Course>> call, Response<List<Course>> response) {
-                        Log.d("courseStatus", response.code() + "");
-                        Log.d("courseErr", response.errorBody() + "");
 
                         ((HomeActivity) getActivity()).hideProgressDialog();
-                        if ( response.code() == 401) {
+                        if ( response.code() == 401 || response.code() == 400) {
                             Toast.makeText(getContext(), "لطفا مجدد وارد برنامه شوید.", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(getContext(),LoginActivity.class));
                             (getActivity()).finish();
@@ -110,12 +108,9 @@ public class CourseFragment extends Fragment {
                     }
                 });
         }else{
-            //cursorAdapter = new CourseAdapter(getActivity(), courseList, userId, type, manager);
             recyclerView.setAdapter(cursorAdapter);
         }
-       //APIInterface apiInterface= APIClient.getClient(appPreferenceTools.getAccessToken()).create(APIInterface.class);
-
-    }
+       }
 
 
     public void setData(FragmentManager manager){

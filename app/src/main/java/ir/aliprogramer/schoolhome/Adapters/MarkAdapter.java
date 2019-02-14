@@ -127,7 +127,6 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
 
         @Override
         public void onClick(View view) {
-            //APIInterface apiInterface= APIClient.getClient(appPreferenceTools.getAccessToken()).create(APIInterface.class);
             APIClientProvider clientProvider=new APIClientProvider();
             APIInterface apiInterface=clientProvider.getService();
             if(view.getId()==R.id.no){
@@ -161,7 +160,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
         bodyCall.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-                if(response.code() == 401){
+                if(response.code() == 401 || response.code() == 400 ){
                     Toast.makeText(context,"نمره ویرایش نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
@@ -194,7 +193,7 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
         bodyCall.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-                if(response.code() == 401){
+                if(response.code() == 401 || response.code() == 400){
                     Toast.makeText(context,"نمره حذف نشد.لطفا مجدد وارد برنامه شوید.",Toast.LENGTH_LONG).show();
                     (context).startActivity(new Intent(context,LoginActivity.class));
                     ((Activity)context).finish();
