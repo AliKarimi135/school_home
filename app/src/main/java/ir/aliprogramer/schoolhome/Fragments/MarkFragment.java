@@ -180,12 +180,18 @@ public class MarkDialog extends Dialog implements View.OnClickListener{
         }else{
             String mark=markInput.getText().toString().trim();
             String descriptionSt=description.getText().toString().trim();
+            int markNumber=0;
             if(mark.isEmpty())
                 markL.setError("لطفا نمره را وارد کنید.");
             if(descriptionSt.isEmpty())
                 descriptionL.setError("لطفا توضیحاتی در مورد نمره وارد کنید.");
             if(mark.isEmpty() || descriptionSt.isEmpty())
                 return;
+            markNumber=Integer.parseInt(mark);
+            if(!(markNumber>=0 && markNumber<=20)){
+                markL.setError("نمره بین صفر تا بیست وارد کنید.");
+                return;
+            }
             saveMark(Integer.parseInt(mark),descriptionSt,bookId,studentId);
             dismiss();
         }

@@ -144,6 +144,11 @@ public class MarkAdapter extends RecyclerView.Adapter<MarkAdapter.ViewHolder> {
                     descriptionL.setError("لطفا توضیحاتی در مورد نمره وارد کنید.");
                 if(mark.isEmpty() || descriptionSt.isEmpty())
                     return;
+                int markNumber=Integer.parseInt(mark);
+                if(!(markNumber>=0 && markNumber<=20)){
+                    markL.setError("نمره بین صفر تا بیست وارد کنید.");
+                    return;
+                }
                 if(mark.equals(markList.get(Itemposition).getMark()+"") && descriptionSt.equals(markList.get(Itemposition).getDescription())){
                     dismiss();
                     return;
