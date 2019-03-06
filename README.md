@@ -2,9 +2,10 @@
 this is project communication home and school
 
 page login or register
-![](http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۱۵.png)
+
 <p align="center"> 
 <img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۳۶.png" width="250">
+<img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۱۵.png" width="300">
 </p>
 <br>
 Teacher
