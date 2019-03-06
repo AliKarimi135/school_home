@@ -2,8 +2,8 @@
 this is project communication home and school
 
 page login or register
-<p >
- ![](http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۱۵.png) 
+![](http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۱۵.png)
+<p align="center"> 
 <img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۳۶.png" width="250">
 </p>
 <br>
