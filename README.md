@@ -4,7 +4,7 @@ this is project communication home and school
 page login or register
 
 <p align="center"> 
-<img src="http://alideveloper.ir/image_app_school/login.PNG" >
+<img src="http://alideveloper.ir/image_app_school/login.PNG" width="250">
 <img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۳۶.png" width="250">
 </p>
 <br>
