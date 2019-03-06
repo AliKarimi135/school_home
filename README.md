@@ -2,7 +2,7 @@
 this is project communication home and school
 
 page login or register
-<p align="center">
+<p >
  ![](http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۱۵.png) 
 <img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۴۳۶.png" width="250">
 </p>
