@@ -19,6 +19,6 @@ Teacher
 
 Student and Parent
 <p align="center">
-<img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۶۰۸.png" width="250">
 <img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۶۱۴.png" width="250">
+<img src="http://alideveloper.ir/image_app_school/Screenshot_۲۰۱۹۰۳۰۶-۰۹۵۶۰۸.png" width="250">
 </p>
