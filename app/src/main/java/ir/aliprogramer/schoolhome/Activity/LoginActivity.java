@@ -1,6 +1,12 @@
 package ir.aliprogramer.schoolhome.Activity;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.content.Intent;
+import android.graphics.Color;
+import android.media.AudioAttributes;
+import android.net.Uri;
+import android.os.Build;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +16,8 @@ import android.support.v7.widget.AppCompatImageView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+
 
 import ir.aliprogramer.schoolhome.AppPreferenceTools;
 import ir.aliprogramer.schoolhome.R;
@@ -30,16 +38,22 @@ public class LoginActivity extends AppCompatActivity {
     AppCompatButton btnRegister;
 
     AppPreferenceTools appPreferenceTools;
+    private static final String TAG = "LoginActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+
         imgBoard=findViewById(R.id.board);
         userNameLayout=findViewById(R.id.userNameLayout);
         passwordLayout=findViewById(R.id.passwordLayout);
         username=findViewById(R.id.username);
         password=findViewById(R.id.password);
         btnLogin=findViewById(R.id.login);
+
 
         btnRegister=findViewById(R.id.register);
         btnRegister.setOnClickListener(new View.OnClickListener() {

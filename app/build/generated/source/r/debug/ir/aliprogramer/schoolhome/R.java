@@ -686,21 +686,38 @@ public final class R {
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>icon_only</td><td>2</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * <tr><td>wide</td><td>1</td><td></td></tr>
+     * </table>
      */
-    public static final int buttonStyle=0x7f030054;
+    public static final int buttonSize=0x7f030054;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f030055;
+    public static final int buttonStyle=0x7f030055;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int buttonStyleSmall=0x7f030056;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f030056;
+    public static final int buttonTint=0x7f030057;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -716,13 +733,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f030057;
+    public static final int buttonTintMode=0x7f030058;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int cardBackgroundColor=0x7f030058;
+    public static final int cardBackgroundColor=0x7f030059;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -730,7 +747,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardCornerRadius=0x7f030059;
+    public static final int cardCornerRadius=0x7f03005a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -738,7 +755,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardElevation=0x7f03005a;
+    public static final int cardElevation=0x7f03005b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -746,68 +763,68 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardMaxElevation=0x7f03005b;
+    public static final int cardMaxElevation=0x7f03005c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardPreventCornerOverlap=0x7f03005c;
+    public static final int cardPreventCornerOverlap=0x7f03005d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardUseCompatPadding=0x7f03005d;
+    public static final int cardUseCompatPadding=0x7f03005e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int cardViewStyle=0x7f03005e;
+    public static final int cardViewStyle=0x7f03005f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f03005f;
+    public static final int checkboxStyle=0x7f030060;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedChip=0x7f030060;
+    public static final int checkedChip=0x7f030061;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedIcon=0x7f030061;
+    public static final int checkedIcon=0x7f030062;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int checkedIconEnabled=0x7f030062;
+    public static final int checkedIconEnabled=0x7f030063;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int checkedIconVisible=0x7f030063;
+    public static final int checkedIconVisible=0x7f030064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f030064;
+    public static final int checkedTextViewStyle=0x7f030065;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipBackgroundColor=0x7f030065;
+    public static final int chipBackgroundColor=0x7f030066;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -815,7 +832,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipCornerRadius=0x7f030066;
+    public static final int chipCornerRadius=0x7f030067;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -823,26 +840,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipEndPadding=0x7f030067;
+    public static final int chipEndPadding=0x7f030068;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipGroupStyle=0x7f030068;
+    public static final int chipGroupStyle=0x7f030069;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipIcon=0x7f030069;
+    public static final int chipIcon=0x7f03006a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chipIconEnabled=0x7f03006a;
+    public static final int chipIconEnabled=0x7f03006b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -850,18 +867,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipIconSize=0x7f03006b;
+    public static final int chipIconSize=0x7f03006c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipIconTint=0x7f03006c;
+    public static final int chipIconTint=0x7f03006d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chipIconVisible=0x7f03006d;
+    public static final int chipIconVisible=0x7f03006e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -869,7 +886,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipMinHeight=0x7f03006e;
+    public static final int chipMinHeight=0x7f03006f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -877,7 +894,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacing=0x7f03006f;
+    public static final int chipSpacing=0x7f030070;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -885,7 +902,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacingHorizontal=0x7f030070;
+    public static final int chipSpacingHorizontal=0x7f030071;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -893,14 +910,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipSpacingVertical=0x7f030071;
+    public static final int chipSpacingVertical=0x7f030072;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipStandaloneStyle=0x7f030072;
+    public static final int chipStandaloneStyle=0x7f030073;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -908,13 +925,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipStartPadding=0x7f030073;
+    public static final int chipStartPadding=0x7f030074;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int chipStrokeColor=0x7f030074;
+    public static final int chipStrokeColor=0x7f030075;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -922,25 +939,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int chipStrokeWidth=0x7f030075;
+    public static final int chipStrokeWidth=0x7f030076;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int chipStyle=0x7f030076;
+    public static final int chipStyle=0x7f030077;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int circleCrop=0x7f030078;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int civ_border_color=0x7f030077;
+    public static final int civ_border_color=0x7f030079;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int civ_border_overlay=0x7f030078;
+    public static final int civ_border_overlay=0x7f03007a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -948,31 +970,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int civ_border_width=0x7f030079;
+    public static final int civ_border_width=0x7f03007b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int civ_circle_background_color=0x7f03007a;
+    public static final int civ_circle_background_color=0x7f03007c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int civ_fill_color=0x7f03007b;
+    public static final int civ_fill_color=0x7f03007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f03007c;
+    public static final int closeIcon=0x7f03007e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int closeIconEnabled=0x7f03007d;
+    public static final int closeIconEnabled=0x7f03007f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -980,7 +1002,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconEndPadding=0x7f03007e;
+    public static final int closeIconEndPadding=0x7f030080;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -988,7 +1010,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconSize=0x7f03007f;
+    public static final int closeIconSize=0x7f030081;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -996,37 +1018,37 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int closeIconStartPadding=0x7f030080;
+    public static final int closeIconStartPadding=0x7f030082;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int closeIconTint=0x7f030081;
+    public static final int closeIconTint=0x7f030083;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int closeIconVisible=0x7f030082;
+    public static final int closeIconVisible=0x7f030084;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f030083;
+    public static final int closeItemLayout=0x7f030085;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f030084;
+    public static final int collapseContentDescription=0x7f030086;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f030085;
+    public static final int collapseIcon=0x7f030087;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1046,56 +1068,56 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int collapsedTitleGravity=0x7f030086;
+    public static final int collapsedTitleGravity=0x7f030088;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapsedTitleTextAppearance=0x7f030087;
+    public static final int collapsedTitleTextAppearance=0x7f030089;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f030088;
+    public static final int color=0x7f03008a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f030089;
+    public static final int colorAccent=0x7f03008b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f03008a;
+    public static final int colorBackgroundFloating=0x7f03008c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f03008b;
+    public static final int colorButtonNormal=0x7f03008d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f03008c;
+    public static final int colorControlActivated=0x7f03008e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f03008d;
+    public static final int colorControlHighlight=0x7f03008f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f03008e;
+    public static final int colorControlNormal=0x7f030090;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1105,50 +1127,67 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f03008f;
+    public static final int colorError=0x7f030091;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f030090;
+    public static final int colorPrimary=0x7f030092;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f030091;
+    public static final int colorPrimaryDark=0x7f030093;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>2</td><td></td></tr>
+     * <tr><td>dark</td><td>0</td><td></td></tr>
+     * <tr><td>light</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int colorScheme=0x7f030094;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSecondary=0x7f030092;
+    public static final int colorSecondary=0x7f030095;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f030093;
+    public static final int colorSwitchThumbNormal=0x7f030096;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f030094;
+    public static final int commitIcon=0x7f030097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f030095;
+    public static final int constraintSet=0x7f030098;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f030096;
+    public static final int contentDescription=0x7f030099;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1156,7 +1195,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f030097;
+    public static final int contentInsetEnd=0x7f03009a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1164,7 +1203,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f030098;
+    public static final int contentInsetEndWithActions=0x7f03009b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1172,7 +1211,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f030099;
+    public static final int contentInsetLeft=0x7f03009c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1180,7 +1219,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f03009a;
+    public static final int contentInsetRight=0x7f03009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1188,7 +1227,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f03009b;
+    public static final int contentInsetStart=0x7f03009e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1196,7 +1235,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f03009c;
+    public static final int contentInsetStartWithNavigation=0x7f03009f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1204,7 +1243,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPadding=0x7f03009d;
+    public static final int contentPadding=0x7f0300a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1212,7 +1251,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingBottom=0x7f03009e;
+    public static final int contentPaddingBottom=0x7f0300a1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1220,7 +1259,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingLeft=0x7f03009f;
+    public static final int contentPaddingLeft=0x7f0300a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1228,7 +1267,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingRight=0x7f0300a0;
+    public static final int contentPaddingRight=0x7f0300a3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1236,27 +1275,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingTop=0x7f0300a1;
+    public static final int contentPaddingTop=0x7f0300a4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f0300a2;
+    public static final int contentScrim=0x7f0300a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f0300a3;
+    public static final int controlBackground=0x7f0300a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int coordinatorLayoutStyle=0x7f0300a4;
+    public static final int coordinatorLayoutStyle=0x7f0300a7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1264,42 +1303,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cornerRadius=0x7f0300a5;
+    public static final int cornerRadius=0x7f0300a8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f0300a6;
+    public static final int counterEnabled=0x7f0300a9;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f0300a7;
+    public static final int counterMaxLength=0x7f0300aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f0300a8;
+    public static final int counterOverflowTextAppearance=0x7f0300ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f0300a9;
+    public static final int counterTextAppearance=0x7f0300ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f0300aa;
+    public static final int customNavigationLayout=0x7f0300ad;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f0300ab;
+    public static final int defaultQueryHint=0x7f0300ae;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1307,7 +1346,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogCornerRadius=0x7f0300ac;
+    public static final int dialogCornerRadius=0x7f0300af;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1315,14 +1354,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f0300ad;
+    public static final int dialogPreferredPadding=0x7f0300b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f0300ae;
+    public static final int dialogTheme=0x7f0300b1;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1339,21 +1378,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f0300af;
+    public static final int displayOptions=0x7f0300b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f0300b0;
+    public static final int divider=0x7f0300b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f0300b1;
+    public static final int dividerHorizontal=0x7f0300b4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1361,14 +1400,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f0300b2;
+    public static final int dividerPadding=0x7f0300b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f0300b3;
+    public static final int dividerVertical=0x7f0300b6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1376,21 +1415,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f0300b4;
+    public static final int drawableSize=0x7f0300b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f0300b5;
+    public static final int drawerArrowStyle=0x7f0300b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f0300b6;
+    public static final int dropDownListViewStyle=0x7f0300b9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1398,14 +1437,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f0300b7;
+    public static final int dropdownListPreferredItemHeight=0x7f0300ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f0300b8;
+    public static final int editTextBackground=0x7f0300bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1415,14 +1454,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f0300b9;
+    public static final int editTextColor=0x7f0300bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f0300ba;
+    public static final int editTextStyle=0x7f0300bd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1430,41 +1469,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f0300bb;
+    public static final int elevation=0x7f0300be;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceMaterialTheme=0x7f0300bc;
+    public static final int enforceMaterialTheme=0x7f0300bf;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceTextAppearance=0x7f0300bd;
+    public static final int enforceTextAppearance=0x7f0300c0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f0300be;
+    public static final int errorEnabled=0x7f0300c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f0300bf;
+    public static final int errorTextAppearance=0x7f0300c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f0300c0;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0300c3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f0300c1;
+    public static final int expanded=0x7f0300c4;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1484,7 +1523,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f0300c2;
+    public static final int expandedTitleGravity=0x7f0300c5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1492,7 +1531,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f0300c3;
+    public static final int expandedTitleMargin=0x7f0300c6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1500,7 +1539,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f0300c4;
+    public static final int expandedTitleMarginBottom=0x7f0300c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1508,7 +1547,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f0300c5;
+    public static final int expandedTitleMarginEnd=0x7f0300c8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1516,7 +1555,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f0300c6;
+    public static final int expandedTitleMarginStart=0x7f0300c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1524,14 +1563,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f0300c7;
+    public static final int expandedTitleMarginTop=0x7f0300ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f0300c8;
+    public static final int expandedTitleTextAppearance=0x7f0300cb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1543,7 +1582,7 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int fabAlignmentMode=0x7f0300c9;
+    public static final int fabAlignmentMode=0x7f0300cc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1551,7 +1590,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleMargin=0x7f0300ca;
+    public static final int fabCradleMargin=0x7f0300cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1559,7 +1598,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleRoundedCornerRadius=0x7f0300cb;
+    public static final int fabCradleRoundedCornerRadius=0x7f0300ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1567,7 +1606,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleVerticalOffset=0x7f0300cc;
+    public static final int fabCradleVerticalOffset=0x7f0300cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1575,7 +1614,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCustomSize=0x7f0300cd;
+    public static final int fabCustomSize=0x7f0300d0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1588,40 +1627,40 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f0300ce;
+    public static final int fabSize=0x7f0300d1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f0300cf;
+    public static final int fastScrollEnabled=0x7f0300d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d0;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d1;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f0300d2;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0300d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f0300d3;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0300d6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1629,7 +1668,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int firstBaselineToTopHeight=0x7f0300d4;
+    public static final int firstBaselineToTopHeight=0x7f0300d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1654,31 +1693,31 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int floatingActionButtonStyle=0x7f0300d5;
+    public static final int floatingActionButtonStyle=0x7f0300d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f0300d6;
+    public static final int font=0x7f0300d9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f0300d7;
+    public static final int fontFamily=0x7f0300da;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f0300d8;
+    public static final int fontProviderAuthority=0x7f0300db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f0300d9;
+    public static final int fontProviderCerts=0x7f0300dc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1690,7 +1729,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f0300da;
+    public static final int fontProviderFetchStrategy=0x7f0300dd;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1702,17 +1741,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f0300db;
+    public static final int fontProviderFetchTimeout=0x7f0300de;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f0300dc;
+    public static final int fontProviderPackage=0x7f0300df;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f0300dd;
+    public static final int fontProviderQuery=0x7f0300e0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1724,21 +1763,21 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0300de;
+    public static final int fontStyle=0x7f0300e1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontVariationSettings=0x7f0300df;
+    public static final int fontVariationSettings=0x7f0300e2;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0300e0;
+    public static final int fontWeight=0x7f0300e3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f0300e1;
+    public static final int foregroundInsidePadding=0x7f0300e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1746,21 +1785,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0300e2;
+    public static final int gapBetweenBars=0x7f0300e5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0300e3;
+    public static final int goIcon=0x7f0300e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f0300e4;
+    public static final int headerLayout=0x7f0300e7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1768,72 +1807,72 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300e5;
+    public static final int height=0x7f0300e8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int helperText=0x7f0300e6;
+    public static final int helperText=0x7f0300e9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int helperTextEnabled=0x7f0300e7;
+    public static final int helperTextEnabled=0x7f0300ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int helperTextTextAppearance=0x7f0300e8;
+    public static final int helperTextTextAppearance=0x7f0300eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hideMotionSpec=0x7f0300e9;
+    public static final int hideMotionSpec=0x7f0300ec;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300ea;
+    public static final int hideOnContentScroll=0x7f0300ed;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnScroll=0x7f0300eb;
+    public static final int hideOnScroll=0x7f0300ee;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0300ec;
+    public static final int hintAnimationEnabled=0x7f0300ef;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0300ed;
+    public static final int hintEnabled=0x7f0300f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0300ee;
+    public static final int hintTextAppearance=0x7f0300f1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300ef;
+    public static final int homeAsUpIndicator=0x7f0300f2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300f0;
+    public static final int homeLayout=0x7f0300f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1841,14 +1880,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int hoveredFocusedTranslationZ=0x7f0300f1;
+    public static final int hoveredFocusedTranslationZ=0x7f0300f4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300f2;
+    public static final int icon=0x7f0300f5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1856,7 +1895,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconEndPadding=0x7f0300f3;
+    public static final int iconEndPadding=0x7f0300f6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1868,7 +1907,7 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int iconGravity=0x7f0300f4;
+    public static final int iconGravity=0x7f0300f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1876,7 +1915,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconPadding=0x7f0300f5;
+    public static final int iconPadding=0x7f0300f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1884,7 +1923,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconSize=0x7f0300f6;
+    public static final int iconSize=0x7f0300f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1892,13 +1931,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconStartPadding=0x7f0300f7;
+    public static final int iconStartPadding=0x7f0300fa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0300f8;
+    public static final int iconTint=0x7f0300fb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1914,31 +1953,48 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0300f9;
+    public static final int iconTintMode=0x7f0300fc;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300fa;
+    public static final int iconifiedByDefault=0x7f0300fd;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int imageAspectRatio=0x7f0300fe;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>adjust_height</td><td>2</td><td></td></tr>
+     * <tr><td>adjust_width</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int imageAspectRatioAdjust=0x7f0300ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300fb;
+    public static final int imageButtonStyle=0x7f030100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300fc;
+    public static final int indeterminateProgressStyle=0x7f030101;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300fd;
+    public static final int initialActivityCount=0x7f030102;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1948,19 +2004,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0300fe;
+    public static final int insetForeground=0x7f030103;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0300ff;
+    public static final int isLightTheme=0x7f030104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f030100;
+    public static final int itemBackground=0x7f030105;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1968,12 +2024,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemHorizontalPadding=0x7f030101;
+    public static final int itemHorizontalPadding=0x7f030106;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int itemHorizontalTranslationEnabled=0x7f030102;
+    public static final int itemHorizontalTranslationEnabled=0x7f030107;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1981,7 +2037,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconPadding=0x7f030103;
+    public static final int itemIconPadding=0x7f030108;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1989,13 +2045,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconSize=0x7f030104;
+    public static final int itemIconSize=0x7f030109;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f030105;
+    public static final int itemIconTint=0x7f03010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2003,7 +2059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f030106;
+    public static final int itemPadding=0x7f03010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2011,41 +2067,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemSpacing=0x7f030107;
+    public static final int itemSpacing=0x7f03010c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f030108;
+    public static final int itemTextAppearance=0x7f03010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceActive=0x7f030109;
+    public static final int itemTextAppearanceActive=0x7f03010e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceInactive=0x7f03010a;
+    public static final int itemTextAppearanceInactive=0x7f03010f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f03010b;
+    public static final int itemTextColor=0x7f030110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f03010c;
+    public static final int keylines=0x7f030111;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2059,7 +2115,7 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int labelVisibilityMode=0x7f03010d;
+    public static final int labelVisibilityMode=0x7f030112;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2067,26 +2123,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lastBaselineToBottomHeight=0x7f03010e;
+    public static final int lastBaselineToBottomHeight=0x7f030113;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f03010f;
+    public static final int layout=0x7f030114;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f030110;
+    public static final int layoutManager=0x7f030115;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f030111;
+    public static final int layout_anchor=0x7f030116;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2110,12 +2166,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f030112;
+    public static final int layout_anchorGravity=0x7f030117;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f030113;
+    public static final int layout_behavior=0x7f030118;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2128,15 +2184,15 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f030114;
+    public static final int layout_collapseMode=0x7f030119;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f030115;
+    public static final int layout_collapseParallaxMultiplier=0x7f03011a;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f030116;
+    public static final int layout_constraintBaseline_creator=0x7f03011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2151,11 +2207,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f030117;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f03011c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f030118;
+    public static final int layout_constraintBottom_creator=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2170,7 +2226,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f030119;
+    public static final int layout_constraintBottom_toBottomOf=0x7f03011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2185,12 +2241,12 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f03011a;
+    public static final int layout_constraintBottom_toTopOf=0x7f03011f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f03011b;
+    public static final int layout_constraintDimensionRatio=0x7f030120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2205,7 +2261,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f03011c;
+    public static final int layout_constraintEnd_toEndOf=0x7f030121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2220,7 +2276,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f03011d;
+    public static final int layout_constraintEnd_toStartOf=0x7f030122;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2228,7 +2284,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f03011e;
+    public static final int layout_constraintGuide_begin=0x7f030123;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2236,11 +2292,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f03011f;
+    public static final int layout_constraintGuide_end=0x7f030124;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f030120;
+    public static final int layout_constraintGuide_percent=0x7f030125;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2252,7 +2308,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f030121;
+    public static final int layout_constraintHeight_default=0x7f030126;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2260,7 +2316,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintHeight_max=0x7f030122;
+    public static final int layout_constraintHeight_max=0x7f030127;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2268,11 +2324,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintHeight_min=0x7f030123;
+    public static final int layout_constraintHeight_min=0x7f030128;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f030124;
+    public static final int layout_constraintHorizontal_bias=0x7f030129;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2285,15 +2341,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f030125;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f03012a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f030126;
+    public static final int layout_constraintHorizontal_weight=0x7f03012b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f030127;
+    public static final int layout_constraintLeft_creator=0x7f03012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2308,7 +2364,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f030128;
+    public static final int layout_constraintLeft_toLeftOf=0x7f03012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2323,11 +2379,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f030129;
+    public static final int layout_constraintLeft_toRightOf=0x7f03012e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f03012a;
+    public static final int layout_constraintRight_creator=0x7f03012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2342,7 +2398,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f03012b;
+    public static final int layout_constraintRight_toLeftOf=0x7f030130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2357,7 +2413,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f03012c;
+    public static final int layout_constraintRight_toRightOf=0x7f030131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2372,7 +2428,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f03012d;
+    public static final int layout_constraintStart_toEndOf=0x7f030132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2387,11 +2443,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f03012e;
+    public static final int layout_constraintStart_toStartOf=0x7f030133;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f03012f;
+    public static final int layout_constraintTop_creator=0x7f030134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2406,7 +2462,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f030130;
+    public static final int layout_constraintTop_toBottomOf=0x7f030135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2421,11 +2477,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f030131;
+    public static final int layout_constraintTop_toTopOf=0x7f030136;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f030132;
+    public static final int layout_constraintVertical_bias=0x7f030137;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2438,11 +2494,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f030133;
+    public static final int layout_constraintVertical_chainStyle=0x7f030138;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f030134;
+    public static final int layout_constraintVertical_weight=0x7f030139;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2454,7 +2510,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f030135;
+    public static final int layout_constraintWidth_default=0x7f03013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2462,7 +2518,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintWidth_max=0x7f030136;
+    public static final int layout_constraintWidth_max=0x7f03013b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2470,7 +2526,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintWidth_min=0x7f030137;
+    public static final int layout_constraintWidth_min=0x7f03013c;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2488,7 +2544,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f030138;
+    public static final int layout_dodgeInsetEdges=0x7f03013d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2496,7 +2552,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f030139;
+    public static final int layout_editor_absoluteX=0x7f03013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2504,7 +2560,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f03013a;
+    public static final int layout_editor_absoluteY=0x7f03013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2512,7 +2568,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f03013b;
+    public static final int layout_goneMarginBottom=0x7f030140;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2520,7 +2576,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f03013c;
+    public static final int layout_goneMarginEnd=0x7f030141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2528,7 +2584,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f03013d;
+    public static final int layout_goneMarginLeft=0x7f030142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2536,7 +2592,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f03013e;
+    public static final int layout_goneMarginRight=0x7f030143;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2544,7 +2600,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f03013f;
+    public static final int layout_goneMarginStart=0x7f030144;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2552,7 +2608,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f030140;
+    public static final int layout_goneMarginTop=0x7f030145;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2569,11 +2625,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f030141;
+    public static final int layout_insetEdge=0x7f030146;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f030142;
+    public static final int layout_keyline=0x7f030147;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2587,7 +2643,7 @@ public final class R {
      * <tr><td>none</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f030143;
+    public static final int layout_optimizationLevel=0x7f030148;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2603,19 +2659,19 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f030144;
+    public static final int layout_scrollFlags=0x7f030149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f030145;
+    public static final int layout_scrollInterpolator=0x7f03014a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liftOnScroll=0x7f030146;
+    public static final int liftOnScroll=0x7f03014b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2623,7 +2679,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineHeight=0x7f030147;
+    public static final int lineHeight=0x7f03014c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2631,49 +2687,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineSpacing=0x7f030148;
+    public static final int lineSpacing=0x7f03014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f030149;
+    public static final int listChoiceBackgroundIndicator=0x7f03014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f03014a;
+    public static final int listDividerAlertDialog=0x7f03014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f03014b;
+    public static final int listItemLayout=0x7f030150;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f03014c;
+    public static final int listLayout=0x7f030151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f03014d;
+    public static final int listMenuViewStyle=0x7f030152;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f03014e;
+    public static final int listPopupWindowStyle=0x7f030153;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2681,7 +2737,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f03014f;
+    public static final int listPreferredItemHeight=0x7f030154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2689,7 +2745,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030150;
+    public static final int listPreferredItemHeightLarge=0x7f030155;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2697,7 +2753,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030151;
+    public static final int listPreferredItemHeightSmall=0x7f030156;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2705,7 +2761,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f030152;
+    public static final int listPreferredItemPaddingLeft=0x7f030157;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2713,33 +2769,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f030153;
+    public static final int listPreferredItemPaddingRight=0x7f030158;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f030154;
+    public static final int logo=0x7f030159;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f030155;
+    public static final int logoDescription=0x7f03015a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialButtonStyle=0x7f030156;
+    public static final int materialButtonStyle=0x7f03015b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialCardViewStyle=0x7f030157;
+    public static final int materialCardViewStyle=0x7f03015c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2747,7 +2803,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f030158;
+    public static final int maxActionInlineWidth=0x7f03015d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2755,7 +2811,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f030159;
+    public static final int maxButtonHeight=0x7f03015e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2763,38 +2819,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxImageSize=0x7f03015a;
+    public static final int maxImageSize=0x7f03015f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f03015b;
+    public static final int measureWithLargestChild=0x7f030160;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f03015c;
+    public static final int menu=0x7f030161;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f03015d;
+    public static final int multiChoiceItemLayout=0x7f030162;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f03015e;
+    public static final int navigationContentDescription=0x7f030163;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f03015f;
+    public static final int navigationIcon=0x7f030164;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2807,14 +2863,14 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f030160;
+    public static final int navigationMode=0x7f030165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationViewStyle=0x7f030161;
+    public static final int navigationViewStyle=0x7f030166;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2830,12 +2886,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f030162;
+    public static final int numericModifiers=0x7f030167;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f030163;
+    public static final int overlapAnchor=0x7f030168;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2843,7 +2899,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f030164;
+    public static final int paddingBottomNoButtons=0x7f030169;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2851,7 +2907,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f030165;
+    public static final int paddingEnd=0x7f03016a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2859,7 +2915,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f030166;
+    public static final int paddingStart=0x7f03016b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2867,21 +2923,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f030167;
+    public static final int paddingTopNoTitle=0x7f03016c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f030168;
+    public static final int panelBackground=0x7f03016d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f030169;
+    public static final int panelMenuListTheme=0x7f03016e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2889,30 +2945,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f03016a;
+    public static final int panelMenuListWidth=0x7f03016f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f03016b;
+    public static final int passwordToggleContentDescription=0x7f030170;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f03016c;
+    public static final int passwordToggleDrawable=0x7f030171;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f03016d;
+    public static final int passwordToggleEnabled=0x7f030172;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f03016e;
+    public static final int passwordToggleTint=0x7f030173;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2927,33 +2983,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f03016f;
+    public static final int passwordToggleTintMode=0x7f030174;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f030170;
+    public static final int popupMenuStyle=0x7f030175;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f030171;
+    public static final int popupTheme=0x7f030176;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f030172;
+    public static final int popupWindowStyle=0x7f030177;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f030173;
+    public static final int preserveIconSpacing=0x7f030178;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2961,7 +3017,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f030174;
+    public static final int pressedTranslationZ=0x7f030179;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2969,69 +3025,78 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f030175;
+    public static final int progressBarPadding=0x7f03017a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f030176;
+    public static final int progressBarStyle=0x7f03017b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f030177;
+    public static final int queryBackground=0x7f03017c;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f030178;
+    public static final int queryHint=0x7f03017d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f030179;
+    public static final int radioButtonStyle=0x7f03017e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f03017a;
+    public static final int ratingBarStyle=0x7f03017f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f03017b;
+    public static final int ratingBarStyleIndicator=0x7f030180;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f03017c;
+    public static final int ratingBarStyleSmall=0x7f030181;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f03017d;
+    public static final int reverseLayout=0x7f030182;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f03017e;
+    public static final int rippleColor=0x7f030183;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int scopeUris=0x7f030184;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f03017f;
+    public static final int scrimAnimationDuration=0x7f030185;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3041,7 +3106,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int scrimBackground=0x7f030180;
+    public static final int scrimBackground=0x7f030186;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3049,49 +3114,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f030181;
+    public static final int scrimVisibleHeightTrigger=0x7f030187;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f030182;
+    public static final int searchHintIcon=0x7f030188;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f030183;
+    public static final int searchIcon=0x7f030189;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f030184;
+    public static final int searchViewStyle=0x7f03018a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f030185;
+    public static final int seekBarStyle=0x7f03018b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f030186;
+    public static final int selectableItemBackground=0x7f03018c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f030187;
+    public static final int selectableItemBackgroundBorderless=0x7f03018d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3106,7 +3171,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030188;
+    public static final int showAsAction=0x7f03018e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3120,120 +3185,120 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030189;
+    public static final int showDividers=0x7f03018f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int showMotionSpec=0x7f03018a;
+    public static final int showMotionSpec=0x7f030190;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f03018b;
+    public static final int showText=0x7f030191;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f03018c;
+    public static final int showTitle=0x7f030192;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f03018d;
+    public static final int singleChoiceItemLayout=0x7f030193;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleLine=0x7f03018e;
+    public static final int singleLine=0x7f030194;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleSelection=0x7f03018f;
+    public static final int singleSelection=0x7f030195;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarButtonStyle=0x7f030190;
+    public static final int snackbarButtonStyle=0x7f030196;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarStyle=0x7f030191;
+    public static final int snackbarStyle=0x7f030197;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f030192;
+    public static final int spanCount=0x7f030198;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f030193;
+    public static final int spinBars=0x7f030199;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f030194;
+    public static final int spinnerDropDownItemStyle=0x7f03019a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f030195;
+    public static final int spinnerStyle=0x7f03019b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f030196;
+    public static final int splitTrack=0x7f03019c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f030197;
+    public static final int srcCompat=0x7f03019d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f030198;
+    public static final int stackFromEnd=0x7f03019e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f030199;
+    public static final int state_above_anchor=0x7f03019f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f03019a;
+    public static final int state_collapsed=0x7f0301a0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f03019b;
+    public static final int state_collapsible=0x7f0301a1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_liftable=0x7f03019c;
+    public static final int state_liftable=0x7f0301a2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_lifted=0x7f03019d;
+    public static final int state_lifted=0x7f0301a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3243,19 +3308,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f03019e;
+    public static final int statusBarBackground=0x7f0301a4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f03019f;
+    public static final int statusBarScrim=0x7f0301a5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int strokeColor=0x7f0301a0;
+    public static final int strokeColor=0x7f0301a6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3263,53 +3328,53 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int strokeWidth=0x7f0301a1;
+    public static final int strokeWidth=0x7f0301a7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0301a2;
+    public static final int subMenuArrow=0x7f0301a8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0301a3;
+    public static final int submitBackground=0x7f0301a9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0301a4;
+    public static final int subtitle=0x7f0301aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0301a5;
+    public static final int subtitleTextAppearance=0x7f0301ab;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0301a6;
+    public static final int subtitleTextColor=0x7f0301ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0301a7;
+    public static final int subtitleTextStyle=0x7f0301ad;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0301a8;
+    public static final int suggestionRowLayout=0x7f0301ae;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3317,7 +3382,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0301a9;
+    public static final int switchMinWidth=0x7f0301af;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3325,28 +3390,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0301aa;
+    public static final int switchPadding=0x7f0301b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0301ab;
+    public static final int switchStyle=0x7f0301b1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0301ac;
+    public static final int switchTextAppearance=0x7f0301b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f0301ad;
+    public static final int tabBackground=0x7f0301b3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3354,7 +3419,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f0301ae;
+    public static final int tabContentStart=0x7f0301b4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3366,13 +3431,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f0301af;
+    public static final int tabGravity=0x7f0301b5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIconTint=0x7f0301b0;
+    public static final int tabIconTint=0x7f0301b6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3388,29 +3453,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tabIconTintMode=0x7f0301b1;
+    public static final int tabIconTintMode=0x7f0301b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabIndicator=0x7f0301b2;
+    public static final int tabIndicator=0x7f0301b8;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int tabIndicatorAnimationDuration=0x7f0301b3;
+    public static final int tabIndicatorAnimationDuration=0x7f0301b9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f0301b4;
+    public static final int tabIndicatorColor=0x7f0301ba;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabIndicatorFullWidth=0x7f0301b5;
+    public static final int tabIndicatorFullWidth=0x7f0301bb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3424,7 +3489,7 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int tabIndicatorGravity=0x7f0301b6;
+    public static final int tabIndicatorGravity=0x7f0301bc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3432,12 +3497,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f0301b7;
+    public static final int tabIndicatorHeight=0x7f0301bd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabInlineLabel=0x7f0301b8;
+    public static final int tabInlineLabel=0x7f0301be;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3445,7 +3510,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f0301b9;
+    public static final int tabMaxWidth=0x7f0301bf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3453,7 +3518,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f0301ba;
+    public static final int tabMinWidth=0x7f0301c0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3465,7 +3530,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f0301bb;
+    public static final int tabMode=0x7f0301c1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3473,7 +3538,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f0301bc;
+    public static final int tabPadding=0x7f0301c2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3481,7 +3546,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f0301bd;
+    public static final int tabPaddingBottom=0x7f0301c3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3489,7 +3554,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f0301be;
+    public static final int tabPaddingEnd=0x7f0301c4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3497,7 +3562,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f0301bf;
+    public static final int tabPaddingStart=0x7f0301c5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3505,44 +3570,44 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f0301c0;
+    public static final int tabPaddingTop=0x7f0301c6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabRippleColor=0x7f0301c1;
+    public static final int tabRippleColor=0x7f0301c7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f0301c2;
+    public static final int tabSelectedTextColor=0x7f0301c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabStyle=0x7f0301c3;
+    public static final int tabStyle=0x7f0301c9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f0301c4;
+    public static final int tabTextAppearance=0x7f0301ca;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f0301c5;
+    public static final int tabTextColor=0x7f0301cb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabUnboundedRipple=0x7f0301c6;
+    public static final int tabUnboundedRipple=0x7f0301cc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3551,164 +3616,154 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0301c7;
+    public static final int textAllCaps=0x7f0301cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody1=0x7f0301c8;
+    public static final int textAppearanceBody1=0x7f0301ce;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody2=0x7f0301c9;
+    public static final int textAppearanceBody2=0x7f0301cf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceButton=0x7f0301ca;
+    public static final int textAppearanceButton=0x7f0301d0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceCaption=0x7f0301cb;
+    public static final int textAppearanceCaption=0x7f0301d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline1=0x7f0301cc;
+    public static final int textAppearanceHeadline1=0x7f0301d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline2=0x7f0301cd;
+    public static final int textAppearanceHeadline2=0x7f0301d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline3=0x7f0301ce;
+    public static final int textAppearanceHeadline3=0x7f0301d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline4=0x7f0301cf;
+    public static final int textAppearanceHeadline4=0x7f0301d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline5=0x7f0301d0;
+    public static final int textAppearanceHeadline5=0x7f0301d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline6=0x7f0301d1;
+    public static final int textAppearanceHeadline6=0x7f0301d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0301d2;
+    public static final int textAppearanceLargePopupMenu=0x7f0301d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0301d3;
+    public static final int textAppearanceListItem=0x7f0301d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0301d4;
+    public static final int textAppearanceListItemSecondary=0x7f0301da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0301d5;
+    public static final int textAppearanceListItemSmall=0x7f0301db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceOverline=0x7f0301d6;
+    public static final int textAppearanceOverline=0x7f0301dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0301d7;
+    public static final int textAppearancePopupMenuHeader=0x7f0301dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0301d8;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0301de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0301d9;
+    public static final int textAppearanceSearchResultTitle=0x7f0301df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0301da;
+    public static final int textAppearanceSmallPopupMenu=0x7f0301e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle1=0x7f0301db;
+    public static final int textAppearanceSubtitle1=0x7f0301e1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle2=0x7f0301dc;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0301dd;
+    public static final int textAppearanceSubtitle2=0x7f0301e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3718,7 +3773,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0301de;
+    public static final int textColorAlertDialogListItem=0x7f0301e3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0301e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3726,14 +3791,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textEndPadding=0x7f0301df;
+    public static final int textEndPadding=0x7f0301e5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textInputStyle=0x7f0301e0;
+    public static final int textInputStyle=0x7f0301e6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3741,14 +3806,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textStartPadding=0x7f0301e1;
+    public static final int textStartPadding=0x7f0301e7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0301e2;
+    public static final int theme=0x7f0301e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3756,7 +3821,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0301e3;
+    public static final int thickness=0x7f0301e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3764,13 +3829,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0301e4;
+    public static final int thumbTextPadding=0x7f0301ea;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0301e5;
+    public static final int thumbTint=0x7f0301eb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3786,20 +3851,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0301e6;
+    public static final int thumbTintMode=0x7f0301ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0301e7;
+    public static final int tickMark=0x7f0301ed;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0301e8;
+    public static final int tickMarkTint=0x7f0301ee;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3815,13 +3880,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0301e9;
+    public static final int tickMarkTintMode=0x7f0301ef;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f0301ea;
+    public static final int tint=0x7f0301f0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3837,17 +3902,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f0301eb;
+    public static final int tintMode=0x7f0301f1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0301ec;
+    public static final int title=0x7f0301f2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f0301ed;
+    public static final int titleEnabled=0x7f0301f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3855,7 +3920,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0301ee;
+    public static final int titleMargin=0x7f0301f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3863,7 +3928,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0301ef;
+    public static final int titleMarginBottom=0x7f0301f5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3871,7 +3936,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0301f0;
+    public static final int titleMarginEnd=0x7f0301f6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3879,7 +3944,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0301f1;
+    public static final int titleMarginStart=0x7f0301f7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3887,7 +3952,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0301f2;
+    public static final int titleMarginTop=0x7f0301f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3895,48 +3960,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0301f3;
+    public static final int titleMargins=0x7f0301f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0301f4;
+    public static final int titleTextAppearance=0x7f0301fa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0301f5;
+    public static final int titleTextColor=0x7f0301fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0301f6;
+    public static final int titleTextStyle=0x7f0301fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f0301f7;
+    public static final int toolbarId=0x7f0301fd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f0301f8;
+    public static final int toolbarNavigationButtonStyle=0x7f0301fe;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f0301f9;
+    public static final int toolbarStyle=0x7f0301ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3946,32 +4011,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f0301fa;
+    public static final int tooltipForegroundColor=0x7f030200;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f0301fb;
+    public static final int tooltipFrameBackground=0x7f030201;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f0301fc;
+    public static final int tooltipText=0x7f030202;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f0301fd;
+    public static final int track=0x7f030203;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f0301fe;
+    public static final int trackTint=0x7f030204;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3987,43 +4052,43 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f0301ff;
+    public static final int trackTintMode=0x7f030205;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f030200;
+    public static final int ttcIndex=0x7f030206;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f030201;
+    public static final int useCompatPadding=0x7f030207;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f030202;
+    public static final int viewInflaterClass=0x7f030208;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030203;
+    public static final int voiceIcon=0x7f030209;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030204;
+    public static final int windowActionBar=0x7f03020a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f030205;
+    public static final int windowActionBarOverlay=0x7f03020b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f030206;
+    public static final int windowActionModeOverlay=0x7f03020c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4035,7 +4100,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030207;
+    public static final int windowFixedHeightMajor=0x7f03020d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4047,7 +4112,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030208;
+    public static final int windowFixedHeightMinor=0x7f03020e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4059,7 +4124,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030209;
+    public static final int windowFixedWidthMajor=0x7f03020f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4071,7 +4136,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f03020a;
+    public static final int windowFixedWidthMinor=0x7f030210;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4083,7 +4148,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f03020b;
+    public static final int windowMinWidthMajor=0x7f030211;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4095,18 +4160,21 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f03020c;
+    public static final int windowMinWidthMinor=0x7f030212;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f03020d;
+    public static final int windowNoTitle=0x7f030213;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
     public static final int abc_allow_stacked_button_bar=0x7f040001;
     public static final int abc_config_actionMenuItemAllCaps=0x7f040002;
-    public static final int mtrl_btn_textappearance_all_caps=0x7f040003;
+    public static final int enable_system_alarm_service_default=0x7f040003;
+    public static final int enable_system_job_service_default=0x7f040004;
+    public static final int mtrl_btn_textappearance_all_caps=0x7f040005;
+    public static final int workmanager_test_configuration=0x7f040006;
   }
   public static final class color {
     public static final int abc_background_cache_hint_selector_material_dark=0x7f050000;
@@ -4156,96 +4224,108 @@ public final class R {
     public static final int colorAccent=0x7f05002c;
     public static final int colorPrimary=0x7f05002d;
     public static final int colorPrimaryDark=0x7f05002e;
-    public static final int design_bottom_navigation_shadow_color=0x7f05002f;
-    public static final int design_default_color_primary=0x7f050030;
-    public static final int design_default_color_primary_dark=0x7f050031;
-    public static final int design_error=0x7f050032;
-    public static final int design_fab_shadow_end_color=0x7f050033;
-    public static final int design_fab_shadow_mid_color=0x7f050034;
-    public static final int design_fab_shadow_start_color=0x7f050035;
-    public static final int design_fab_stroke_end_inner_color=0x7f050036;
-    public static final int design_fab_stroke_end_outer_color=0x7f050037;
-    public static final int design_fab_stroke_top_inner_color=0x7f050038;
-    public static final int design_fab_stroke_top_outer_color=0x7f050039;
-    public static final int design_snackbar_background_color=0x7f05003a;
-    public static final int design_tint_password_toggle=0x7f05003b;
-    public static final int dim_foreground_disabled_material_dark=0x7f05003c;
-    public static final int dim_foreground_disabled_material_light=0x7f05003d;
-    public static final int dim_foreground_material_dark=0x7f05003e;
-    public static final int dim_foreground_material_light=0x7f05003f;
-    public static final int error_color_material_dark=0x7f050040;
-    public static final int error_color_material_light=0x7f050041;
-    public static final int foreground_material_dark=0x7f050042;
-    public static final int foreground_material_light=0x7f050043;
-    public static final int frameBackground=0x7f050044;
-    public static final int frameBackground2=0x7f050045;
-    public static final int highlighted_text_material_dark=0x7f050046;
-    public static final int highlighted_text_material_light=0x7f050047;
-    public static final int loginBackground=0x7f050048;
-    public static final int material_blue_grey_800=0x7f050049;
-    public static final int material_blue_grey_900=0x7f05004a;
-    public static final int material_blue_grey_950=0x7f05004b;
-    public static final int material_deep_teal_200=0x7f05004c;
-    public static final int material_deep_teal_500=0x7f05004d;
-    public static final int material_grey_100=0x7f05004e;
-    public static final int material_grey_300=0x7f05004f;
-    public static final int material_grey_50=0x7f050050;
-    public static final int material_grey_600=0x7f050051;
-    public static final int material_grey_800=0x7f050052;
-    public static final int material_grey_850=0x7f050053;
-    public static final int material_grey_900=0x7f050054;
-    public static final int mtrl_bottom_nav_colored_item_tint=0x7f050055;
-    public static final int mtrl_bottom_nav_item_tint=0x7f050056;
-    public static final int mtrl_btn_bg_color_disabled=0x7f050057;
-    public static final int mtrl_btn_bg_color_selector=0x7f050058;
-    public static final int mtrl_btn_ripple_color=0x7f050059;
-    public static final int mtrl_btn_stroke_color_selector=0x7f05005a;
-    public static final int mtrl_btn_text_btn_ripple_color=0x7f05005b;
-    public static final int mtrl_btn_text_color_disabled=0x7f05005c;
-    public static final int mtrl_btn_text_color_selector=0x7f05005d;
-    public static final int mtrl_btn_transparent_bg_color=0x7f05005e;
-    public static final int mtrl_chip_background_color=0x7f05005f;
-    public static final int mtrl_chip_close_icon_tint=0x7f050060;
-    public static final int mtrl_chip_ripple_color=0x7f050061;
-    public static final int mtrl_chip_text_color=0x7f050062;
-    public static final int mtrl_fab_ripple_color=0x7f050063;
-    public static final int mtrl_scrim_color=0x7f050064;
-    public static final int mtrl_tabs_colored_ripple_color=0x7f050065;
-    public static final int mtrl_tabs_icon_color_selector=0x7f050066;
-    public static final int mtrl_tabs_icon_color_selector_colored=0x7f050067;
-    public static final int mtrl_tabs_legacy_text_color_selector=0x7f050068;
-    public static final int mtrl_tabs_ripple_color=0x7f050069;
-    public static final int mtrl_text_btn_text_color_selector=0x7f05006a;
-    public static final int mtrl_textinput_default_box_stroke_color=0x7f05006b;
-    public static final int mtrl_textinput_disabled_color=0x7f05006c;
-    public static final int mtrl_textinput_filled_box_default_background_color=0x7f05006d;
-    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f05006e;
-    public static final int notification_action_color_filter=0x7f05006f;
-    public static final int notification_icon_bg_color=0x7f050070;
-    public static final int primary_dark_material_dark=0x7f050071;
-    public static final int primary_dark_material_light=0x7f050072;
-    public static final int primary_material_dark=0x7f050073;
-    public static final int primary_material_light=0x7f050074;
-    public static final int primary_text_default_material_dark=0x7f050075;
-    public static final int primary_text_default_material_light=0x7f050076;
-    public static final int primary_text_disabled_material_dark=0x7f050077;
-    public static final int primary_text_disabled_material_light=0x7f050078;
-    public static final int ripple_material_dark=0x7f050079;
-    public static final int ripple_material_light=0x7f05007a;
-    public static final int secondary_text_default_material_dark=0x7f05007b;
-    public static final int secondary_text_default_material_light=0x7f05007c;
-    public static final int secondary_text_disabled_material_dark=0x7f05007d;
-    public static final int secondary_text_disabled_material_light=0x7f05007e;
-    public static final int switch_thumb_disabled_material_dark=0x7f05007f;
-    public static final int switch_thumb_disabled_material_light=0x7f050080;
-    public static final int switch_thumb_material_dark=0x7f050081;
-    public static final int switch_thumb_material_light=0x7f050082;
-    public static final int switch_thumb_normal_material_dark=0x7f050083;
-    public static final int switch_thumb_normal_material_light=0x7f050084;
-    public static final int textColor=0x7f050085;
-    public static final int textColor2=0x7f050086;
-    public static final int tooltip_background_dark=0x7f050087;
-    public static final int tooltip_background_light=0x7f050088;
+    public static final int common_google_signin_btn_text_dark=0x7f05002f;
+    public static final int common_google_signin_btn_text_dark_default=0x7f050030;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f050031;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f050032;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f050033;
+    public static final int common_google_signin_btn_text_light=0x7f050034;
+    public static final int common_google_signin_btn_text_light_default=0x7f050035;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f050036;
+    public static final int common_google_signin_btn_text_light_focused=0x7f050037;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f050038;
+    public static final int common_google_signin_btn_tint=0x7f050039;
+    public static final int design_bottom_navigation_shadow_color=0x7f05003a;
+    public static final int design_default_color_primary=0x7f05003b;
+    public static final int design_default_color_primary_dark=0x7f05003c;
+    public static final int design_error=0x7f05003d;
+    public static final int design_fab_shadow_end_color=0x7f05003e;
+    public static final int design_fab_shadow_mid_color=0x7f05003f;
+    public static final int design_fab_shadow_start_color=0x7f050040;
+    public static final int design_fab_stroke_end_inner_color=0x7f050041;
+    public static final int design_fab_stroke_end_outer_color=0x7f050042;
+    public static final int design_fab_stroke_top_inner_color=0x7f050043;
+    public static final int design_fab_stroke_top_outer_color=0x7f050044;
+    public static final int design_snackbar_background_color=0x7f050045;
+    public static final int design_tint_password_toggle=0x7f050046;
+    public static final int dim_foreground_disabled_material_dark=0x7f050047;
+    public static final int dim_foreground_disabled_material_light=0x7f050048;
+    public static final int dim_foreground_material_dark=0x7f050049;
+    public static final int dim_foreground_material_light=0x7f05004a;
+    public static final int error_color_material_dark=0x7f05004b;
+    public static final int error_color_material_light=0x7f05004c;
+    public static final int foreground_material_dark=0x7f05004d;
+    public static final int foreground_material_light=0x7f05004e;
+    public static final int frameBackground=0x7f05004f;
+    public static final int frameBackground2=0x7f050050;
+    public static final int highlighted_text_material_dark=0x7f050051;
+    public static final int highlighted_text_material_light=0x7f050052;
+    public static final int loginBackground=0x7f050053;
+    public static final int material_blue_grey_800=0x7f050054;
+    public static final int material_blue_grey_900=0x7f050055;
+    public static final int material_blue_grey_950=0x7f050056;
+    public static final int material_deep_teal_200=0x7f050057;
+    public static final int material_deep_teal_500=0x7f050058;
+    public static final int material_grey_100=0x7f050059;
+    public static final int material_grey_300=0x7f05005a;
+    public static final int material_grey_50=0x7f05005b;
+    public static final int material_grey_600=0x7f05005c;
+    public static final int material_grey_800=0x7f05005d;
+    public static final int material_grey_850=0x7f05005e;
+    public static final int material_grey_900=0x7f05005f;
+    public static final int mtrl_bottom_nav_colored_item_tint=0x7f050060;
+    public static final int mtrl_bottom_nav_item_tint=0x7f050061;
+    public static final int mtrl_btn_bg_color_disabled=0x7f050062;
+    public static final int mtrl_btn_bg_color_selector=0x7f050063;
+    public static final int mtrl_btn_ripple_color=0x7f050064;
+    public static final int mtrl_btn_stroke_color_selector=0x7f050065;
+    public static final int mtrl_btn_text_btn_ripple_color=0x7f050066;
+    public static final int mtrl_btn_text_color_disabled=0x7f050067;
+    public static final int mtrl_btn_text_color_selector=0x7f050068;
+    public static final int mtrl_btn_transparent_bg_color=0x7f050069;
+    public static final int mtrl_chip_background_color=0x7f05006a;
+    public static final int mtrl_chip_close_icon_tint=0x7f05006b;
+    public static final int mtrl_chip_ripple_color=0x7f05006c;
+    public static final int mtrl_chip_text_color=0x7f05006d;
+    public static final int mtrl_fab_ripple_color=0x7f05006e;
+    public static final int mtrl_scrim_color=0x7f05006f;
+    public static final int mtrl_tabs_colored_ripple_color=0x7f050070;
+    public static final int mtrl_tabs_icon_color_selector=0x7f050071;
+    public static final int mtrl_tabs_icon_color_selector_colored=0x7f050072;
+    public static final int mtrl_tabs_legacy_text_color_selector=0x7f050073;
+    public static final int mtrl_tabs_ripple_color=0x7f050074;
+    public static final int mtrl_text_btn_text_color_selector=0x7f050075;
+    public static final int mtrl_textinput_default_box_stroke_color=0x7f050076;
+    public static final int mtrl_textinput_disabled_color=0x7f050077;
+    public static final int mtrl_textinput_filled_box_default_background_color=0x7f050078;
+    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f050079;
+    public static final int notification_action_color_filter=0x7f05007a;
+    public static final int notification_icon_bg_color=0x7f05007b;
+    public static final int notification_material_background_media_default_color=0x7f05007c;
+    public static final int primary_dark_material_dark=0x7f05007d;
+    public static final int primary_dark_material_light=0x7f05007e;
+    public static final int primary_material_dark=0x7f05007f;
+    public static final int primary_material_light=0x7f050080;
+    public static final int primary_text_default_material_dark=0x7f050081;
+    public static final int primary_text_default_material_light=0x7f050082;
+    public static final int primary_text_disabled_material_dark=0x7f050083;
+    public static final int primary_text_disabled_material_light=0x7f050084;
+    public static final int ripple_material_dark=0x7f050085;
+    public static final int ripple_material_light=0x7f050086;
+    public static final int secondary_text_default_material_dark=0x7f050087;
+    public static final int secondary_text_default_material_light=0x7f050088;
+    public static final int secondary_text_disabled_material_dark=0x7f050089;
+    public static final int secondary_text_disabled_material_light=0x7f05008a;
+    public static final int switch_thumb_disabled_material_dark=0x7f05008b;
+    public static final int switch_thumb_disabled_material_light=0x7f05008c;
+    public static final int switch_thumb_material_dark=0x7f05008d;
+    public static final int switch_thumb_material_light=0x7f05008e;
+    public static final int switch_thumb_normal_material_dark=0x7f05008f;
+    public static final int switch_thumb_normal_material_light=0x7f050090;
+    public static final int textColor=0x7f050091;
+    public static final int textColor2=0x7f050092;
+    public static final int tooltip_background_dark=0x7f050093;
+    public static final int tooltip_background_light=0x7f050094;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -4554,37 +4634,59 @@ public final class R {
     public static final int board=0x7f07005d;
     public static final int board1=0x7f07005e;
     public static final int board2=0x7f07005f;
-    public static final int design_bottom_navigation_item_background=0x7f070060;
-    public static final int design_fab_background=0x7f070061;
-    public static final int design_ic_visibility=0x7f070062;
-    public static final int design_ic_visibility_off=0x7f070063;
-    public static final int design_password_eye=0x7f070064;
-    public static final int design_snackbar_background=0x7f070065;
-    public static final int ic_add=0x7f070066;
-    public static final int ic_launcher_background=0x7f070067;
-    public static final int ic_launcher_foreground=0x7f070068;
-    public static final int ic_mtrl_chip_checked_black=0x7f070069;
-    public static final int ic_mtrl_chip_checked_circle=0x7f07006a;
-    public static final int ic_mtrl_chip_close_circle=0x7f07006b;
-    public static final int ic_navigate_before=0x7f07006c;
-    public static final int mtrl_snackbar_background=0x7f07006d;
-    public static final int mtrl_tabs_default_indicator=0x7f07006e;
-    public static final int navigation_empty_icon=0x7f07006f;
-    public static final int notification_action_background=0x7f070070;
-    public static final int notification_bg=0x7f070071;
-    public static final int notification_bg_low=0x7f070072;
-    public static final int notification_bg_low_normal=0x7f070073;
-    public static final int notification_bg_low_pressed=0x7f070074;
-    public static final int notification_bg_normal=0x7f070075;
-    public static final int notification_bg_normal_pressed=0x7f070076;
-    public static final int notification_icon_background=0x7f070077;
-    public static final int notification_template_icon_bg=0x7f070078;
-    public static final int notification_template_icon_low_bg=0x7f070079;
-    public static final int notification_tile_bg=0x7f07007a;
-    public static final int notify_panel_notification_icon_bg=0x7f07007b;
-    public static final int registerimg=0x7f07007c;
-    public static final int tooltip_frame_dark=0x7f07007d;
-    public static final int tooltip_frame_light=0x7f07007e;
+    public static final int common_full_open_on_phone=0x7f070060;
+    public static final int common_google_signin_btn_icon_dark=0x7f070061;
+    public static final int common_google_signin_btn_icon_dark_focused=0x7f070062;
+    public static final int common_google_signin_btn_icon_dark_normal=0x7f070063;
+    public static final int common_google_signin_btn_icon_dark_normal_background=0x7f070064;
+    public static final int common_google_signin_btn_icon_disabled=0x7f070065;
+    public static final int common_google_signin_btn_icon_light=0x7f070066;
+    public static final int common_google_signin_btn_icon_light_focused=0x7f070067;
+    public static final int common_google_signin_btn_icon_light_normal=0x7f070068;
+    public static final int common_google_signin_btn_icon_light_normal_background=0x7f070069;
+    public static final int common_google_signin_btn_text_dark=0x7f07006a;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f07006b;
+    public static final int common_google_signin_btn_text_dark_normal=0x7f07006c;
+    public static final int common_google_signin_btn_text_dark_normal_background=0x7f07006d;
+    public static final int common_google_signin_btn_text_disabled=0x7f07006e;
+    public static final int common_google_signin_btn_text_light=0x7f07006f;
+    public static final int common_google_signin_btn_text_light_focused=0x7f070070;
+    public static final int common_google_signin_btn_text_light_normal=0x7f070071;
+    public static final int common_google_signin_btn_text_light_normal_background=0x7f070072;
+    public static final int design_bottom_navigation_item_background=0x7f070073;
+    public static final int design_fab_background=0x7f070074;
+    public static final int design_ic_visibility=0x7f070075;
+    public static final int design_ic_visibility_off=0x7f070076;
+    public static final int design_password_eye=0x7f070077;
+    public static final int design_snackbar_background=0x7f070078;
+    public static final int googleg_disabled_color_18=0x7f070079;
+    public static final int googleg_standard_color_18=0x7f07007a;
+    public static final int ic_add=0x7f07007b;
+    public static final int ic_launcher_background=0x7f07007c;
+    public static final int ic_launcher_foreground=0x7f07007d;
+    public static final int ic_mtrl_chip_checked_black=0x7f07007e;
+    public static final int ic_mtrl_chip_checked_circle=0x7f07007f;
+    public static final int ic_mtrl_chip_close_circle=0x7f070080;
+    public static final int ic_navigate_before=0x7f070081;
+    public static final int ic_stat_ic_notification=0x7f070082;
+    public static final int mtrl_snackbar_background=0x7f070083;
+    public static final int mtrl_tabs_default_indicator=0x7f070084;
+    public static final int navigation_empty_icon=0x7f070085;
+    public static final int notification_action_background=0x7f070086;
+    public static final int notification_bg=0x7f070087;
+    public static final int notification_bg_low=0x7f070088;
+    public static final int notification_bg_low_normal=0x7f070089;
+    public static final int notification_bg_low_pressed=0x7f07008a;
+    public static final int notification_bg_normal=0x7f07008b;
+    public static final int notification_bg_normal_pressed=0x7f07008c;
+    public static final int notification_icon_background=0x7f07008d;
+    public static final int notification_template_icon_bg=0x7f07008e;
+    public static final int notification_template_icon_low_bg=0x7f07008f;
+    public static final int notification_tile_bg=0x7f070090;
+    public static final int notify_panel_notification_icon_bg=0x7f070091;
+    public static final int registerimg=0x7f070092;
+    public static final int tooltip_frame_dark=0x7f070093;
+    public static final int tooltip_frame_light=0x7f070094;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -4593,230 +4695,242 @@ public final class R {
     public static final int META=0x7f080003;
     public static final int SHIFT=0x7f080004;
     public static final int SYM=0x7f080005;
-    public static final int action_bar=0x7f080006;
-    public static final int action_bar_activity_content=0x7f080007;
-    public static final int action_bar_container=0x7f080008;
-    public static final int action_bar_root=0x7f080009;
-    public static final int action_bar_spinner=0x7f08000a;
-    public static final int action_bar_subtitle=0x7f08000b;
-    public static final int action_bar_title=0x7f08000c;
-    public static final int action_container=0x7f08000d;
-    public static final int action_context_bar=0x7f08000e;
-    public static final int action_divider=0x7f08000f;
-    public static final int action_image=0x7f080010;
-    public static final int action_menu_divider=0x7f080011;
-    public static final int action_menu_presenter=0x7f080012;
-    public static final int action_mode_bar=0x7f080013;
-    public static final int action_mode_bar_stub=0x7f080014;
-    public static final int action_mode_close_button=0x7f080015;
-    public static final int action_text=0x7f080016;
-    public static final int actions=0x7f080017;
-    public static final int activity_chooser_view_content=0x7f080018;
-    public static final int add=0x7f080019;
-    public static final int add_mark=0x7f08001a;
-    public static final int alertTitle=0x7f08001b;
-    public static final int all=0x7f08001c;
-    public static final int always=0x7f08001d;
-    public static final int async=0x7f08001e;
-    public static final int auto=0x7f08001f;
-    public static final int basic=0x7f080020;
-    public static final int beginning=0x7f080021;
-    public static final int blocking=0x7f080022;
-    public static final int board=0x7f080023;
-    public static final int book_name=0x7f080024;
-    public static final int bottom=0x7f080025;
-    public static final int buttonPanel=0x7f080026;
-    public static final int cancel=0x7f080027;
-    public static final int center=0x7f080028;
-    public static final int center_horizontal=0x7f080029;
-    public static final int center_vertical=0x7f08002a;
-    public static final int chains=0x7f08002b;
-    public static final int checkbox=0x7f08002c;
-    public static final int chronometer=0x7f08002d;
-    public static final int class_name=0x7f08002e;
-    public static final int clip_horizontal=0x7f08002f;
-    public static final int clip_vertical=0x7f080030;
-    public static final int collapseActionView=0x7f080031;
-    public static final int confirmPassword=0x7f080032;
-    public static final int confirmPasswordLayout=0x7f080033;
-    public static final int container=0x7f080034;
-    public static final int content=0x7f080035;
-    public static final int contentPanel=0x7f080036;
-    public static final int coordinator=0x7f080037;
-    public static final int course_recycle=0x7f080038;
-    public static final int custom=0x7f080039;
-    public static final int customPanel=0x7f08003a;
-    public static final int day=0x7f08003b;
-    public static final int decor_content_parent=0x7f08003c;
-    public static final int default_activity_button=0x7f08003d;
-    public static final int delete=0x7f08003e;
-    public static final int description=0x7f08003f;
-    public static final int description_dialog=0x7f080040;
-    public static final int description_layout=0x7f080041;
-    public static final int design_bottom_sheet=0x7f080042;
-    public static final int design_menu_item_action_area=0x7f080043;
-    public static final int design_menu_item_action_area_stub=0x7f080044;
-    public static final int design_menu_item_text=0x7f080045;
-    public static final int design_navigation_view=0x7f080046;
-    public static final int disableHome=0x7f080047;
-    public static final int edit_query=0x7f080048;
-    public static final int edith=0x7f080049;
-    public static final int end=0x7f08004a;
-    public static final int enterAlways=0x7f08004b;
-    public static final int enterAlwaysCollapsed=0x7f08004c;
-    public static final int exitUntilCollapsed=0x7f08004d;
-    public static final int expand_activities_button=0x7f08004e;
-    public static final int expanded_menu=0x7f08004f;
-    public static final int fill=0x7f080050;
-    public static final int fill_horizontal=0x7f080051;
-    public static final int fill_vertical=0x7f080052;
-    public static final int filled=0x7f080053;
-    public static final int fixed=0x7f080054;
-    public static final int forever=0x7f080055;
-    public static final int frame_layout=0x7f080056;
-    public static final int ghost_view=0x7f080057;
-    public static final int group_divider=0x7f080058;
-    public static final int home=0x7f080059;
-    public static final int homeAsUp=0x7f08005a;
-    public static final int home_title=0x7f08005b;
-    public static final int home_toolbar=0x7f08005c;
-    public static final int icon=0x7f08005d;
-    public static final int icon_group=0x7f08005e;
-    public static final int ifRoom=0x7f08005f;
-    public static final int image=0x7f080060;
-    public static final int info=0x7f080061;
-    public static final int italic=0x7f080062;
-    public static final int item_touch_helper_previous_elevation=0x7f080063;
-    public static final int labeled=0x7f080064;
-    public static final int largeLabel=0x7f080065;
-    public static final int left=0x7f080066;
-    public static final int line1=0x7f080067;
-    public static final int line3=0x7f080068;
-    public static final int listMode=0x7f080069;
-    public static final int list_item=0x7f08006a;
-    public static final int login=0x7f08006b;
-    public static final int mark1=0x7f08006c;
-    public static final int mark2=0x7f08006d;
-    public static final int mark_alert=0x7f08006e;
-    public static final int mark_layout=0x7f08006f;
-    public static final int mark_recycle=0x7f080070;
-    public static final int masked=0x7f080071;
-    public static final int message=0x7f080072;
-    public static final int middle=0x7f080073;
-    public static final int mini=0x7f080074;
-    public static final int month=0x7f080075;
-    public static final int mtrl_child_content_container=0x7f080076;
-    public static final int mtrl_internal_children_alpha_tag=0x7f080077;
-    public static final int multiply=0x7f080078;
-    public static final int nationalCode=0x7f080079;
-    public static final int nationalCodeLayout=0x7f08007a;
-    public static final int nav_img=0x7f08007b;
-    public static final int navigation_header_container=0x7f08007c;
-    public static final int never=0x7f08007d;
-    public static final int no=0x7f08007e;
-    public static final int none=0x7f08007f;
-    public static final int normal=0x7f080080;
-    public static final int notification_background=0x7f080081;
-    public static final int notification_main_column=0x7f080082;
-    public static final int notification_main_column_container=0x7f080083;
-    public static final int ok=0x7f080084;
-    public static final int outline=0x7f080085;
-    public static final int packed=0x7f080086;
-    public static final int parallax=0x7f080087;
-    public static final int parent=0x7f080088;
-    public static final int parentPanel=0x7f080089;
-    public static final int parent_matrix=0x7f08008a;
-    public static final int password=0x7f08008b;
-    public static final int passwordLayout=0x7f08008c;
-    public static final int pin=0x7f08008d;
-    public static final int progress_circular=0x7f08008e;
-    public static final int progress_horizontal=0x7f08008f;
-    public static final int radio=0x7f080090;
-    public static final int radio_group=0x7f080091;
-    public static final int register=0x7f080092;
-    public static final int right=0x7f080093;
-    public static final int right_icon=0x7f080094;
-    public static final int right_side=0x7f080095;
-    public static final int save_image_matrix=0x7f080096;
-    public static final int save_non_transition_alpha=0x7f080097;
-    public static final int save_scale_type=0x7f080098;
-    public static final int screen=0x7f080099;
-    public static final int scroll=0x7f08009a;
-    public static final int scrollIndicatorDown=0x7f08009b;
-    public static final int scrollIndicatorUp=0x7f08009c;
-    public static final int scrollView=0x7f08009d;
-    public static final int scrollable=0x7f08009e;
-    public static final int search_badge=0x7f08009f;
-    public static final int search_bar=0x7f0800a0;
-    public static final int search_button=0x7f0800a1;
-    public static final int search_close_btn=0x7f0800a2;
-    public static final int search_edit_frame=0x7f0800a3;
-    public static final int search_go_btn=0x7f0800a4;
-    public static final int search_mag_icon=0x7f0800a5;
-    public static final int search_plate=0x7f0800a6;
-    public static final int search_src_text=0x7f0800a7;
-    public static final int search_voice_btn=0x7f0800a8;
-    public static final int select_dialog_listview=0x7f0800a9;
-    public static final int selected=0x7f0800aa;
-    public static final int shortcut=0x7f0800ab;
-    public static final int showCustom=0x7f0800ac;
-    public static final int showHome=0x7f0800ad;
-    public static final int showTitle=0x7f0800ae;
-    public static final int smallLabel=0x7f0800af;
-    public static final int snackbar_action=0x7f0800b0;
-    public static final int snackbar_text=0x7f0800b1;
-    public static final int snap=0x7f0800b2;
-    public static final int snapMargins=0x7f0800b3;
-    public static final int spacer=0x7f0800b4;
-    public static final int split_action_bar=0x7f0800b5;
-    public static final int spread=0x7f0800b6;
-    public static final int spread_inside=0x7f0800b7;
-    public static final int src_atop=0x7f0800b8;
-    public static final int src_in=0x7f0800b9;
-    public static final int src_over=0x7f0800ba;
-    public static final int start=0x7f0800bb;
-    public static final int stretch=0x7f0800bc;
-    public static final int student_name=0x7f0800bd;
-    public static final int student_recycle=0x7f0800be;
-    public static final int submenuarrow=0x7f0800bf;
-    public static final int submit_area=0x7f0800c0;
-    public static final int tabMode=0x7f0800c1;
-    public static final int tag_transition_group=0x7f0800c2;
-    public static final int tag_unhandled_key_event_manager=0x7f0800c3;
-    public static final int tag_unhandled_key_listeners=0x7f0800c4;
-    public static final int teacher=0x7f0800c5;
-    public static final int text=0x7f0800c6;
-    public static final int text2=0x7f0800c7;
-    public static final int textSpacerNoButtons=0x7f0800c8;
-    public static final int textSpacerNoTitle=0x7f0800c9;
-    public static final int textStart=0x7f0800ca;
-    public static final int text_input_password_toggle=0x7f0800cb;
-    public static final int textinput_counter=0x7f0800cc;
-    public static final int textinput_error=0x7f0800cd;
-    public static final int textinput_helper_text=0x7f0800ce;
-    public static final int time=0x7f0800cf;
-    public static final int title=0x7f0800d0;
-    public static final int titleDividerNoCustom=0x7f0800d1;
-    public static final int title_template=0x7f0800d2;
-    public static final int top=0x7f0800d3;
-    public static final int topPanel=0x7f0800d4;
-    public static final int touch_outside=0x7f0800d5;
-    public static final int transition_current_scene=0x7f0800d6;
-    public static final int transition_layout_save=0x7f0800d7;
-    public static final int transition_position=0x7f0800d8;
-    public static final int transition_scene_layoutid_cache=0x7f0800d9;
-    public static final int transition_transform=0x7f0800da;
-    public static final int uniform=0x7f0800db;
-    public static final int unlabeled=0x7f0800dc;
-    public static final int up=0x7f0800dd;
-    public static final int useLogo=0x7f0800de;
-    public static final int userNameLayout=0x7f0800df;
-    public static final int username=0x7f0800e0;
-    public static final int view_offset_helper=0x7f0800e1;
-    public static final int visible=0x7f0800e2;
-    public static final int withText=0x7f0800e3;
-    public static final int wrap=0x7f0800e4;
-    public static final int wrap_content=0x7f0800e5;
+    public static final int action0=0x7f080006;
+    public static final int action_bar=0x7f080007;
+    public static final int action_bar_activity_content=0x7f080008;
+    public static final int action_bar_container=0x7f080009;
+    public static final int action_bar_root=0x7f08000a;
+    public static final int action_bar_spinner=0x7f08000b;
+    public static final int action_bar_subtitle=0x7f08000c;
+    public static final int action_bar_title=0x7f08000d;
+    public static final int action_container=0x7f08000e;
+    public static final int action_context_bar=0x7f08000f;
+    public static final int action_divider=0x7f080010;
+    public static final int action_image=0x7f080011;
+    public static final int action_menu_divider=0x7f080012;
+    public static final int action_menu_presenter=0x7f080013;
+    public static final int action_mode_bar=0x7f080014;
+    public static final int action_mode_bar_stub=0x7f080015;
+    public static final int action_mode_close_button=0x7f080016;
+    public static final int action_text=0x7f080017;
+    public static final int actions=0x7f080018;
+    public static final int activity_chooser_view_content=0x7f080019;
+    public static final int add=0x7f08001a;
+    public static final int add_mark=0x7f08001b;
+    public static final int adjust_height=0x7f08001c;
+    public static final int adjust_width=0x7f08001d;
+    public static final int alertTitle=0x7f08001e;
+    public static final int all=0x7f08001f;
+    public static final int always=0x7f080020;
+    public static final int async=0x7f080021;
+    public static final int auto=0x7f080022;
+    public static final int basic=0x7f080023;
+    public static final int beginning=0x7f080024;
+    public static final int blocking=0x7f080025;
+    public static final int board=0x7f080026;
+    public static final int book_name=0x7f080027;
+    public static final int bottom=0x7f080028;
+    public static final int buttonPanel=0x7f080029;
+    public static final int cancel=0x7f08002a;
+    public static final int cancel_action=0x7f08002b;
+    public static final int center=0x7f08002c;
+    public static final int center_horizontal=0x7f08002d;
+    public static final int center_vertical=0x7f08002e;
+    public static final int chains=0x7f08002f;
+    public static final int checkbox=0x7f080030;
+    public static final int chronometer=0x7f080031;
+    public static final int class_name=0x7f080032;
+    public static final int clip_horizontal=0x7f080033;
+    public static final int clip_vertical=0x7f080034;
+    public static final int collapseActionView=0x7f080035;
+    public static final int confirmPassword=0x7f080036;
+    public static final int confirmPasswordLayout=0x7f080037;
+    public static final int container=0x7f080038;
+    public static final int content=0x7f080039;
+    public static final int contentPanel=0x7f08003a;
+    public static final int coordinator=0x7f08003b;
+    public static final int course_recycle=0x7f08003c;
+    public static final int custom=0x7f08003d;
+    public static final int customPanel=0x7f08003e;
+    public static final int dark=0x7f08003f;
+    public static final int day=0x7f080040;
+    public static final int decor_content_parent=0x7f080041;
+    public static final int default_activity_button=0x7f080042;
+    public static final int delete=0x7f080043;
+    public static final int description=0x7f080044;
+    public static final int description_dialog=0x7f080045;
+    public static final int description_layout=0x7f080046;
+    public static final int design_bottom_sheet=0x7f080047;
+    public static final int design_menu_item_action_area=0x7f080048;
+    public static final int design_menu_item_action_area_stub=0x7f080049;
+    public static final int design_menu_item_text=0x7f08004a;
+    public static final int design_navigation_view=0x7f08004b;
+    public static final int disableHome=0x7f08004c;
+    public static final int edit_query=0x7f08004d;
+    public static final int edith=0x7f08004e;
+    public static final int end=0x7f08004f;
+    public static final int end_padder=0x7f080050;
+    public static final int enterAlways=0x7f080051;
+    public static final int enterAlwaysCollapsed=0x7f080052;
+    public static final int exitUntilCollapsed=0x7f080053;
+    public static final int expand_activities_button=0x7f080054;
+    public static final int expanded_menu=0x7f080055;
+    public static final int fill=0x7f080056;
+    public static final int fill_horizontal=0x7f080057;
+    public static final int fill_vertical=0x7f080058;
+    public static final int filled=0x7f080059;
+    public static final int fixed=0x7f08005a;
+    public static final int forever=0x7f08005b;
+    public static final int frame_layout=0x7f08005c;
+    public static final int ghost_view=0x7f08005d;
+    public static final int group_divider=0x7f08005e;
+    public static final int home=0x7f08005f;
+    public static final int homeAsUp=0x7f080060;
+    public static final int home_title=0x7f080061;
+    public static final int home_toolbar=0x7f080062;
+    public static final int icon=0x7f080063;
+    public static final int icon_group=0x7f080064;
+    public static final int icon_only=0x7f080065;
+    public static final int ifRoom=0x7f080066;
+    public static final int image=0x7f080067;
+    public static final int info=0x7f080068;
+    public static final int italic=0x7f080069;
+    public static final int item_touch_helper_previous_elevation=0x7f08006a;
+    public static final int labeled=0x7f08006b;
+    public static final int largeLabel=0x7f08006c;
+    public static final int left=0x7f08006d;
+    public static final int light=0x7f08006e;
+    public static final int line1=0x7f08006f;
+    public static final int line3=0x7f080070;
+    public static final int listMode=0x7f080071;
+    public static final int list_item=0x7f080072;
+    public static final int login=0x7f080073;
+    public static final int mark1=0x7f080074;
+    public static final int mark2=0x7f080075;
+    public static final int mark_alert=0x7f080076;
+    public static final int mark_layout=0x7f080077;
+    public static final int mark_recycle=0x7f080078;
+    public static final int masked=0x7f080079;
+    public static final int media_actions=0x7f08007a;
+    public static final int message=0x7f08007b;
+    public static final int middle=0x7f08007c;
+    public static final int mini=0x7f08007d;
+    public static final int month=0x7f08007e;
+    public static final int mtrl_child_content_container=0x7f08007f;
+    public static final int mtrl_internal_children_alpha_tag=0x7f080080;
+    public static final int multiply=0x7f080081;
+    public static final int nationalCode=0x7f080082;
+    public static final int nationalCodeLayout=0x7f080083;
+    public static final int nav_img=0x7f080084;
+    public static final int navigation_header_container=0x7f080085;
+    public static final int never=0x7f080086;
+    public static final int no=0x7f080087;
+    public static final int none=0x7f080088;
+    public static final int normal=0x7f080089;
+    public static final int notification_background=0x7f08008a;
+    public static final int notification_main_column=0x7f08008b;
+    public static final int notification_main_column_container=0x7f08008c;
+    public static final int ok=0x7f08008d;
+    public static final int outline=0x7f08008e;
+    public static final int packed=0x7f08008f;
+    public static final int parallax=0x7f080090;
+    public static final int parent=0x7f080091;
+    public static final int parentPanel=0x7f080092;
+    public static final int parent_matrix=0x7f080093;
+    public static final int password=0x7f080094;
+    public static final int passwordLayout=0x7f080095;
+    public static final int pin=0x7f080096;
+    public static final int progress_circular=0x7f080097;
+    public static final int progress_horizontal=0x7f080098;
+    public static final int radio=0x7f080099;
+    public static final int radio_group=0x7f08009a;
+    public static final int register=0x7f08009b;
+    public static final int right=0x7f08009c;
+    public static final int right_icon=0x7f08009d;
+    public static final int right_side=0x7f08009e;
+    public static final int save_image_matrix=0x7f08009f;
+    public static final int save_non_transition_alpha=0x7f0800a0;
+    public static final int save_scale_type=0x7f0800a1;
+    public static final int screen=0x7f0800a2;
+    public static final int scroll=0x7f0800a3;
+    public static final int scrollIndicatorDown=0x7f0800a4;
+    public static final int scrollIndicatorUp=0x7f0800a5;
+    public static final int scrollView=0x7f0800a6;
+    public static final int scrollable=0x7f0800a7;
+    public static final int search_badge=0x7f0800a8;
+    public static final int search_bar=0x7f0800a9;
+    public static final int search_button=0x7f0800aa;
+    public static final int search_close_btn=0x7f0800ab;
+    public static final int search_edit_frame=0x7f0800ac;
+    public static final int search_go_btn=0x7f0800ad;
+    public static final int search_mag_icon=0x7f0800ae;
+    public static final int search_plate=0x7f0800af;
+    public static final int search_src_text=0x7f0800b0;
+    public static final int search_voice_btn=0x7f0800b1;
+    public static final int select_dialog_listview=0x7f0800b2;
+    public static final int selected=0x7f0800b3;
+    public static final int shortcut=0x7f0800b4;
+    public static final int showCustom=0x7f0800b5;
+    public static final int showHome=0x7f0800b6;
+    public static final int showTitle=0x7f0800b7;
+    public static final int smallLabel=0x7f0800b8;
+    public static final int snackbar_action=0x7f0800b9;
+    public static final int snackbar_text=0x7f0800ba;
+    public static final int snap=0x7f0800bb;
+    public static final int snapMargins=0x7f0800bc;
+    public static final int spacer=0x7f0800bd;
+    public static final int split_action_bar=0x7f0800be;
+    public static final int spread=0x7f0800bf;
+    public static final int spread_inside=0x7f0800c0;
+    public static final int src_atop=0x7f0800c1;
+    public static final int src_in=0x7f0800c2;
+    public static final int src_over=0x7f0800c3;
+    public static final int standard=0x7f0800c4;
+    public static final int start=0x7f0800c5;
+    public static final int status_bar_latest_event_content=0x7f0800c6;
+    public static final int stretch=0x7f0800c7;
+    public static final int student_name=0x7f0800c8;
+    public static final int student_recycle=0x7f0800c9;
+    public static final int submenuarrow=0x7f0800ca;
+    public static final int submit_area=0x7f0800cb;
+    public static final int tabMode=0x7f0800cc;
+    public static final int tag_transition_group=0x7f0800cd;
+    public static final int tag_unhandled_key_event_manager=0x7f0800ce;
+    public static final int tag_unhandled_key_listeners=0x7f0800cf;
+    public static final int teacher=0x7f0800d0;
+    public static final int text=0x7f0800d1;
+    public static final int text2=0x7f0800d2;
+    public static final int textSpacerNoButtons=0x7f0800d3;
+    public static final int textSpacerNoTitle=0x7f0800d4;
+    public static final int textStart=0x7f0800d5;
+    public static final int text_input_password_toggle=0x7f0800d6;
+    public static final int textinput_counter=0x7f0800d7;
+    public static final int textinput_error=0x7f0800d8;
+    public static final int textinput_helper_text=0x7f0800d9;
+    public static final int time=0x7f0800da;
+    public static final int title=0x7f0800db;
+    public static final int titleDividerNoCustom=0x7f0800dc;
+    public static final int title_template=0x7f0800dd;
+    public static final int top=0x7f0800de;
+    public static final int topPanel=0x7f0800df;
+    public static final int touch_outside=0x7f0800e0;
+    public static final int transition_current_scene=0x7f0800e1;
+    public static final int transition_layout_save=0x7f0800e2;
+    public static final int transition_position=0x7f0800e3;
+    public static final int transition_scene_layoutid_cache=0x7f0800e4;
+    public static final int transition_transform=0x7f0800e5;
+    public static final int uniform=0x7f0800e6;
+    public static final int unlabeled=0x7f0800e7;
+    public static final int up=0x7f0800e8;
+    public static final int useLogo=0x7f0800e9;
+    public static final int userNameLayout=0x7f0800ea;
+    public static final int username=0x7f0800eb;
+    public static final int view_offset_helper=0x7f0800ec;
+    public static final int visible=0x7f0800ed;
+    public static final int wide=0x7f0800ee;
+    public static final int withText=0x7f0800ef;
+    public static final int wrap=0x7f0800f0;
+    public static final int wrap_content=0x7f0800f1;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -4827,13 +4941,14 @@ public final class R {
     public static final int config_tooltipAnimTime=0x7f090005;
     public static final int design_snackbar_text_max_lines=0x7f090006;
     public static final int design_tab_indicator_anim_duration_ms=0x7f090007;
-    public static final int hide_password_duration=0x7f090008;
-    public static final int mtrl_btn_anim_delay_ms=0x7f090009;
-    public static final int mtrl_btn_anim_duration_ms=0x7f09000a;
-    public static final int mtrl_chip_anim_duration=0x7f09000b;
-    public static final int mtrl_tab_indicator_anim_duration_ms=0x7f09000c;
-    public static final int show_password_duration=0x7f09000d;
-    public static final int status_bar_notification_info_maxnum=0x7f09000e;
+    public static final int google_play_services_version=0x7f090008;
+    public static final int hide_password_duration=0x7f090009;
+    public static final int mtrl_btn_anim_delay_ms=0x7f09000a;
+    public static final int mtrl_btn_anim_duration_ms=0x7f09000b;
+    public static final int mtrl_chip_anim_duration=0x7f09000c;
+    public static final int mtrl_tab_indicator_anim_duration_ms=0x7f09000d;
+    public static final int show_password_duration=0x7f09000e;
+    public static final int status_bar_notification_info_maxnum=0x7f09000f;
   }
   public static final class interpolator {
     public static final int mtrl_fast_out_linear_in=0x7f0a0000;
@@ -4898,594 +5013,642 @@ public final class R {
     public static final int mtrl_layout_snackbar_include=0x7f0b0035;
     public static final int notification_action=0x7f0b0036;
     public static final int notification_action_tombstone=0x7f0b0037;
-    public static final int notification_template_custom_big=0x7f0b0038;
-    public static final int notification_template_icon_group=0x7f0b0039;
-    public static final int notification_template_part_chronometer=0x7f0b003a;
-    public static final int notification_template_part_time=0x7f0b003b;
-    public static final int select_dialog_item_material=0x7f0b003c;
-    public static final int select_dialog_multichoice_material=0x7f0b003d;
-    public static final int select_dialog_singlechoice_material=0x7f0b003e;
-    public static final int student_fragment=0x7f0b003f;
-    public static final int student_recycle_view=0x7f0b0040;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b0041;
+    public static final int notification_media_action=0x7f0b0038;
+    public static final int notification_media_cancel_action=0x7f0b0039;
+    public static final int notification_template_big_media=0x7f0b003a;
+    public static final int notification_template_big_media_custom=0x7f0b003b;
+    public static final int notification_template_big_media_narrow=0x7f0b003c;
+    public static final int notification_template_big_media_narrow_custom=0x7f0b003d;
+    public static final int notification_template_custom_big=0x7f0b003e;
+    public static final int notification_template_icon_group=0x7f0b003f;
+    public static final int notification_template_lines_media=0x7f0b0040;
+    public static final int notification_template_media=0x7f0b0041;
+    public static final int notification_template_media_custom=0x7f0b0042;
+    public static final int notification_template_part_chronometer=0x7f0b0043;
+    public static final int notification_template_part_time=0x7f0b0044;
+    public static final int select_dialog_item_material=0x7f0b0045;
+    public static final int select_dialog_multichoice_material=0x7f0b0046;
+    public static final int select_dialog_singlechoice_material=0x7f0b0047;
+    public static final int student_fragment=0x7f0b0048;
+    public static final int student_recycle_view=0x7f0b0049;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b004a;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0c0000;
     public static final int ic_launcher_foreground=0x7f0c0001;
     public static final int ic_launcher_round=0x7f0c0002;
   }
+  public static final class raw {
+    public static final int sound=0x7f0d0000;
+  }
   public static final class string {
-    public static final int abc_action_bar_home_description=0x7f0d0000;
-    public static final int abc_action_bar_up_description=0x7f0d0001;
-    public static final int abc_action_menu_overflow_description=0x7f0d0002;
-    public static final int abc_action_mode_done=0x7f0d0003;
-    public static final int abc_activity_chooser_view_see_all=0x7f0d0004;
-    public static final int abc_activitychooserview_choose_application=0x7f0d0005;
-    public static final int abc_capital_off=0x7f0d0006;
-    public static final int abc_capital_on=0x7f0d0007;
-    public static final int abc_font_family_body_1_material=0x7f0d0008;
-    public static final int abc_font_family_body_2_material=0x7f0d0009;
-    public static final int abc_font_family_button_material=0x7f0d000a;
-    public static final int abc_font_family_caption_material=0x7f0d000b;
-    public static final int abc_font_family_display_1_material=0x7f0d000c;
-    public static final int abc_font_family_display_2_material=0x7f0d000d;
-    public static final int abc_font_family_display_3_material=0x7f0d000e;
-    public static final int abc_font_family_display_4_material=0x7f0d000f;
-    public static final int abc_font_family_headline_material=0x7f0d0010;
-    public static final int abc_font_family_menu_material=0x7f0d0011;
-    public static final int abc_font_family_subhead_material=0x7f0d0012;
-    public static final int abc_font_family_title_material=0x7f0d0013;
-    public static final int abc_menu_alt_shortcut_label=0x7f0d0014;
-    public static final int abc_menu_ctrl_shortcut_label=0x7f0d0015;
-    public static final int abc_menu_delete_shortcut_label=0x7f0d0016;
-    public static final int abc_menu_enter_shortcut_label=0x7f0d0017;
-    public static final int abc_menu_function_shortcut_label=0x7f0d0018;
-    public static final int abc_menu_meta_shortcut_label=0x7f0d0019;
-    public static final int abc_menu_shift_shortcut_label=0x7f0d001a;
-    public static final int abc_menu_space_shortcut_label=0x7f0d001b;
-    public static final int abc_menu_sym_shortcut_label=0x7f0d001c;
-    public static final int abc_prepend_shortcut_label=0x7f0d001d;
-    public static final int abc_search_hint=0x7f0d001e;
-    public static final int abc_searchview_description_clear=0x7f0d001f;
-    public static final int abc_searchview_description_query=0x7f0d0020;
-    public static final int abc_searchview_description_search=0x7f0d0021;
-    public static final int abc_searchview_description_submit=0x7f0d0022;
-    public static final int abc_searchview_description_voice=0x7f0d0023;
-    public static final int abc_shareactionprovider_share_with=0x7f0d0024;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0d0025;
-    public static final int abc_toolbar_collapse_description=0x7f0d0026;
-    public static final int alertmark=0x7f0d0027;
-    public static final int app_name=0x7f0d0028;
-    public static final int appbar_scrolling_view_behavior=0x7f0d0029;
-    public static final int bottom_sheet_behavior=0x7f0d002a;
-    public static final int cancel=0x7f0d002b;
-    public static final int character_counter_content_description=0x7f0d002c;
-    public static final int character_counter_pattern=0x7f0d002d;
-    public static final int code=0x7f0d002e;
-    public static final int confirmpassword=0x7f0d002f;
-    public static final int delete=0x7f0d0030;
-    public static final int description=0x7f0d0031;
-    public static final int edith=0x7f0d0032;
-    public static final int edith_mark_mess=0x7f0d0033;
-    public static final int fab_transformation_scrim_behavior=0x7f0d0034;
-    public static final int fab_transformation_sheet_behavior=0x7f0d0035;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0d0036;
-    public static final int login=0x7f0d0037;
-    public static final int mark=0x7f0d0038;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0d0039;
-    public static final int no=0x7f0d003a;
-    public static final int parent=0x7f0d003b;
-    public static final int password=0x7f0d003c;
-    public static final int password_toggle_content_description=0x7f0d003d;
-    public static final int path_password_eye=0x7f0d003e;
-    public static final int path_password_eye_mask_strike_through=0x7f0d003f;
-    public static final int path_password_eye_mask_visible=0x7f0d0040;
-    public static final int path_password_strike_through=0x7f0d0041;
-    public static final int register=0x7f0d0042;
-    public static final int search_menu_title=0x7f0d0043;
-    public static final int status_bar_notification_info_overflow=0x7f0d0044;
-    public static final int teacher=0x7f0d0045;
-    public static final int username=0x7f0d0046;
-    public static final int yes=0x7f0d0047;
+    public static final int abc_action_bar_home_description=0x7f0e0000;
+    public static final int abc_action_bar_up_description=0x7f0e0001;
+    public static final int abc_action_menu_overflow_description=0x7f0e0002;
+    public static final int abc_action_mode_done=0x7f0e0003;
+    public static final int abc_activity_chooser_view_see_all=0x7f0e0004;
+    public static final int abc_activitychooserview_choose_application=0x7f0e0005;
+    public static final int abc_capital_off=0x7f0e0006;
+    public static final int abc_capital_on=0x7f0e0007;
+    public static final int abc_font_family_body_1_material=0x7f0e0008;
+    public static final int abc_font_family_body_2_material=0x7f0e0009;
+    public static final int abc_font_family_button_material=0x7f0e000a;
+    public static final int abc_font_family_caption_material=0x7f0e000b;
+    public static final int abc_font_family_display_1_material=0x7f0e000c;
+    public static final int abc_font_family_display_2_material=0x7f0e000d;
+    public static final int abc_font_family_display_3_material=0x7f0e000e;
+    public static final int abc_font_family_display_4_material=0x7f0e000f;
+    public static final int abc_font_family_headline_material=0x7f0e0010;
+    public static final int abc_font_family_menu_material=0x7f0e0011;
+    public static final int abc_font_family_subhead_material=0x7f0e0012;
+    public static final int abc_font_family_title_material=0x7f0e0013;
+    public static final int abc_menu_alt_shortcut_label=0x7f0e0014;
+    public static final int abc_menu_ctrl_shortcut_label=0x7f0e0015;
+    public static final int abc_menu_delete_shortcut_label=0x7f0e0016;
+    public static final int abc_menu_enter_shortcut_label=0x7f0e0017;
+    public static final int abc_menu_function_shortcut_label=0x7f0e0018;
+    public static final int abc_menu_meta_shortcut_label=0x7f0e0019;
+    public static final int abc_menu_shift_shortcut_label=0x7f0e001a;
+    public static final int abc_menu_space_shortcut_label=0x7f0e001b;
+    public static final int abc_menu_sym_shortcut_label=0x7f0e001c;
+    public static final int abc_prepend_shortcut_label=0x7f0e001d;
+    public static final int abc_search_hint=0x7f0e001e;
+    public static final int abc_searchview_description_clear=0x7f0e001f;
+    public static final int abc_searchview_description_query=0x7f0e0020;
+    public static final int abc_searchview_description_search=0x7f0e0021;
+    public static final int abc_searchview_description_submit=0x7f0e0022;
+    public static final int abc_searchview_description_voice=0x7f0e0023;
+    public static final int abc_shareactionprovider_share_with=0x7f0e0024;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0e0025;
+    public static final int abc_toolbar_collapse_description=0x7f0e0026;
+    public static final int alertmark=0x7f0e0027;
+    public static final int app_name=0x7f0e0028;
+    public static final int appbar_scrolling_view_behavior=0x7f0e0029;
+    public static final int bottom_sheet_behavior=0x7f0e002a;
+    public static final int cancel=0x7f0e002b;
+    public static final int character_counter_content_description=0x7f0e002c;
+    public static final int character_counter_pattern=0x7f0e002d;
+    public static final int code=0x7f0e002e;
+    public static final int common_google_play_services_enable_button=0x7f0e002f;
+    public static final int common_google_play_services_enable_text=0x7f0e0030;
+    public static final int common_google_play_services_enable_title=0x7f0e0031;
+    public static final int common_google_play_services_install_button=0x7f0e0032;
+    public static final int common_google_play_services_install_text=0x7f0e0033;
+    public static final int common_google_play_services_install_title=0x7f0e0034;
+    public static final int common_google_play_services_notification_channel_name=0x7f0e0035;
+    public static final int common_google_play_services_notification_ticker=0x7f0e0036;
+    public static final int common_google_play_services_unknown_issue=0x7f0e0037;
+    public static final int common_google_play_services_unsupported_text=0x7f0e0038;
+    public static final int common_google_play_services_update_button=0x7f0e0039;
+    public static final int common_google_play_services_update_text=0x7f0e003a;
+    public static final int common_google_play_services_update_title=0x7f0e003b;
+    public static final int common_google_play_services_updating_text=0x7f0e003c;
+    public static final int common_google_play_services_wear_update_text=0x7f0e003d;
+    public static final int common_open_on_phone=0x7f0e003e;
+    public static final int common_signin_button_text=0x7f0e003f;
+    public static final int common_signin_button_text_long=0x7f0e0040;
+    public static final int confirmpassword=0x7f0e0041;
+    public static final int default_notification_channel_id=0x7f0e0042;
+    public static final int default_notification_channel_name=0x7f0e0043;
+    public static final int default_web_client_id=0x7f0e0044;
+    public static final int delete=0x7f0e0045;
+    public static final int description=0x7f0e0046;
+    public static final int edith=0x7f0e0047;
+    public static final int edith_mark_mess=0x7f0e0048;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0049;
+    public static final int fab_transformation_sheet_behavior=0x7f0e004a;
+    public static final int fcm_fallback_notification_channel_label=0x7f0e004b;
+    public static final int fcm_message=0x7f0e004c;
+    public static final int firebase_database_url=0x7f0e004d;
+    public static final int gcm_defaultSenderId=0x7f0e004e;
+    public static final int google_api_key=0x7f0e004f;
+    public static final int google_app_id=0x7f0e0050;
+    public static final int google_crash_reporting_api_key=0x7f0e0051;
+    public static final int google_storage_bucket=0x7f0e0052;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e0053;
+    public static final int login=0x7f0e0054;
+    public static final int mark=0x7f0e0055;
+    public static final int msg_subscribe_failed=0x7f0e0056;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0057;
+    public static final int no=0x7f0e0058;
+    public static final int parent=0x7f0e0059;
+    public static final int password=0x7f0e005a;
+    public static final int password_toggle_content_description=0x7f0e005b;
+    public static final int path_password_eye=0x7f0e005c;
+    public static final int path_password_eye_mask_strike_through=0x7f0e005d;
+    public static final int path_password_eye_mask_visible=0x7f0e005e;
+    public static final int path_password_strike_through=0x7f0e005f;
+    public static final int project_id=0x7f0e0060;
+    public static final int register=0x7f0e0061;
+    public static final int search_menu_title=0x7f0e0062;
+    public static final int status_bar_notification_info_overflow=0x7f0e0063;
+    public static final int teacher=0x7f0e0064;
+    public static final int username=0x7f0e0065;
+    public static final int yes=0x7f0e0066;
   }
   public static final class style {
-    public static final int AlertDialog_AppCompat=0x7f0e0000;
-    public static final int AlertDialog_AppCompat_Light=0x7f0e0001;
-    public static final int Animation_AppCompat_Dialog=0x7f0e0002;
-    public static final int Animation_AppCompat_DropDownUp=0x7f0e0003;
-    public static final int Animation_AppCompat_Tooltip=0x7f0e0004;
-    public static final int Animation_Design_BottomSheetDialog=0x7f0e0005;
-    public static final int AppTheme=0x7f0e0006;
-    public static final int AppThemeHome=0x7f0e0007;
-    public static final int Base_AlertDialog_AppCompat=0x7f0e0008;
-    public static final int Base_AlertDialog_AppCompat_Light=0x7f0e0009;
-    public static final int Base_Animation_AppCompat_Dialog=0x7f0e000a;
-    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0e000b;
-    public static final int Base_Animation_AppCompat_Tooltip=0x7f0e000c;
-    public static final int Base_CardView=0x7f0e000d;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0e000e;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0e000f;
-    public static final int Base_TextAppearance_AppCompat=0x7f0e0010;
-    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0e0011;
-    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0e0012;
-    public static final int Base_TextAppearance_AppCompat_Button=0x7f0e0013;
-    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0e0014;
-    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0e0015;
-    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0e0016;
-    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0e0017;
-    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0e0018;
-    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0e0019;
-    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0e001a;
-    public static final int Base_TextAppearance_AppCompat_Large=0x7f0e001b;
-    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0e001c;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e001d;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e001e;
-    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0e001f;
-    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0e0020;
-    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0e0021;
-    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0e0022;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e0023;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0e0024;
-    public static final int Base_TextAppearance_AppCompat_Small=0x7f0e0025;
-    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0e0026;
-    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0e0027;
-    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0e0028;
-    public static final int Base_TextAppearance_AppCompat_Title=0x7f0e0029;
-    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0e002a;
-    public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0e002b;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e002c;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e002d;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0e0033;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0e0034;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0e0035;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e0036;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e0037;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e0038;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e0039;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e003a;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0e003b;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e003c;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e003d;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e003e;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e003f;
-    public static final int Base_Theme_AppCompat=0x7f0e0040;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0e0041;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0e0042;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0e0043;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0e0044;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0e0045;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0e0046;
-    public static final int Base_Theme_AppCompat_Light=0x7f0e0047;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0e0048;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0e0049;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0e004a;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0e004b;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e004c;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0e004d;
-    public static final int Base_Theme_MaterialComponents=0x7f0e004e;
-    public static final int Base_Theme_MaterialComponents_Bridge=0x7f0e004f;
-    public static final int Base_Theme_MaterialComponents_CompactMenu=0x7f0e0050;
-    public static final int Base_Theme_MaterialComponents_Dialog=0x7f0e0051;
-    public static final int Base_Theme_MaterialComponents_Dialog_Alert=0x7f0e0052;
-    public static final int Base_Theme_MaterialComponents_Dialog_FixedSize=0x7f0e0053;
-    public static final int Base_Theme_MaterialComponents_Dialog_MinWidth=0x7f0e0054;
-    public static final int Base_Theme_MaterialComponents_DialogWhenLarge=0x7f0e0055;
-    public static final int Base_Theme_MaterialComponents_Light=0x7f0e0056;
-    public static final int Base_Theme_MaterialComponents_Light_Bridge=0x7f0e0057;
-    public static final int Base_Theme_MaterialComponents_Light_DarkActionBar=0x7f0e0058;
-    public static final int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0e0059;
-    public static final int Base_Theme_MaterialComponents_Light_Dialog=0x7f0e005a;
-    public static final int Base_Theme_MaterialComponents_Light_Dialog_Alert=0x7f0e005b;
-    public static final int Base_Theme_MaterialComponents_Light_Dialog_FixedSize=0x7f0e005c;
-    public static final int Base_Theme_MaterialComponents_Light_Dialog_MinWidth=0x7f0e005d;
-    public static final int Base_Theme_MaterialComponents_Light_DialogWhenLarge=0x7f0e005e;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0e005f;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0e0060;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0e0061;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e0062;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0e0063;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e0064;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0e0065;
-    public static final int Base_ThemeOverlay_MaterialComponents_Dialog=0x7f0e0066;
-    public static final int Base_ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0e0067;
-    public static final int Base_V14_Theme_MaterialComponents=0x7f0e0068;
-    public static final int Base_V14_Theme_MaterialComponents_Bridge=0x7f0e0069;
-    public static final int Base_V14_Theme_MaterialComponents_Dialog=0x7f0e006a;
-    public static final int Base_V14_Theme_MaterialComponents_Light=0x7f0e006b;
-    public static final int Base_V14_Theme_MaterialComponents_Light_Bridge=0x7f0e006c;
-    public static final int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0e006d;
-    public static final int Base_V14_Theme_MaterialComponents_Light_Dialog=0x7f0e006e;
-    public static final int Base_V14_ThemeOverlay_MaterialComponents_Dialog=0x7f0e006f;
-    public static final int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0e0070;
-    public static final int Base_V21_Theme_AppCompat=0x7f0e0071;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0e0072;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0e0073;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0e0074;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0e0075;
-    public static final int Base_V22_Theme_AppCompat=0x7f0e0076;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0e0077;
-    public static final int Base_V23_Theme_AppCompat=0x7f0e0078;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0e0079;
-    public static final int Base_V26_Theme_AppCompat=0x7f0e007a;
-    public static final int Base_V26_Theme_AppCompat_Light=0x7f0e007b;
-    public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0e007c;
-    public static final int Base_V28_Theme_AppCompat=0x7f0e007d;
-    public static final int Base_V28_Theme_AppCompat_Light=0x7f0e007e;
-    public static final int Base_V7_Theme_AppCompat=0x7f0e007f;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0e0080;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0e0081;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0e0082;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0e0083;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0e0084;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0e0085;
-    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0e0086;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0e0087;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0e0088;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0e0089;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0e008a;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0e008b;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0e008c;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0e008d;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0e008e;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0e008f;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0e0090;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0e0091;
-    public static final int Base_Widget_AppCompat_Button=0x7f0e0092;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0e0093;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0e0094;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0095;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0e0096;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0e0097;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0e0098;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e0099;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0e009a;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0e009b;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0e009c;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0e009d;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0e009e;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0e009f;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0e00a0;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0e00a1;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0e00a2;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0e00a3;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e00a4;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0e00a5;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e00a6;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0e00a7;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0e00a8;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e00a9;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0e00aa;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0e00ab;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0e00ac;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0e00ad;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0e00ae;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0e00af;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0e00b0;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0e00b1;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0e00b2;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0e00b3;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0e00b4;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0e00b5;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0e00b6;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0e00b7;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0e00b8;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0e00b9;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0e00ba;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0e00bb;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0e00bc;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0e00bd;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0e00be;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e00bf;
-    public static final int Base_Widget_Design_TabLayout=0x7f0e00c0;
-    public static final int Base_Widget_MaterialComponents_Chip=0x7f0e00c1;
-    public static final int Base_Widget_MaterialComponents_TextInputEditText=0x7f0e00c2;
-    public static final int Base_Widget_MaterialComponents_TextInputLayout=0x7f0e00c3;
-    public static final int CardView=0x7f0e00c4;
-    public static final int CardView_Dark=0x7f0e00c5;
-    public static final int CardView_Light=0x7f0e00c6;
-    public static final int Platform_AppCompat=0x7f0e00c7;
-    public static final int Platform_AppCompat_Light=0x7f0e00c8;
-    public static final int Platform_MaterialComponents=0x7f0e00c9;
-    public static final int Platform_MaterialComponents_Dialog=0x7f0e00ca;
-    public static final int Platform_MaterialComponents_Light=0x7f0e00cb;
-    public static final int Platform_MaterialComponents_Light_Dialog=0x7f0e00cc;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0e00cd;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0e00ce;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0e00cf;
-    public static final int Platform_V21_AppCompat=0x7f0e00d0;
-    public static final int Platform_V21_AppCompat_Light=0x7f0e00d1;
-    public static final int Platform_V25_AppCompat=0x7f0e00d2;
-    public static final int Platform_V25_AppCompat_Light=0x7f0e00d3;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0e00d4;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0e00d5;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0e00d6;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0e00d7;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0e00d8;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0e00d9;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut=0x7f0e00da;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow=0x7f0e00db;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0e00dc;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title=0x7f0e00dd;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0e00de;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0e00df;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0e00e0;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0e00e1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0e00e2;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0e00e3;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0e00e4;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0e00e5;
-    public static final int TextAppearance_AppCompat=0x7f0e00e6;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0e00e7;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0e00e8;
-    public static final int TextAppearance_AppCompat_Button=0x7f0e00e9;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0e00ea;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0e00eb;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0e00ec;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0e00ed;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0e00ee;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0e00ef;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0e00f0;
-    public static final int TextAppearance_AppCompat_Large=0x7f0e00f1;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0e00f2;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0e00f3;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0e00f4;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e00f5;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e00f6;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0e00f7;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0e00f8;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0e00f9;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e00fa;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0e00fb;
-    public static final int TextAppearance_AppCompat_Small=0x7f0e00fc;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0e00fd;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0e00fe;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0e00ff;
-    public static final int TextAppearance_AppCompat_Title=0x7f0e0100;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0e0101;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f0e0102;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e0103;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e0104;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e0105;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e0106;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e0107;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e0108;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0e0109;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e010a;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0e010b;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0e010c;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0e010d;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0e010e;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e010f;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e0110;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e0111;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e0112;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e0113;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0e0114;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e0115;
-    public static final int TextAppearance_Compat_Notification=0x7f0e0116;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f0e0117;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f0e0118;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f0e0119;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f0e011a;
-    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0e011b;
-    public static final int TextAppearance_Design_Counter=0x7f0e011c;
-    public static final int TextAppearance_Design_Counter_Overflow=0x7f0e011d;
-    public static final int TextAppearance_Design_Error=0x7f0e011e;
-    public static final int TextAppearance_Design_HelperText=0x7f0e011f;
-    public static final int TextAppearance_Design_Hint=0x7f0e0120;
-    public static final int TextAppearance_Design_Snackbar_Message=0x7f0e0121;
-    public static final int TextAppearance_Design_Tab=0x7f0e0122;
-    public static final int TextAppearance_MaterialComponents_Body1=0x7f0e0123;
-    public static final int TextAppearance_MaterialComponents_Body2=0x7f0e0124;
-    public static final int TextAppearance_MaterialComponents_Button=0x7f0e0125;
-    public static final int TextAppearance_MaterialComponents_Caption=0x7f0e0126;
-    public static final int TextAppearance_MaterialComponents_Chip=0x7f0e0127;
-    public static final int TextAppearance_MaterialComponents_Headline1=0x7f0e0128;
-    public static final int TextAppearance_MaterialComponents_Headline2=0x7f0e0129;
-    public static final int TextAppearance_MaterialComponents_Headline3=0x7f0e012a;
-    public static final int TextAppearance_MaterialComponents_Headline4=0x7f0e012b;
-    public static final int TextAppearance_MaterialComponents_Headline5=0x7f0e012c;
-    public static final int TextAppearance_MaterialComponents_Headline6=0x7f0e012d;
-    public static final int TextAppearance_MaterialComponents_Overline=0x7f0e012e;
-    public static final int TextAppearance_MaterialComponents_Subtitle1=0x7f0e012f;
-    public static final int TextAppearance_MaterialComponents_Subtitle2=0x7f0e0130;
-    public static final int TextAppearance_MaterialComponents_Tab=0x7f0e0131;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e0132;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e0133;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e0134;
-    public static final int Theme_AppCompat=0x7f0e0135;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0e0136;
-    public static final int Theme_AppCompat_DayNight=0x7f0e0137;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0e0138;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0e0139;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0e013a;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0e013b;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0e013c;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0e013d;
-    public static final int Theme_AppCompat_Dialog=0x7f0e013e;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0e013f;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0e0140;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0e0141;
-    public static final int Theme_AppCompat_Light=0x7f0e0142;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0e0143;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0e0144;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0e0145;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e0146;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0e0147;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0e0148;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0e0149;
-    public static final int Theme_Design=0x7f0e014a;
-    public static final int Theme_Design_BottomSheetDialog=0x7f0e014b;
-    public static final int Theme_Design_Light=0x7f0e014c;
-    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0e014d;
-    public static final int Theme_Design_Light_NoActionBar=0x7f0e014e;
-    public static final int Theme_Design_NoActionBar=0x7f0e014f;
-    public static final int Theme_MaterialComponents=0x7f0e0150;
-    public static final int Theme_MaterialComponents_BottomSheetDialog=0x7f0e0151;
-    public static final int Theme_MaterialComponents_Bridge=0x7f0e0152;
-    public static final int Theme_MaterialComponents_CompactMenu=0x7f0e0153;
-    public static final int Theme_MaterialComponents_Dialog=0x7f0e0154;
-    public static final int Theme_MaterialComponents_Dialog_Alert=0x7f0e0155;
-    public static final int Theme_MaterialComponents_Dialog_MinWidth=0x7f0e0156;
-    public static final int Theme_MaterialComponents_DialogWhenLarge=0x7f0e0157;
-    public static final int Theme_MaterialComponents_Light=0x7f0e0158;
-    public static final int Theme_MaterialComponents_Light_BottomSheetDialog=0x7f0e0159;
-    public static final int Theme_MaterialComponents_Light_Bridge=0x7f0e015a;
-    public static final int Theme_MaterialComponents_Light_DarkActionBar=0x7f0e015b;
-    public static final int Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0e015c;
-    public static final int Theme_MaterialComponents_Light_Dialog=0x7f0e015d;
-    public static final int Theme_MaterialComponents_Light_Dialog_Alert=0x7f0e015e;
-    public static final int Theme_MaterialComponents_Light_Dialog_MinWidth=0x7f0e015f;
-    public static final int Theme_MaterialComponents_Light_DialogWhenLarge=0x7f0e0160;
-    public static final int Theme_MaterialComponents_Light_NoActionBar=0x7f0e0161;
-    public static final int Theme_MaterialComponents_Light_NoActionBar_Bridge=0x7f0e0162;
-    public static final int Theme_MaterialComponents_NoActionBar=0x7f0e0163;
-    public static final int Theme_MaterialComponents_NoActionBar_Bridge=0x7f0e0164;
-    public static final int ThemeOverlay_AppCompat=0x7f0e0165;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0e0166;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0e0167;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e0168;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0e0169;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e016a;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0e016b;
-    public static final int ThemeOverlay_MaterialComponents=0x7f0e016c;
-    public static final int ThemeOverlay_MaterialComponents_ActionBar=0x7f0e016d;
-    public static final int ThemeOverlay_MaterialComponents_Dark=0x7f0e016e;
-    public static final int ThemeOverlay_MaterialComponents_Dark_ActionBar=0x7f0e016f;
-    public static final int ThemeOverlay_MaterialComponents_Dialog=0x7f0e0170;
-    public static final int ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0e0171;
-    public static final int ThemeOverlay_MaterialComponents_Light=0x7f0e0172;
-    public static final int ThemeOverlay_MaterialComponents_TextInputEditText=0x7f0e0173;
-    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox=0x7f0e0174;
-    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense=0x7f0e0175;
-    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox=0x7f0e0176;
-    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense=0x7f0e0177;
-    public static final int Widget_AppCompat_ActionBar=0x7f0e0178;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0e0179;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0e017a;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0e017b;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0e017c;
-    public static final int Widget_AppCompat_ActionButton=0x7f0e017d;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0e017e;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0e017f;
-    public static final int Widget_AppCompat_ActionMode=0x7f0e0180;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0e0181;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0e0182;
-    public static final int Widget_AppCompat_Button=0x7f0e0183;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0e0184;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0e0185;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0186;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0e0187;
-    public static final int Widget_AppCompat_Button_Small=0x7f0e0188;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0e0189;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e018a;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0e018b;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0e018c;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0e018d;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0e018e;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0e018f;
-    public static final int Widget_AppCompat_EditText=0x7f0e0190;
-    public static final int Widget_AppCompat_ImageButton=0x7f0e0191;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0e0192;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0e0193;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0e0194;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e0195;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0e0196;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0e0197;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e0198;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0e0199;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0e019a;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0e019b;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0e019c;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0e019d;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0e019e;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0e019f;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0e01a0;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0e01a1;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0e01a2;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0e01a3;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0e01a4;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e01a5;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0e01a6;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0e01a7;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0e01a8;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0e01a9;
-    public static final int Widget_AppCompat_ListView=0x7f0e01aa;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0e01ab;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0e01ac;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0e01ad;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0e01ae;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0e01af;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0e01b0;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0e01b1;
-    public static final int Widget_AppCompat_RatingBar=0x7f0e01b2;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0e01b3;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0e01b4;
-    public static final int Widget_AppCompat_SearchView=0x7f0e01b5;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0e01b6;
-    public static final int Widget_AppCompat_SeekBar=0x7f0e01b7;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0e01b8;
-    public static final int Widget_AppCompat_Spinner=0x7f0e01b9;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0e01ba;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0e01bb;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0e01bc;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0e01bd;
-    public static final int Widget_AppCompat_Toolbar=0x7f0e01be;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e01bf;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f0e01c0;
-    public static final int Widget_Compat_NotificationActionText=0x7f0e01c1;
-    public static final int Widget_Design_AppBarLayout=0x7f0e01c2;
-    public static final int Widget_Design_BottomNavigationView=0x7f0e01c3;
-    public static final int Widget_Design_BottomSheet_Modal=0x7f0e01c4;
-    public static final int Widget_Design_CollapsingToolbar=0x7f0e01c5;
-    public static final int Widget_Design_FloatingActionButton=0x7f0e01c6;
-    public static final int Widget_Design_NavigationView=0x7f0e01c7;
-    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0e01c8;
-    public static final int Widget_Design_Snackbar=0x7f0e01c9;
-    public static final int Widget_Design_TabLayout=0x7f0e01ca;
-    public static final int Widget_Design_TextInputLayout=0x7f0e01cb;
-    public static final int Widget_MaterialComponents_BottomAppBar=0x7f0e01cc;
-    public static final int Widget_MaterialComponents_BottomAppBar_Colored=0x7f0e01cd;
-    public static final int Widget_MaterialComponents_BottomNavigationView=0x7f0e01ce;
-    public static final int Widget_MaterialComponents_BottomNavigationView_Colored=0x7f0e01cf;
-    public static final int Widget_MaterialComponents_BottomSheet_Modal=0x7f0e01d0;
-    public static final int Widget_MaterialComponents_Button=0x7f0e01d1;
-    public static final int Widget_MaterialComponents_Button_Icon=0x7f0e01d2;
-    public static final int Widget_MaterialComponents_Button_OutlinedButton=0x7f0e01d3;
-    public static final int Widget_MaterialComponents_Button_OutlinedButton_Icon=0x7f0e01d4;
-    public static final int Widget_MaterialComponents_Button_TextButton=0x7f0e01d5;
-    public static final int Widget_MaterialComponents_Button_TextButton_Dialog=0x7f0e01d6;
-    public static final int Widget_MaterialComponents_Button_TextButton_Dialog_Icon=0x7f0e01d7;
-    public static final int Widget_MaterialComponents_Button_TextButton_Icon=0x7f0e01d8;
-    public static final int Widget_MaterialComponents_Button_UnelevatedButton=0x7f0e01d9;
-    public static final int Widget_MaterialComponents_Button_UnelevatedButton_Icon=0x7f0e01da;
-    public static final int Widget_MaterialComponents_CardView=0x7f0e01db;
-    public static final int Widget_MaterialComponents_Chip_Action=0x7f0e01dc;
-    public static final int Widget_MaterialComponents_Chip_Choice=0x7f0e01dd;
-    public static final int Widget_MaterialComponents_Chip_Entry=0x7f0e01de;
-    public static final int Widget_MaterialComponents_Chip_Filter=0x7f0e01df;
-    public static final int Widget_MaterialComponents_ChipGroup=0x7f0e01e0;
-    public static final int Widget_MaterialComponents_FloatingActionButton=0x7f0e01e1;
-    public static final int Widget_MaterialComponents_NavigationView=0x7f0e01e2;
-    public static final int Widget_MaterialComponents_Snackbar=0x7f0e01e3;
-    public static final int Widget_MaterialComponents_Snackbar_FullWidth=0x7f0e01e4;
-    public static final int Widget_MaterialComponents_TabLayout=0x7f0e01e5;
-    public static final int Widget_MaterialComponents_TabLayout_Colored=0x7f0e01e6;
-    public static final int Widget_MaterialComponents_TextInputEditText_FilledBox=0x7f0e01e7;
-    public static final int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense=0x7f0e01e8;
-    public static final int Widget_MaterialComponents_TextInputEditText_OutlinedBox=0x7f0e01e9;
-    public static final int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense=0x7f0e01ea;
-    public static final int Widget_MaterialComponents_TextInputLayout_FilledBox=0x7f0e01eb;
-    public static final int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense=0x7f0e01ec;
-    public static final int Widget_MaterialComponents_TextInputLayout_OutlinedBox=0x7f0e01ed;
-    public static final int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense=0x7f0e01ee;
-    public static final int Widget_MaterialComponents_Toolbar=0x7f0e01ef;
-    public static final int Widget_Support_CoordinatorLayout=0x7f0e01f0;
+    public static final int AlertDialog_AppCompat=0x7f0f0000;
+    public static final int AlertDialog_AppCompat_Light=0x7f0f0001;
+    public static final int Animation_AppCompat_Dialog=0x7f0f0002;
+    public static final int Animation_AppCompat_DropDownUp=0x7f0f0003;
+    public static final int Animation_AppCompat_Tooltip=0x7f0f0004;
+    public static final int Animation_Design_BottomSheetDialog=0x7f0f0005;
+    public static final int AppTheme=0x7f0f0006;
+    public static final int AppThemeHome=0x7f0f0007;
+    public static final int Base_AlertDialog_AppCompat=0x7f0f0008;
+    public static final int Base_AlertDialog_AppCompat_Light=0x7f0f0009;
+    public static final int Base_Animation_AppCompat_Dialog=0x7f0f000a;
+    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0f000b;
+    public static final int Base_Animation_AppCompat_Tooltip=0x7f0f000c;
+    public static final int Base_CardView=0x7f0f000d;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0f000e;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0f000f;
+    public static final int Base_TextAppearance_AppCompat=0x7f0f0010;
+    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0f0011;
+    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0f0012;
+    public static final int Base_TextAppearance_AppCompat_Button=0x7f0f0013;
+    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0f0014;
+    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0f0015;
+    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0f0016;
+    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0f0017;
+    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0f0018;
+    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0f0019;
+    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0f001a;
+    public static final int Base_TextAppearance_AppCompat_Large=0x7f0f001b;
+    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0f001c;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f001d;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f001e;
+    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0f001f;
+    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0f0020;
+    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0f0021;
+    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0f0022;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f0023;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0f0024;
+    public static final int Base_TextAppearance_AppCompat_Small=0x7f0f0025;
+    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0f0026;
+    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0f0027;
+    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0f0028;
+    public static final int Base_TextAppearance_AppCompat_Title=0x7f0f0029;
+    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0f002a;
+    public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0f002b;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f002c;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f002d;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f002e;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0f0033;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0f0034;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0f0035;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f0036;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f0037;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f0038;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f0039;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f003a;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0f003b;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f003c;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f003d;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f003e;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f003f;
+    public static final int Base_Theme_AppCompat=0x7f0f0040;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0f0041;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0f0042;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0f0043;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0f0044;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0f0045;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0f0046;
+    public static final int Base_Theme_AppCompat_Light=0x7f0f0047;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0f0048;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0f0049;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0f004a;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0f004b;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f004c;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0f004d;
+    public static final int Base_Theme_MaterialComponents=0x7f0f004e;
+    public static final int Base_Theme_MaterialComponents_Bridge=0x7f0f004f;
+    public static final int Base_Theme_MaterialComponents_CompactMenu=0x7f0f0050;
+    public static final int Base_Theme_MaterialComponents_Dialog=0x7f0f0051;
+    public static final int Base_Theme_MaterialComponents_Dialog_Alert=0x7f0f0052;
+    public static final int Base_Theme_MaterialComponents_Dialog_FixedSize=0x7f0f0053;
+    public static final int Base_Theme_MaterialComponents_Dialog_MinWidth=0x7f0f0054;
+    public static final int Base_Theme_MaterialComponents_DialogWhenLarge=0x7f0f0055;
+    public static final int Base_Theme_MaterialComponents_Light=0x7f0f0056;
+    public static final int Base_Theme_MaterialComponents_Light_Bridge=0x7f0f0057;
+    public static final int Base_Theme_MaterialComponents_Light_DarkActionBar=0x7f0f0058;
+    public static final int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0f0059;
+    public static final int Base_Theme_MaterialComponents_Light_Dialog=0x7f0f005a;
+    public static final int Base_Theme_MaterialComponents_Light_Dialog_Alert=0x7f0f005b;
+    public static final int Base_Theme_MaterialComponents_Light_Dialog_FixedSize=0x7f0f005c;
+    public static final int Base_Theme_MaterialComponents_Light_Dialog_MinWidth=0x7f0f005d;
+    public static final int Base_Theme_MaterialComponents_Light_DialogWhenLarge=0x7f0f005e;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0f005f;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0f0060;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0f0061;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f0062;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0f0063;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f0064;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0f0065;
+    public static final int Base_ThemeOverlay_MaterialComponents_Dialog=0x7f0f0066;
+    public static final int Base_ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0f0067;
+    public static final int Base_V14_Theme_MaterialComponents=0x7f0f0068;
+    public static final int Base_V14_Theme_MaterialComponents_Bridge=0x7f0f0069;
+    public static final int Base_V14_Theme_MaterialComponents_Dialog=0x7f0f006a;
+    public static final int Base_V14_Theme_MaterialComponents_Light=0x7f0f006b;
+    public static final int Base_V14_Theme_MaterialComponents_Light_Bridge=0x7f0f006c;
+    public static final int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0f006d;
+    public static final int Base_V14_Theme_MaterialComponents_Light_Dialog=0x7f0f006e;
+    public static final int Base_V14_ThemeOverlay_MaterialComponents_Dialog=0x7f0f006f;
+    public static final int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0f0070;
+    public static final int Base_V21_Theme_AppCompat=0x7f0f0071;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0f0072;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0f0073;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0f0074;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0f0075;
+    public static final int Base_V22_Theme_AppCompat=0x7f0f0076;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0f0077;
+    public static final int Base_V23_Theme_AppCompat=0x7f0f0078;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0f0079;
+    public static final int Base_V26_Theme_AppCompat=0x7f0f007a;
+    public static final int Base_V26_Theme_AppCompat_Light=0x7f0f007b;
+    public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0f007c;
+    public static final int Base_V28_Theme_AppCompat=0x7f0f007d;
+    public static final int Base_V28_Theme_AppCompat_Light=0x7f0f007e;
+    public static final int Base_V7_Theme_AppCompat=0x7f0f007f;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0f0080;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0f0081;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0f0082;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0f0083;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0f0084;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0f0085;
+    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0f0086;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0f0087;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0f0088;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0f0089;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0f008a;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0f008b;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0f008c;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0f008d;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0f008e;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0f008f;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0f0090;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0f0091;
+    public static final int Base_Widget_AppCompat_Button=0x7f0f0092;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0f0093;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0f0094;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f0095;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0f0096;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0f0097;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0f0098;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f0099;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0f009a;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0f009b;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0f009c;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0f009d;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0f009e;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0f009f;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0f00a0;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0f00a1;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0f00a2;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0f00a3;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f00a4;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0f00a5;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f00a6;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0f00a7;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0f00a8;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f00a9;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0f00aa;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0f00ab;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0f00ac;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0f00ad;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0f00ae;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0f00af;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0f00b0;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0f00b1;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0f00b2;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0f00b3;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0f00b4;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0f00b5;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0f00b6;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0f00b7;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0f00b8;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0f00b9;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0f00ba;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0f00bb;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0f00bc;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0f00bd;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0f00be;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f00bf;
+    public static final int Base_Widget_Design_TabLayout=0x7f0f00c0;
+    public static final int Base_Widget_MaterialComponents_Chip=0x7f0f00c1;
+    public static final int Base_Widget_MaterialComponents_TextInputEditText=0x7f0f00c2;
+    public static final int Base_Widget_MaterialComponents_TextInputLayout=0x7f0f00c3;
+    public static final int CardView=0x7f0f00c4;
+    public static final int CardView_Dark=0x7f0f00c5;
+    public static final int CardView_Light=0x7f0f00c6;
+    public static final int Platform_AppCompat=0x7f0f00c7;
+    public static final int Platform_AppCompat_Light=0x7f0f00c8;
+    public static final int Platform_MaterialComponents=0x7f0f00c9;
+    public static final int Platform_MaterialComponents_Dialog=0x7f0f00ca;
+    public static final int Platform_MaterialComponents_Light=0x7f0f00cb;
+    public static final int Platform_MaterialComponents_Light_Dialog=0x7f0f00cc;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0f00cd;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0f00ce;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0f00cf;
+    public static final int Platform_V21_AppCompat=0x7f0f00d0;
+    public static final int Platform_V21_AppCompat_Light=0x7f0f00d1;
+    public static final int Platform_V25_AppCompat=0x7f0f00d2;
+    public static final int Platform_V25_AppCompat_Light=0x7f0f00d3;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0f00d4;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0f00d5;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0f00d6;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0f00d7;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0f00d8;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0f00d9;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut=0x7f0f00da;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow=0x7f0f00db;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0f00dc;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title=0x7f0f00dd;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0f00de;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0f00df;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0f00e0;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0f00e1;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0f00e2;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0f00e3;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0f00e4;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0f00e5;
+    public static final int TextAppearance_AppCompat=0x7f0f00e6;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0f00e7;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0f00e8;
+    public static final int TextAppearance_AppCompat_Button=0x7f0f00e9;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0f00ea;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0f00eb;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0f00ec;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0f00ed;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0f00ee;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0f00ef;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0f00f0;
+    public static final int TextAppearance_AppCompat_Large=0x7f0f00f1;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0f00f2;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0f00f3;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0f00f4;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0f00f5;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0f00f6;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0f00f7;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0f00f8;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0f00f9;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0f00fa;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0f00fb;
+    public static final int TextAppearance_AppCompat_Small=0x7f0f00fc;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0f00fd;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0f00fe;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0f00ff;
+    public static final int TextAppearance_AppCompat_Title=0x7f0f0100;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0f0101;
+    public static final int TextAppearance_AppCompat_Tooltip=0x7f0f0102;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0f0103;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0f0104;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0f0105;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0f0106;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0f0107;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0f0108;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0f0109;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0f010a;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0f010b;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0f010c;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0f010d;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0f010e;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0f010f;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0f0110;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0f0111;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0f0112;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0f0113;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0f0114;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0f0115;
+    public static final int TextAppearance_Compat_Notification=0x7f0f0116;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f0f0117;
+    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0f0118;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f0f0119;
+    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0f011a;
+    public static final int TextAppearance_Compat_Notification_Media=0x7f0f011b;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f0f011c;
+    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0f011d;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f0f011e;
+    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0f011f;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0f0120;
+    public static final int TextAppearance_Design_Counter=0x7f0f0121;
+    public static final int TextAppearance_Design_Counter_Overflow=0x7f0f0122;
+    public static final int TextAppearance_Design_Error=0x7f0f0123;
+    public static final int TextAppearance_Design_HelperText=0x7f0f0124;
+    public static final int TextAppearance_Design_Hint=0x7f0f0125;
+    public static final int TextAppearance_Design_Snackbar_Message=0x7f0f0126;
+    public static final int TextAppearance_Design_Tab=0x7f0f0127;
+    public static final int TextAppearance_MaterialComponents_Body1=0x7f0f0128;
+    public static final int TextAppearance_MaterialComponents_Body2=0x7f0f0129;
+    public static final int TextAppearance_MaterialComponents_Button=0x7f0f012a;
+    public static final int TextAppearance_MaterialComponents_Caption=0x7f0f012b;
+    public static final int TextAppearance_MaterialComponents_Chip=0x7f0f012c;
+    public static final int TextAppearance_MaterialComponents_Headline1=0x7f0f012d;
+    public static final int TextAppearance_MaterialComponents_Headline2=0x7f0f012e;
+    public static final int TextAppearance_MaterialComponents_Headline3=0x7f0f012f;
+    public static final int TextAppearance_MaterialComponents_Headline4=0x7f0f0130;
+    public static final int TextAppearance_MaterialComponents_Headline5=0x7f0f0131;
+    public static final int TextAppearance_MaterialComponents_Headline6=0x7f0f0132;
+    public static final int TextAppearance_MaterialComponents_Overline=0x7f0f0133;
+    public static final int TextAppearance_MaterialComponents_Subtitle1=0x7f0f0134;
+    public static final int TextAppearance_MaterialComponents_Subtitle2=0x7f0f0135;
+    public static final int TextAppearance_MaterialComponents_Tab=0x7f0f0136;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0f0137;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0f0138;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0f0139;
+    public static final int Theme_AppCompat=0x7f0f013a;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0f013b;
+    public static final int Theme_AppCompat_DayNight=0x7f0f013c;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0f013d;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0f013e;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0f013f;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0f0140;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0f0141;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0f0142;
+    public static final int Theme_AppCompat_Dialog=0x7f0f0143;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0f0144;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0f0145;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0f0146;
+    public static final int Theme_AppCompat_Light=0x7f0f0147;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0f0148;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0f0149;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0f014a;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0f014b;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0f014c;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0f014d;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0f014e;
+    public static final int Theme_Design=0x7f0f014f;
+    public static final int Theme_Design_BottomSheetDialog=0x7f0f0150;
+    public static final int Theme_Design_Light=0x7f0f0151;
+    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0f0152;
+    public static final int Theme_Design_Light_NoActionBar=0x7f0f0153;
+    public static final int Theme_Design_NoActionBar=0x7f0f0154;
+    public static final int Theme_MaterialComponents=0x7f0f0155;
+    public static final int Theme_MaterialComponents_BottomSheetDialog=0x7f0f0156;
+    public static final int Theme_MaterialComponents_Bridge=0x7f0f0157;
+    public static final int Theme_MaterialComponents_CompactMenu=0x7f0f0158;
+    public static final int Theme_MaterialComponents_Dialog=0x7f0f0159;
+    public static final int Theme_MaterialComponents_Dialog_Alert=0x7f0f015a;
+    public static final int Theme_MaterialComponents_Dialog_MinWidth=0x7f0f015b;
+    public static final int Theme_MaterialComponents_DialogWhenLarge=0x7f0f015c;
+    public static final int Theme_MaterialComponents_Light=0x7f0f015d;
+    public static final int Theme_MaterialComponents_Light_BottomSheetDialog=0x7f0f015e;
+    public static final int Theme_MaterialComponents_Light_Bridge=0x7f0f015f;
+    public static final int Theme_MaterialComponents_Light_DarkActionBar=0x7f0f0160;
+    public static final int Theme_MaterialComponents_Light_DarkActionBar_Bridge=0x7f0f0161;
+    public static final int Theme_MaterialComponents_Light_Dialog=0x7f0f0162;
+    public static final int Theme_MaterialComponents_Light_Dialog_Alert=0x7f0f0163;
+    public static final int Theme_MaterialComponents_Light_Dialog_MinWidth=0x7f0f0164;
+    public static final int Theme_MaterialComponents_Light_DialogWhenLarge=0x7f0f0165;
+    public static final int Theme_MaterialComponents_Light_NoActionBar=0x7f0f0166;
+    public static final int Theme_MaterialComponents_Light_NoActionBar_Bridge=0x7f0f0167;
+    public static final int Theme_MaterialComponents_NoActionBar=0x7f0f0168;
+    public static final int Theme_MaterialComponents_NoActionBar_Bridge=0x7f0f0169;
+    public static final int ThemeOverlay_AppCompat=0x7f0f016a;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0f016b;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0f016c;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0f016d;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0f016e;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0f016f;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0f0170;
+    public static final int ThemeOverlay_MaterialComponents=0x7f0f0171;
+    public static final int ThemeOverlay_MaterialComponents_ActionBar=0x7f0f0172;
+    public static final int ThemeOverlay_MaterialComponents_Dark=0x7f0f0173;
+    public static final int ThemeOverlay_MaterialComponents_Dark_ActionBar=0x7f0f0174;
+    public static final int ThemeOverlay_MaterialComponents_Dialog=0x7f0f0175;
+    public static final int ThemeOverlay_MaterialComponents_Dialog_Alert=0x7f0f0176;
+    public static final int ThemeOverlay_MaterialComponents_Light=0x7f0f0177;
+    public static final int ThemeOverlay_MaterialComponents_TextInputEditText=0x7f0f0178;
+    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox=0x7f0f0179;
+    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense=0x7f0f017a;
+    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox=0x7f0f017b;
+    public static final int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense=0x7f0f017c;
+    public static final int Widget_AppCompat_ActionBar=0x7f0f017d;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0f017e;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0f017f;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0f0180;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0f0181;
+    public static final int Widget_AppCompat_ActionButton=0x7f0f0182;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0f0183;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0f0184;
+    public static final int Widget_AppCompat_ActionMode=0x7f0f0185;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0f0186;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0f0187;
+    public static final int Widget_AppCompat_Button=0x7f0f0188;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0f0189;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0f018a;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0f018b;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0f018c;
+    public static final int Widget_AppCompat_Button_Small=0x7f0f018d;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0f018e;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0f018f;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0f0190;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0f0191;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0f0192;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0f0193;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0f0194;
+    public static final int Widget_AppCompat_EditText=0x7f0f0195;
+    public static final int Widget_AppCompat_ImageButton=0x7f0f0196;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0f0197;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0f0198;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0f0199;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0f019a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0f019b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0f019c;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0f019d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0f019e;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0f019f;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0f01a0;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0f01a1;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0f01a2;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0f01a3;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0f01a4;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0f01a5;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0f01a6;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0f01a7;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0f01a8;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0f01a9;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0f01aa;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0f01ab;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0f01ac;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0f01ad;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0f01ae;
+    public static final int Widget_AppCompat_ListView=0x7f0f01af;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0f01b0;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0f01b1;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0f01b2;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0f01b3;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0f01b4;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0f01b5;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0f01b6;
+    public static final int Widget_AppCompat_RatingBar=0x7f0f01b7;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0f01b8;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0f01b9;
+    public static final int Widget_AppCompat_SearchView=0x7f0f01ba;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0f01bb;
+    public static final int Widget_AppCompat_SeekBar=0x7f0f01bc;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0f01bd;
+    public static final int Widget_AppCompat_Spinner=0x7f0f01be;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0f01bf;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0f01c0;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0f01c1;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0f01c2;
+    public static final int Widget_AppCompat_Toolbar=0x7f0f01c3;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0f01c4;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f0f01c5;
+    public static final int Widget_Compat_NotificationActionText=0x7f0f01c6;
+    public static final int Widget_Design_AppBarLayout=0x7f0f01c7;
+    public static final int Widget_Design_BottomNavigationView=0x7f0f01c8;
+    public static final int Widget_Design_BottomSheet_Modal=0x7f0f01c9;
+    public static final int Widget_Design_CollapsingToolbar=0x7f0f01ca;
+    public static final int Widget_Design_FloatingActionButton=0x7f0f01cb;
+    public static final int Widget_Design_NavigationView=0x7f0f01cc;
+    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0f01cd;
+    public static final int Widget_Design_Snackbar=0x7f0f01ce;
+    public static final int Widget_Design_TabLayout=0x7f0f01cf;
+    public static final int Widget_Design_TextInputLayout=0x7f0f01d0;
+    public static final int Widget_MaterialComponents_BottomAppBar=0x7f0f01d1;
+    public static final int Widget_MaterialComponents_BottomAppBar_Colored=0x7f0f01d2;
+    public static final int Widget_MaterialComponents_BottomNavigationView=0x7f0f01d3;
+    public static final int Widget_MaterialComponents_BottomNavigationView_Colored=0x7f0f01d4;
+    public static final int Widget_MaterialComponents_BottomSheet_Modal=0x7f0f01d5;
+    public static final int Widget_MaterialComponents_Button=0x7f0f01d6;
+    public static final int Widget_MaterialComponents_Button_Icon=0x7f0f01d7;
+    public static final int Widget_MaterialComponents_Button_OutlinedButton=0x7f0f01d8;
+    public static final int Widget_MaterialComponents_Button_OutlinedButton_Icon=0x7f0f01d9;
+    public static final int Widget_MaterialComponents_Button_TextButton=0x7f0f01da;
+    public static final int Widget_MaterialComponents_Button_TextButton_Dialog=0x7f0f01db;
+    public static final int Widget_MaterialComponents_Button_TextButton_Dialog_Icon=0x7f0f01dc;
+    public static final int Widget_MaterialComponents_Button_TextButton_Icon=0x7f0f01dd;
+    public static final int Widget_MaterialComponents_Button_UnelevatedButton=0x7f0f01de;
+    public static final int Widget_MaterialComponents_Button_UnelevatedButton_Icon=0x7f0f01df;
+    public static final int Widget_MaterialComponents_CardView=0x7f0f01e0;
+    public static final int Widget_MaterialComponents_Chip_Action=0x7f0f01e1;
+    public static final int Widget_MaterialComponents_Chip_Choice=0x7f0f01e2;
+    public static final int Widget_MaterialComponents_Chip_Entry=0x7f0f01e3;
+    public static final int Widget_MaterialComponents_Chip_Filter=0x7f0f01e4;
+    public static final int Widget_MaterialComponents_ChipGroup=0x7f0f01e5;
+    public static final int Widget_MaterialComponents_FloatingActionButton=0x7f0f01e6;
+    public static final int Widget_MaterialComponents_NavigationView=0x7f0f01e7;
+    public static final int Widget_MaterialComponents_Snackbar=0x7f0f01e8;
+    public static final int Widget_MaterialComponents_Snackbar_FullWidth=0x7f0f01e9;
+    public static final int Widget_MaterialComponents_TabLayout=0x7f0f01ea;
+    public static final int Widget_MaterialComponents_TabLayout_Colored=0x7f0f01eb;
+    public static final int Widget_MaterialComponents_TextInputEditText_FilledBox=0x7f0f01ec;
+    public static final int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense=0x7f0f01ed;
+    public static final int Widget_MaterialComponents_TextInputEditText_OutlinedBox=0x7f0f01ee;
+    public static final int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense=0x7f0f01ef;
+    public static final int Widget_MaterialComponents_TextInputLayout_FilledBox=0x7f0f01f0;
+    public static final int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense=0x7f0f01f1;
+    public static final int Widget_MaterialComponents_TextInputLayout_OutlinedBox=0x7f0f01f2;
+    public static final int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense=0x7f0f01f3;
+    public static final int Widget_MaterialComponents_Toolbar=0x7f0f01f4;
+    public static final int Widget_Support_CoordinatorLayout=0x7f0f01f5;
   }
   public static final class styleable {
     /**
@@ -5495,35 +5658,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background ir.aliprogramer.schoolhome2:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit ir.aliprogramer.schoolhome2:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked ir.aliprogramer.schoolhome2:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd ir.aliprogramer.schoolhome2:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions ir.aliprogramer.schoolhome2:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft ir.aliprogramer.schoolhome2:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight ir.aliprogramer.schoolhome2:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart ir.aliprogramer.schoolhome2:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation ir.aliprogramer.schoolhome2:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout ir.aliprogramer.schoolhome2:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions ir.aliprogramer.schoolhome2:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider ir.aliprogramer.schoolhome2:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height ir.aliprogramer.schoolhome2:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll ir.aliprogramer.schoolhome2:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator ir.aliprogramer.schoolhome2:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout ir.aliprogramer.schoolhome2:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon ir.aliprogramer.schoolhome2:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle ir.aliprogramer.schoolhome2:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding ir.aliprogramer.schoolhome2:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo ir.aliprogramer.schoolhome2:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode ir.aliprogramer.schoolhome2:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme ir.aliprogramer.schoolhome2:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding ir.aliprogramer.schoolhome2:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle ir.aliprogramer.schoolhome2:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle ir.aliprogramer.schoolhome2:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle ir.aliprogramer.schoolhome2:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title ir.aliprogramer.schoolhome2:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle ir.aliprogramer.schoolhome2:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background ir.aliprogramer.schoolhome:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit ir.aliprogramer.schoolhome:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked ir.aliprogramer.schoolhome:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd ir.aliprogramer.schoolhome:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions ir.aliprogramer.schoolhome:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft ir.aliprogramer.schoolhome:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight ir.aliprogramer.schoolhome:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart ir.aliprogramer.schoolhome:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation ir.aliprogramer.schoolhome:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout ir.aliprogramer.schoolhome:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions ir.aliprogramer.schoolhome:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider ir.aliprogramer.schoolhome:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height ir.aliprogramer.schoolhome:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll ir.aliprogramer.schoolhome:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator ir.aliprogramer.schoolhome:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout ir.aliprogramer.schoolhome:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon ir.aliprogramer.schoolhome:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle ir.aliprogramer.schoolhome:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding ir.aliprogramer.schoolhome:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo ir.aliprogramer.schoolhome:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode ir.aliprogramer.schoolhome:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme ir.aliprogramer.schoolhome:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding ir.aliprogramer.schoolhome:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle ir.aliprogramer.schoolhome:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle ir.aliprogramer.schoolhome:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle ir.aliprogramer.schoolhome:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title ir.aliprogramer.schoolhome:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle ir.aliprogramer.schoolhome:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -5556,17 +5719,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f030031, 0x7f030032, 0x7f030033, 0x7f030097, 
-        0x7f030098, 0x7f030099, 0x7f03009a, 0x7f03009b, 
-        0x7f03009c, 0x7f0300aa, 0x7f0300af, 0x7f0300b0, 
-        0x7f0300bb, 0x7f0300e5, 0x7f0300ea, 0x7f0300ef, 
-        0x7f0300f0, 0x7f0300f2, 0x7f0300fc, 0x7f030106, 
-        0x7f030154, 0x7f030160, 0x7f030171, 0x7f030175, 
-        0x7f030176, 0x7f0301a4, 0x7f0301a7, 0x7f0301ec, 
-        0x7f0301f6
+        0x7f030031, 0x7f030032, 0x7f030033, 0x7f03009a, 
+        0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 
+        0x7f03009f, 0x7f0300ad, 0x7f0300b2, 0x7f0300b3, 
+        0x7f0300be, 0x7f0300e8, 0x7f0300ed, 0x7f0300f2, 
+        0x7f0300f3, 0x7f0300f5, 0x7f030101, 0x7f03010b, 
+        0x7f030159, 0x7f030165, 0x7f030176, 0x7f03017a, 
+        0x7f03017b, 0x7f0301aa, 0x7f0301ad, 0x7f0301f2, 
+        0x7f0301fc
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#background}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5574,11 +5737,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:background
+     * @attr name ir.aliprogramer.schoolhome:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5589,11 +5752,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundSplit
+     * @attr name ir.aliprogramer.schoolhome:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5604,11 +5767,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundStacked
+     * @attr name ir.aliprogramer.schoolhome:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5617,11 +5780,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetEnd
+     * @attr name ir.aliprogramer.schoolhome:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5630,11 +5793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetEndWithActions
+     * @attr name ir.aliprogramer.schoolhome:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5643,11 +5806,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetLeft
+     * @attr name ir.aliprogramer.schoolhome:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5656,11 +5819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetRight
+     * @attr name ir.aliprogramer.schoolhome:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5669,11 +5832,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetStart
+     * @attr name ir.aliprogramer.schoolhome:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5682,11 +5845,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetStartWithNavigation
+     * @attr name ir.aliprogramer.schoolhome:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5694,11 +5857,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:customNavigationLayout
+     * @attr name ir.aliprogramer.schoolhome:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5716,11 +5879,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:displayOptions
+     * @attr name ir.aliprogramer.schoolhome:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#divider}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5728,11 +5891,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:divider
+     * @attr name ir.aliprogramer.schoolhome:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5741,11 +5904,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#height}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5754,21 +5917,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:height
+     * @attr name ir.aliprogramer.schoolhome:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hideOnContentScroll
+     * @attr name ir.aliprogramer.schoolhome:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5776,11 +5939,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:homeAsUpIndicator
+     * @attr name ir.aliprogramer.schoolhome:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5788,11 +5951,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:homeLayout
+     * @attr name ir.aliprogramer.schoolhome:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#icon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5800,11 +5963,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:icon
+     * @attr name ir.aliprogramer.schoolhome:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5812,11 +5975,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:indeterminateProgressStyle
+     * @attr name ir.aliprogramer.schoolhome:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5825,11 +5988,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemPadding
+     * @attr name ir.aliprogramer.schoolhome:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#logo}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5837,11 +6000,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:logo
+     * @attr name ir.aliprogramer.schoolhome:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5855,11 +6018,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:navigationMode
+     * @attr name ir.aliprogramer.schoolhome:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5867,11 +6030,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:popupTheme
+     * @attr name ir.aliprogramer.schoolhome:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5880,11 +6043,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:progressBarPadding
+     * @attr name ir.aliprogramer.schoolhome:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5892,21 +6055,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:progressBarStyle
+     * @attr name ir.aliprogramer.schoolhome:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitle
+     * @attr name ir.aliprogramer.schoolhome:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5914,21 +6077,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitleTextStyle
+     * @attr name ir.aliprogramer.schoolhome:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#title}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:title
+     * @attr name ir.aliprogramer.schoolhome:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5936,7 +6099,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleTextStyle
+     * @attr name ir.aliprogramer.schoolhome:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6018,12 +6181,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background ir.aliprogramer.schoolhome2:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit ir.aliprogramer.schoolhome2:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout ir.aliprogramer.schoolhome2:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height ir.aliprogramer.schoolhome2:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle ir.aliprogramer.schoolhome2:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle ir.aliprogramer.schoolhome2:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background ir.aliprogramer.schoolhome:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit ir.aliprogramer.schoolhome:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout ir.aliprogramer.schoolhome:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height ir.aliprogramer.schoolhome:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle ir.aliprogramer.schoolhome:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle ir.aliprogramer.schoolhome:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6033,11 +6196,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f030031, 0x7f030032, 0x7f030083, 0x7f0300e5, 
-        0x7f0301a7, 0x7f0301f6
+        0x7f030031, 0x7f030032, 0x7f030085, 0x7f0300e8, 
+        0x7f0301ad, 0x7f0301fc
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#background}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6045,11 +6208,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:background
+     * @attr name ir.aliprogramer.schoolhome:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6060,11 +6223,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundSplit
+     * @attr name ir.aliprogramer.schoolhome:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6072,11 +6235,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeItemLayout
+     * @attr name ir.aliprogramer.schoolhome:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#height}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6085,11 +6248,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:height
+     * @attr name ir.aliprogramer.schoolhome:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6097,11 +6260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitleTextStyle
+     * @attr name ir.aliprogramer.schoolhome:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6109,7 +6272,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleTextStyle
+     * @attr name ir.aliprogramer.schoolhome:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6119,17 +6282,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable ir.aliprogramer.schoolhome2:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount ir.aliprogramer.schoolhome2:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable ir.aliprogramer.schoolhome:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount ir.aliprogramer.schoolhome:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f0300c0, 0x7f0300fd
+        0x7f0300c3, 0x7f030102
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6137,17 +6300,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandActivityOverflowButtonDrawable
+     * @attr name ir.aliprogramer.schoolhome:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:initialActivityCount
+     * @attr name ir.aliprogramer.schoolhome:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6158,13 +6321,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen ir.aliprogramer.schoolhome2:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout ir.aliprogramer.schoolhome2:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout ir.aliprogramer.schoolhome2:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout ir.aliprogramer.schoolhome2:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout ir.aliprogramer.schoolhome2:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle ir.aliprogramer.schoolhome2:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout ir.aliprogramer.schoolhome2:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen ir.aliprogramer.schoolhome:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout ir.aliprogramer.schoolhome:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout ir.aliprogramer.schoolhome:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout ir.aliprogramer.schoolhome:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout ir.aliprogramer.schoolhome:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle ir.aliprogramer.schoolhome:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout ir.aliprogramer.schoolhome:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6176,8 +6339,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f030052, 0x7f030053, 0x7f03014b, 
-        0x7f03014c, 0x7f03015d, 0x7f03018c, 0x7f03018d
+        0x010100f2, 0x7f030052, 0x7f030053, 0x7f030150, 
+        0x7f030151, 0x7f030162, 0x7f030192, 0x7f030193
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -6192,7 +6355,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6201,11 +6364,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonIconDimen
+     * @attr name ir.aliprogramer.schoolhome:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6213,11 +6376,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonPanelSideLayout
+     * @attr name ir.aliprogramer.schoolhome:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6225,11 +6388,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listItemLayout
+     * @attr name ir.aliprogramer.schoolhome:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6237,11 +6400,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listLayout
+     * @attr name ir.aliprogramer.schoolhome:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6249,21 +6412,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:multiChoiceItemLayout
+     * @attr name ir.aliprogramer.schoolhome:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:showTitle
+     * @attr name ir.aliprogramer.schoolhome:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6271,7 +6434,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:singleChoiceItemLayout
+     * @attr name ir.aliprogramer.schoolhome:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -6473,9 +6636,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded ir.aliprogramer.schoolhome2:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll ir.aliprogramer.schoolhome2:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded ir.aliprogramer.schoolhome:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll ir.aliprogramer.schoolhome:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -6485,8 +6648,8 @@ public final class R {
      * @see #AppBarLayout_liftOnScroll
      */
     public static final int[] AppBarLayout={
-        0x010100d4, 0x0101048f, 0x01010540, 0x7f0300bb, 
-        0x7f0300c1, 0x7f030146
+        0x010100d4, 0x0101048f, 0x01010540, 0x7f0300be, 
+        0x7f0300c4, 0x7f03014b
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6524,7 +6687,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6533,27 +6696,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:expanded
+     * @attr name ir.aliprogramer.schoolhome:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:liftOnScroll
+     * @attr name ir.aliprogramer.schoolhome:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -6563,10 +6726,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed ir.aliprogramer.schoolhome2:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible ir.aliprogramer.schoolhome2:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable ir.aliprogramer.schoolhome2:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted ir.aliprogramer.schoolhome2:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed ir.aliprogramer.schoolhome:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible ir.aliprogramer.schoolhome:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable ir.aliprogramer.schoolhome:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted ir.aliprogramer.schoolhome:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -6574,46 +6737,46 @@ public final class R {
      * @see #AppBarLayoutStates_state_lifted
      */
     public static final int[] AppBarLayoutStates={
-        0x7f03019a, 0x7f03019b, 0x7f03019c, 0x7f03019d
+        0x7f0301a0, 0x7f0301a1, 0x7f0301a2, 0x7f0301a3
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:state_collapsed
+     * @attr name ir.aliprogramer.schoolhome:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:state_collapsible
+     * @attr name ir.aliprogramer.schoolhome:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:state_liftable
+     * @attr name ir.aliprogramer.schoolhome:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:state_lifted
+     * @attr name ir.aliprogramer.schoolhome:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -6623,17 +6786,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags ir.aliprogramer.schoolhome2:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator ir.aliprogramer.schoolhome2:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags ir.aliprogramer.schoolhome:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator ir.aliprogramer.schoolhome:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-        0x7f030144, 0x7f030145
+        0x7f030149, 0x7f03014a
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6650,11 +6813,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_scrollFlags
+     * @attr name ir.aliprogramer.schoolhome:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6662,7 +6825,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_scrollInterpolator
+     * @attr name ir.aliprogramer.schoolhome:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -6673,9 +6836,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat ir.aliprogramer.schoolhome2:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint ir.aliprogramer.schoolhome2:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode ir.aliprogramer.schoolhome2:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat ir.aliprogramer.schoolhome:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint ir.aliprogramer.schoolhome:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode ir.aliprogramer.schoolhome:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -6683,7 +6846,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f030197, 0x7f0301ea, 0x7f0301eb
+        0x01010119, 0x7f03019d, 0x7f0301f0, 0x7f0301f1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -6701,7 +6864,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6709,22 +6872,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:srcCompat
+     * @attr name ir.aliprogramer.schoolhome:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tint
+     * @attr name ir.aliprogramer.schoolhome:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6741,7 +6904,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tintMode
+     * @attr name ir.aliprogramer.schoolhome:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -6752,9 +6915,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark ir.aliprogramer.schoolhome2:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint ir.aliprogramer.schoolhome2:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode ir.aliprogramer.schoolhome2:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark ir.aliprogramer.schoolhome:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint ir.aliprogramer.schoolhome:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode ir.aliprogramer.schoolhome:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -6762,7 +6925,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0301e7, 0x7f0301e8, 0x7f0301e9
+        0x01010142, 0x7f0301ed, 0x7f0301ee, 0x7f0301ef
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -6777,7 +6940,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6785,22 +6948,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tickMark
+     * @attr name ir.aliprogramer.schoolhome:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tickMarkTint
+     * @attr name ir.aliprogramer.schoolhome:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6817,7 +6980,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tickMarkTintMode
+     * @attr name ir.aliprogramer.schoolhome:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -6957,16 +7120,16 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize ir.aliprogramer.schoolhome2:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize ir.aliprogramer.schoolhome2:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes ir.aliprogramer.schoolhome2:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity ir.aliprogramer.schoolhome2:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType ir.aliprogramer.schoolhome2:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight ir.aliprogramer.schoolhome2:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily ir.aliprogramer.schoolhome2:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight ir.aliprogramer.schoolhome2:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight ir.aliprogramer.schoolhome2:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps ir.aliprogramer.schoolhome2:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize ir.aliprogramer.schoolhome:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize ir.aliprogramer.schoolhome:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes ir.aliprogramer.schoolhome:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity ir.aliprogramer.schoolhome:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType ir.aliprogramer.schoolhome:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight ir.aliprogramer.schoolhome:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily ir.aliprogramer.schoolhome:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight ir.aliprogramer.schoolhome:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight ir.aliprogramer.schoolhome:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps ir.aliprogramer.schoolhome:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -6982,8 +7145,8 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
         0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-        0x7f03002f, 0x7f030030, 0x7f0300d4, 0x7f0300d7, 
-        0x7f03010e, 0x7f030147, 0x7f0301c7
+        0x7f03002f, 0x7f030030, 0x7f0300d7, 0x7f0300da, 
+        0x7f030113, 0x7f03014c, 0x7f0301cd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -6998,7 +7161,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7007,11 +7170,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoSizeMaxTextSize
+     * @attr name ir.aliprogramer.schoolhome:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7020,11 +7183,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoSizeMinTextSize
+     * @attr name ir.aliprogramer.schoolhome:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7032,11 +7195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoSizePresetSizes
+     * @attr name ir.aliprogramer.schoolhome:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7045,11 +7208,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoSizeStepGranularity
+     * @attr name ir.aliprogramer.schoolhome:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7062,11 +7225,11 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoSizeTextType
+     * @attr name ir.aliprogramer.schoolhome:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7075,21 +7238,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:firstBaselineToTopHeight
+     * @attr name ir.aliprogramer.schoolhome:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontFamily
+     * @attr name ir.aliprogramer.schoolhome:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7098,11 +7261,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:lastBaselineToBottomHeight
+     * @attr name ir.aliprogramer.schoolhome:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7111,11 +7274,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:lineHeight
+     * @attr name ir.aliprogramer.schoolhome:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7125,7 +7288,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAllCaps
+     * @attr name ir.aliprogramer.schoolhome:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -7137,125 +7300,125 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider ir.aliprogramer.schoolhome2:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground ir.aliprogramer.schoolhome2:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme ir.aliprogramer.schoolhome2:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize ir.aliprogramer.schoolhome2:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle ir.aliprogramer.schoolhome2:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle ir.aliprogramer.schoolhome2:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle ir.aliprogramer.schoolhome2:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle ir.aliprogramer.schoolhome2:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle ir.aliprogramer.schoolhome2:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme ir.aliprogramer.schoolhome2:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme ir.aliprogramer.schoolhome2:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle ir.aliprogramer.schoolhome2:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle ir.aliprogramer.schoolhome2:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance ir.aliprogramer.schoolhome2:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor ir.aliprogramer.schoolhome2:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground ir.aliprogramer.schoolhome2:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle ir.aliprogramer.schoolhome2:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable ir.aliprogramer.schoolhome2:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable ir.aliprogramer.schoolhome2:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable ir.aliprogramer.schoolhome2:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable ir.aliprogramer.schoolhome2:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable ir.aliprogramer.schoolhome2:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle ir.aliprogramer.schoolhome2:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable ir.aliprogramer.schoolhome2:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable ir.aliprogramer.schoolhome2:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground ir.aliprogramer.schoolhome2:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle ir.aliprogramer.schoolhome2:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable ir.aliprogramer.schoolhome2:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle ir.aliprogramer.schoolhome2:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle ir.aliprogramer.schoolhome2:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle ir.aliprogramer.schoolhome2:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle ir.aliprogramer.schoolhome2:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons ir.aliprogramer.schoolhome2:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle ir.aliprogramer.schoolhome2:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme ir.aliprogramer.schoolhome2:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle ir.aliprogramer.schoolhome2:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle ir.aliprogramer.schoolhome2:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle ir.aliprogramer.schoolhome2:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle ir.aliprogramer.schoolhome2:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle ir.aliprogramer.schoolhome2:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle ir.aliprogramer.schoolhome2:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle ir.aliprogramer.schoolhome2:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle ir.aliprogramer.schoolhome2:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall ir.aliprogramer.schoolhome2:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle ir.aliprogramer.schoolhome2:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle ir.aliprogramer.schoolhome2:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent ir.aliprogramer.schoolhome2:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating ir.aliprogramer.schoolhome2:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal ir.aliprogramer.schoolhome2:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated ir.aliprogramer.schoolhome2:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight ir.aliprogramer.schoolhome2:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal ir.aliprogramer.schoolhome2:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError ir.aliprogramer.schoolhome2:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary ir.aliprogramer.schoolhome2:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark ir.aliprogramer.schoolhome2:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal ir.aliprogramer.schoolhome2:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground ir.aliprogramer.schoolhome2:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius ir.aliprogramer.schoolhome2:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding ir.aliprogramer.schoolhome2:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme ir.aliprogramer.schoolhome2:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal ir.aliprogramer.schoolhome2:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical ir.aliprogramer.schoolhome2:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle ir.aliprogramer.schoolhome2:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight ir.aliprogramer.schoolhome2:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground ir.aliprogramer.schoolhome2:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor ir.aliprogramer.schoolhome2:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle ir.aliprogramer.schoolhome2:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator ir.aliprogramer.schoolhome2:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle ir.aliprogramer.schoolhome2:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator ir.aliprogramer.schoolhome2:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog ir.aliprogramer.schoolhome2:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle ir.aliprogramer.schoolhome2:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle ir.aliprogramer.schoolhome2:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight ir.aliprogramer.schoolhome2:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge ir.aliprogramer.schoolhome2:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall ir.aliprogramer.schoolhome2:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft ir.aliprogramer.schoolhome2:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight ir.aliprogramer.schoolhome2:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground ir.aliprogramer.schoolhome2:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme ir.aliprogramer.schoolhome2:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth ir.aliprogramer.schoolhome2:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle ir.aliprogramer.schoolhome2:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle ir.aliprogramer.schoolhome2:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle ir.aliprogramer.schoolhome2:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle ir.aliprogramer.schoolhome2:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator ir.aliprogramer.schoolhome2:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall ir.aliprogramer.schoolhome2:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle ir.aliprogramer.schoolhome2:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle ir.aliprogramer.schoolhome2:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground ir.aliprogramer.schoolhome2:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless ir.aliprogramer.schoolhome2:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle ir.aliprogramer.schoolhome2:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle ir.aliprogramer.schoolhome2:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle ir.aliprogramer.schoolhome2:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu ir.aliprogramer.schoolhome2:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem ir.aliprogramer.schoolhome2:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary ir.aliprogramer.schoolhome2:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall ir.aliprogramer.schoolhome2:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader ir.aliprogramer.schoolhome2:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle ir.aliprogramer.schoolhome2:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle ir.aliprogramer.schoolhome2:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu ir.aliprogramer.schoolhome2:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem ir.aliprogramer.schoolhome2:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl ir.aliprogramer.schoolhome2:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle ir.aliprogramer.schoolhome2:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle ir.aliprogramer.schoolhome2:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor ir.aliprogramer.schoolhome2:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground ir.aliprogramer.schoolhome2:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass ir.aliprogramer.schoolhome2:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar ir.aliprogramer.schoolhome2:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay ir.aliprogramer.schoolhome2:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay ir.aliprogramer.schoolhome2:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor ir.aliprogramer.schoolhome2:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor ir.aliprogramer.schoolhome2:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor ir.aliprogramer.schoolhome2:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor ir.aliprogramer.schoolhome2:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor ir.aliprogramer.schoolhome2:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor ir.aliprogramer.schoolhome2:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle ir.aliprogramer.schoolhome2:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider ir.aliprogramer.schoolhome:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground ir.aliprogramer.schoolhome:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme ir.aliprogramer.schoolhome:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize ir.aliprogramer.schoolhome:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle ir.aliprogramer.schoolhome:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle ir.aliprogramer.schoolhome:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle ir.aliprogramer.schoolhome:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle ir.aliprogramer.schoolhome:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle ir.aliprogramer.schoolhome:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme ir.aliprogramer.schoolhome:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme ir.aliprogramer.schoolhome:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle ir.aliprogramer.schoolhome:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle ir.aliprogramer.schoolhome:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance ir.aliprogramer.schoolhome:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor ir.aliprogramer.schoolhome:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground ir.aliprogramer.schoolhome:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle ir.aliprogramer.schoolhome:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable ir.aliprogramer.schoolhome:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable ir.aliprogramer.schoolhome:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable ir.aliprogramer.schoolhome:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable ir.aliprogramer.schoolhome:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable ir.aliprogramer.schoolhome:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle ir.aliprogramer.schoolhome:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable ir.aliprogramer.schoolhome:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable ir.aliprogramer.schoolhome:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground ir.aliprogramer.schoolhome:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle ir.aliprogramer.schoolhome:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable ir.aliprogramer.schoolhome:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle ir.aliprogramer.schoolhome:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle ir.aliprogramer.schoolhome:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle ir.aliprogramer.schoolhome:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle ir.aliprogramer.schoolhome:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons ir.aliprogramer.schoolhome:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle ir.aliprogramer.schoolhome:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme ir.aliprogramer.schoolhome:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle ir.aliprogramer.schoolhome:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle ir.aliprogramer.schoolhome:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle ir.aliprogramer.schoolhome:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle ir.aliprogramer.schoolhome:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle ir.aliprogramer.schoolhome:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle ir.aliprogramer.schoolhome:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle ir.aliprogramer.schoolhome:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle ir.aliprogramer.schoolhome:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall ir.aliprogramer.schoolhome:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle ir.aliprogramer.schoolhome:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle ir.aliprogramer.schoolhome:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent ir.aliprogramer.schoolhome:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating ir.aliprogramer.schoolhome:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal ir.aliprogramer.schoolhome:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated ir.aliprogramer.schoolhome:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight ir.aliprogramer.schoolhome:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal ir.aliprogramer.schoolhome:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError ir.aliprogramer.schoolhome:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary ir.aliprogramer.schoolhome:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark ir.aliprogramer.schoolhome:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal ir.aliprogramer.schoolhome:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground ir.aliprogramer.schoolhome:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius ir.aliprogramer.schoolhome:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding ir.aliprogramer.schoolhome:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme ir.aliprogramer.schoolhome:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal ir.aliprogramer.schoolhome:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical ir.aliprogramer.schoolhome:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle ir.aliprogramer.schoolhome:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight ir.aliprogramer.schoolhome:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground ir.aliprogramer.schoolhome:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor ir.aliprogramer.schoolhome:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle ir.aliprogramer.schoolhome:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator ir.aliprogramer.schoolhome:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle ir.aliprogramer.schoolhome:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator ir.aliprogramer.schoolhome:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog ir.aliprogramer.schoolhome:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle ir.aliprogramer.schoolhome:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle ir.aliprogramer.schoolhome:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight ir.aliprogramer.schoolhome:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge ir.aliprogramer.schoolhome:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall ir.aliprogramer.schoolhome:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft ir.aliprogramer.schoolhome:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight ir.aliprogramer.schoolhome:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground ir.aliprogramer.schoolhome:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme ir.aliprogramer.schoolhome:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth ir.aliprogramer.schoolhome:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle ir.aliprogramer.schoolhome:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle ir.aliprogramer.schoolhome:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle ir.aliprogramer.schoolhome:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle ir.aliprogramer.schoolhome:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator ir.aliprogramer.schoolhome:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall ir.aliprogramer.schoolhome:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle ir.aliprogramer.schoolhome:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle ir.aliprogramer.schoolhome:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground ir.aliprogramer.schoolhome:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless ir.aliprogramer.schoolhome:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle ir.aliprogramer.schoolhome:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle ir.aliprogramer.schoolhome:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle ir.aliprogramer.schoolhome:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu ir.aliprogramer.schoolhome:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem ir.aliprogramer.schoolhome:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary ir.aliprogramer.schoolhome:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall ir.aliprogramer.schoolhome:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader ir.aliprogramer.schoolhome:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle ir.aliprogramer.schoolhome:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle ir.aliprogramer.schoolhome:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu ir.aliprogramer.schoolhome:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem ir.aliprogramer.schoolhome:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl ir.aliprogramer.schoolhome:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle ir.aliprogramer.schoolhome:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle ir.aliprogramer.schoolhome:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor ir.aliprogramer.schoolhome:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground ir.aliprogramer.schoolhome:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass ir.aliprogramer.schoolhome:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar ir.aliprogramer.schoolhome:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay ir.aliprogramer.schoolhome:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay ir.aliprogramer.schoolhome:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor ir.aliprogramer.schoolhome:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor ir.aliprogramer.schoolhome:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor ir.aliprogramer.schoolhome:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor ir.aliprogramer.schoolhome:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor ir.aliprogramer.schoolhome:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor ir.aliprogramer.schoolhome:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle ir.aliprogramer.schoolhome:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -7391,26 +7554,26 @@ public final class R {
         0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 
         0x7f030025, 0x7f03002b, 0x7f03003e, 0x7f03004c, 
         0x7f03004d, 0x7f03004e, 0x7f03004f, 0x7f030050, 
-        0x7f030054, 0x7f030055, 0x7f03005f, 0x7f030064, 
-        0x7f030089, 0x7f03008a, 0x7f03008b, 0x7f03008c, 
-        0x7f03008d, 0x7f03008e, 0x7f03008f, 0x7f030090, 
-        0x7f030091, 0x7f030093, 0x7f0300a3, 0x7f0300ac, 
-        0x7f0300ad, 0x7f0300ae, 0x7f0300b1, 0x7f0300b3, 
-        0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 0x7f0300b9, 
-        0x7f0300ba, 0x7f0300ef, 0x7f0300fb, 0x7f030149, 
-        0x7f03014a, 0x7f03014d, 0x7f03014e, 0x7f03014f, 
-        0x7f030150, 0x7f030151, 0x7f030152, 0x7f030153, 
-        0x7f030168, 0x7f030169, 0x7f03016a, 0x7f030170, 
-        0x7f030172, 0x7f030179, 0x7f03017a, 0x7f03017b, 
-        0x7f03017c, 0x7f030184, 0x7f030185, 0x7f030186, 
-        0x7f030187, 0x7f030194, 0x7f030195, 0x7f0301ab, 
-        0x7f0301d2, 0x7f0301d3, 0x7f0301d4, 0x7f0301d5, 
-        0x7f0301d7, 0x7f0301d8, 0x7f0301d9, 0x7f0301da, 
-        0x7f0301dd, 0x7f0301de, 0x7f0301f8, 0x7f0301f9, 
-        0x7f0301fa, 0x7f0301fb, 0x7f030202, 0x7f030204, 
-        0x7f030205, 0x7f030206, 0x7f030207, 0x7f030208, 
-        0x7f030209, 0x7f03020a, 0x7f03020b, 0x7f03020c, 
-        0x7f03020d
+        0x7f030055, 0x7f030056, 0x7f030060, 0x7f030065, 
+        0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 
+        0x7f03008f, 0x7f030090, 0x7f030091, 0x7f030092, 
+        0x7f030093, 0x7f030096, 0x7f0300a6, 0x7f0300af, 
+        0x7f0300b0, 0x7f0300b1, 0x7f0300b4, 0x7f0300b6, 
+        0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
+        0x7f0300bd, 0x7f0300f2, 0x7f030100, 0x7f03014e, 
+        0x7f03014f, 0x7f030152, 0x7f030153, 0x7f030154, 
+        0x7f030155, 0x7f030156, 0x7f030157, 0x7f030158, 
+        0x7f03016d, 0x7f03016e, 0x7f03016f, 0x7f030175, 
+        0x7f030177, 0x7f03017e, 0x7f03017f, 0x7f030180, 
+        0x7f030181, 0x7f03018a, 0x7f03018b, 0x7f03018c, 
+        0x7f03018d, 0x7f03019a, 0x7f03019b, 0x7f0301b1, 
+        0x7f0301d8, 0x7f0301d9, 0x7f0301da, 0x7f0301db, 
+        0x7f0301dd, 0x7f0301de, 0x7f0301df, 0x7f0301e0, 
+        0x7f0301e3, 0x7f0301e4, 0x7f0301fe, 0x7f0301ff, 
+        0x7f030200, 0x7f030201, 0x7f030208, 0x7f03020a, 
+        0x7f03020b, 0x7f03020c, 0x7f03020d, 0x7f03020e, 
+        0x7f03020f, 0x7f030210, 0x7f030211, 0x7f030212, 
+        0x7f030213
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -7435,7 +7598,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7443,11 +7606,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarDivider
+     * @attr name ir.aliprogramer.schoolhome:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7455,11 +7618,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarItemBackground
+     * @attr name ir.aliprogramer.schoolhome:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7467,11 +7630,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarPopupTheme
+     * @attr name ir.aliprogramer.schoolhome:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7488,11 +7651,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarSize
+     * @attr name ir.aliprogramer.schoolhome:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7500,11 +7663,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarSplitStyle
+     * @attr name ir.aliprogramer.schoolhome:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7512,11 +7675,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarStyle
+     * @attr name ir.aliprogramer.schoolhome:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7524,11 +7687,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarTabBarStyle
+     * @attr name ir.aliprogramer.schoolhome:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7536,11 +7699,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarTabStyle
+     * @attr name ir.aliprogramer.schoolhome:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7548,11 +7711,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarTabTextStyle
+     * @attr name ir.aliprogramer.schoolhome:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7560,11 +7723,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarTheme
+     * @attr name ir.aliprogramer.schoolhome:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7572,11 +7735,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionBarWidgetTheme
+     * @attr name ir.aliprogramer.schoolhome:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7584,11 +7747,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7596,11 +7759,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionDropDownStyle
+     * @attr name ir.aliprogramer.schoolhome:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7608,11 +7771,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionMenuTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7623,11 +7786,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionMenuTextColor
+     * @attr name ir.aliprogramer.schoolhome:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7635,11 +7798,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeBackground
+     * @attr name ir.aliprogramer.schoolhome:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7647,11 +7810,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeCloseButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7659,11 +7822,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeCloseDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7671,11 +7834,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeCopyDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7683,11 +7846,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeCutDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7695,11 +7858,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeFindDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7707,11 +7870,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModePasteDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7719,11 +7882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModePopupWindowStyle
+     * @attr name ir.aliprogramer.schoolhome:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7731,11 +7894,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeSelectAllDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7743,11 +7906,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeShareDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7755,11 +7918,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeSplitBackground
+     * @attr name ir.aliprogramer.schoolhome:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7767,11 +7930,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeStyle
+     * @attr name ir.aliprogramer.schoolhome:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7779,11 +7942,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionModeWebSearchDrawable
+     * @attr name ir.aliprogramer.schoolhome:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7791,11 +7954,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionOverflowButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7803,11 +7966,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionOverflowMenuStyle
+     * @attr name ir.aliprogramer.schoolhome:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7815,11 +7978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:activityChooserViewStyle
+     * @attr name ir.aliprogramer.schoolhome:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7827,21 +7990,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:alertDialogButtonGroupStyle
+     * @attr name ir.aliprogramer.schoolhome:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:alertDialogCenterButtons
+     * @attr name ir.aliprogramer.schoolhome:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7849,11 +8012,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:alertDialogStyle
+     * @attr name ir.aliprogramer.schoolhome:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7861,11 +8024,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:alertDialogTheme
+     * @attr name ir.aliprogramer.schoolhome:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7873,11 +8036,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:autoCompleteTextViewStyle
+     * @attr name ir.aliprogramer.schoolhome:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7885,11 +8048,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:borderlessButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7897,11 +8060,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonBarButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7909,11 +8072,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonBarNegativeButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7921,11 +8084,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonBarNeutralButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7933,11 +8096,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonBarPositiveButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7945,11 +8108,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonBarStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7957,11 +8120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonStyle
+     * @attr name ir.aliprogramer.schoolhome:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7969,11 +8132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonStyleSmall
+     * @attr name ir.aliprogramer.schoolhome:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7981,11 +8144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkboxStyle
+     * @attr name ir.aliprogramer.schoolhome:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7993,77 +8156,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkedTextViewStyle
+     * @attr name ir.aliprogramer.schoolhome:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorAccent
+     * @attr name ir.aliprogramer.schoolhome:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorBackgroundFloating
+     * @attr name ir.aliprogramer.schoolhome:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorButtonNormal
+     * @attr name ir.aliprogramer.schoolhome:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorControlActivated
+     * @attr name ir.aliprogramer.schoolhome:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorControlHighlight
+     * @attr name ir.aliprogramer.schoolhome:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorControlNormal
+     * @attr name ir.aliprogramer.schoolhome:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8074,44 +8237,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorError
+     * @attr name ir.aliprogramer.schoolhome:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorPrimary
+     * @attr name ir.aliprogramer.schoolhome:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorPrimaryDark
+     * @attr name ir.aliprogramer.schoolhome:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorSwitchThumbNormal
+     * @attr name ir.aliprogramer.schoolhome:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8119,11 +8282,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:controlBackground
+     * @attr name ir.aliprogramer.schoolhome:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8132,11 +8295,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:dialogCornerRadius
+     * @attr name ir.aliprogramer.schoolhome:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8145,11 +8308,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:dialogPreferredPadding
+     * @attr name ir.aliprogramer.schoolhome:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8157,11 +8320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:dialogTheme
+     * @attr name ir.aliprogramer.schoolhome:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8169,11 +8332,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:dividerHorizontal
+     * @attr name ir.aliprogramer.schoolhome:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8181,11 +8344,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:dividerVertical
+     * @attr name ir.aliprogramer.schoolhome:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8193,11 +8356,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:dropDownListViewStyle
+     * @attr name ir.aliprogramer.schoolhome:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8206,11 +8369,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:dropdownListPreferredItemHeight
+     * @attr name ir.aliprogramer.schoolhome:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8218,11 +8381,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:editTextBackground
+     * @attr name ir.aliprogramer.schoolhome:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8233,11 +8396,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:editTextColor
+     * @attr name ir.aliprogramer.schoolhome:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8245,11 +8408,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:editTextStyle
+     * @attr name ir.aliprogramer.schoolhome:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8257,11 +8420,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:homeAsUpIndicator
+     * @attr name ir.aliprogramer.schoolhome:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8269,11 +8432,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:imageButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8281,11 +8444,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listChoiceBackgroundIndicator
+     * @attr name ir.aliprogramer.schoolhome:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8293,11 +8456,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listDividerAlertDialog
+     * @attr name ir.aliprogramer.schoolhome:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8305,11 +8468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listMenuViewStyle
+     * @attr name ir.aliprogramer.schoolhome:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8317,11 +8480,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPopupWindowStyle
+     * @attr name ir.aliprogramer.schoolhome:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8330,11 +8493,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPreferredItemHeight
+     * @attr name ir.aliprogramer.schoolhome:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8343,11 +8506,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPreferredItemHeightLarge
+     * @attr name ir.aliprogramer.schoolhome:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8356,11 +8519,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPreferredItemHeightSmall
+     * @attr name ir.aliprogramer.schoolhome:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8369,11 +8532,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPreferredItemPaddingLeft
+     * @attr name ir.aliprogramer.schoolhome:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8382,11 +8545,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:listPreferredItemPaddingRight
+     * @attr name ir.aliprogramer.schoolhome:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8394,11 +8557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:panelBackground
+     * @attr name ir.aliprogramer.schoolhome:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8406,11 +8569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:panelMenuListTheme
+     * @attr name ir.aliprogramer.schoolhome:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8419,11 +8582,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:panelMenuListWidth
+     * @attr name ir.aliprogramer.schoolhome:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8431,11 +8594,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:popupMenuStyle
+     * @attr name ir.aliprogramer.schoolhome:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8443,11 +8606,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:popupWindowStyle
+     * @attr name ir.aliprogramer.schoolhome:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8455,11 +8618,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:radioButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8467,11 +8630,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:ratingBarStyle
+     * @attr name ir.aliprogramer.schoolhome:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8479,11 +8642,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:ratingBarStyleIndicator
+     * @attr name ir.aliprogramer.schoolhome:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8491,11 +8654,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:ratingBarStyleSmall
+     * @attr name ir.aliprogramer.schoolhome:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8503,11 +8666,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:searchViewStyle
+     * @attr name ir.aliprogramer.schoolhome:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8515,11 +8678,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:seekBarStyle
+     * @attr name ir.aliprogramer.schoolhome:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8527,11 +8690,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:selectableItemBackground
+     * @attr name ir.aliprogramer.schoolhome:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8539,11 +8702,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:selectableItemBackgroundBorderless
+     * @attr name ir.aliprogramer.schoolhome:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8551,11 +8714,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:spinnerDropDownItemStyle
+     * @attr name ir.aliprogramer.schoolhome:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8563,11 +8726,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:spinnerStyle
+     * @attr name ir.aliprogramer.schoolhome:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8575,11 +8738,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:switchStyle
+     * @attr name ir.aliprogramer.schoolhome:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8587,11 +8750,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceLargePopupMenu
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8599,11 +8762,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceListItem
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8611,11 +8774,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceListItemSecondary
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8623,11 +8786,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceListItemSmall
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8635,11 +8798,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearancePopupMenuHeader
+     * @attr name ir.aliprogramer.schoolhome:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8647,11 +8810,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceSearchResultSubtitle
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8659,11 +8822,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceSearchResultTitle
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8671,11 +8834,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceSmallPopupMenu
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8686,11 +8849,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textColorAlertDialogListItem
+     * @attr name ir.aliprogramer.schoolhome:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8701,11 +8864,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textColorSearchUrl
+     * @attr name ir.aliprogramer.schoolhome:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8713,11 +8876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:toolbarNavigationButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8725,11 +8888,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:toolbarStyle
+     * @attr name ir.aliprogramer.schoolhome:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8740,11 +8903,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tooltipForegroundColor
+     * @attr name ir.aliprogramer.schoolhome:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8752,51 +8915,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tooltipFrameBackground
+     * @attr name ir.aliprogramer.schoolhome:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:viewInflaterClass
+     * @attr name ir.aliprogramer.schoolhome:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowActionBar
+     * @attr name ir.aliprogramer.schoolhome:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowActionBarOverlay
+     * @attr name ir.aliprogramer.schoolhome:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowActionModeOverlay
+     * @attr name ir.aliprogramer.schoolhome:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8809,11 +8972,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowFixedHeightMajor
+     * @attr name ir.aliprogramer.schoolhome:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8826,11 +8989,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowFixedHeightMinor
+     * @attr name ir.aliprogramer.schoolhome:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8843,11 +9006,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowFixedWidthMajor
+     * @attr name ir.aliprogramer.schoolhome:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8860,11 +9023,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowFixedWidthMinor
+     * @attr name ir.aliprogramer.schoolhome:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8877,11 +9040,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowMinWidthMajor
+     * @attr name ir.aliprogramer.schoolhome:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8894,17 +9057,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowMinWidthMinor
+     * @attr name ir.aliprogramer.schoolhome:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:windowNoTitle
+     * @attr name ir.aliprogramer.schoolhome:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -8914,12 +9077,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint ir.aliprogramer.schoolhome2:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode ir.aliprogramer.schoolhome2:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin ir.aliprogramer.schoolhome2:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius ir.aliprogramer.schoolhome2:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset ir.aliprogramer.schoolhome2:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll ir.aliprogramer.schoolhome2:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint ir.aliprogramer.schoolhome:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode ir.aliprogramer.schoolhome:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin ir.aliprogramer.schoolhome:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius ir.aliprogramer.schoolhome:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset ir.aliprogramer.schoolhome:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll ir.aliprogramer.schoolhome:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -8929,22 +9092,22 @@ public final class R {
      * @see #BottomAppBar_hideOnScroll
      */
     public static final int[] BottomAppBar={
-        0x7f030034, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
-        0x7f0300cc, 0x7f0300eb
+        0x7f030034, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
+        0x7f0300cf, 0x7f0300ee
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTint
+     * @attr name ir.aliprogramer.schoolhome:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8957,11 +9120,11 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabAlignmentMode
+     * @attr name ir.aliprogramer.schoolhome:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8970,11 +9133,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabCradleMargin
+     * @attr name ir.aliprogramer.schoolhome:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8983,11 +9146,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabCradleRoundedCornerRadius
+     * @attr name ir.aliprogramer.schoolhome:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8996,17 +9159,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabCradleVerticalOffset
+     * @attr name ir.aliprogramer.schoolhome:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hideOnScroll
+     * @attr name ir.aliprogramer.schoolhome:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=5;
     /**
@@ -9016,16 +9179,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground ir.aliprogramer.schoolhome2:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled ir.aliprogramer.schoolhome2:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize ir.aliprogramer.schoolhome2:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint ir.aliprogramer.schoolhome2:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive ir.aliprogramer.schoolhome2:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive ir.aliprogramer.schoolhome2:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor ir.aliprogramer.schoolhome2:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode ir.aliprogramer.schoolhome2:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu ir.aliprogramer.schoolhome2:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground ir.aliprogramer.schoolhome:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled ir.aliprogramer.schoolhome:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize ir.aliprogramer.schoolhome:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint ir.aliprogramer.schoolhome:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive ir.aliprogramer.schoolhome:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive ir.aliprogramer.schoolhome:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor ir.aliprogramer.schoolhome:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode ir.aliprogramer.schoolhome:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu ir.aliprogramer.schoolhome:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9039,12 +9202,12 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-        0x7f0300bb, 0x7f030100, 0x7f030102, 0x7f030104, 
-        0x7f030105, 0x7f030109, 0x7f03010a, 0x7f03010b, 
-        0x7f03010d, 0x7f03015c
+        0x7f0300be, 0x7f030105, 0x7f030107, 0x7f030109, 
+        0x7f03010a, 0x7f03010e, 0x7f03010f, 0x7f030110, 
+        0x7f030112, 0x7f030161
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9053,11 +9216,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9065,21 +9228,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemBackground
+     * @attr name ir.aliprogramer.schoolhome:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemHorizontalTranslationEnabled
+     * @attr name ir.aliprogramer.schoolhome:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9088,22 +9251,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemIconSize
+     * @attr name ir.aliprogramer.schoolhome:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemIconTint
+     * @attr name ir.aliprogramer.schoolhome:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9111,11 +9274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemTextAppearanceActive
+     * @attr name ir.aliprogramer.schoolhome:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9123,22 +9286,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemTextAppearanceInactive
+     * @attr name ir.aliprogramer.schoolhome:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemTextColor
+     * @attr name ir.aliprogramer.schoolhome:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9153,11 +9316,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:labelVisibilityMode
+     * @attr name ir.aliprogramer.schoolhome:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#menu}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9165,7 +9328,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:menu
+     * @attr name ir.aliprogramer.schoolhome:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -9175,10 +9338,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents ir.aliprogramer.schoolhome2:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable ir.aliprogramer.schoolhome2:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight ir.aliprogramer.schoolhome2:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed ir.aliprogramer.schoolhome2:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents ir.aliprogramer.schoolhome:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable ir.aliprogramer.schoolhome:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight ir.aliprogramer.schoolhome:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed ir.aliprogramer.schoolhome:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9189,27 +9352,27 @@ public final class R {
         0x7f030038, 0x7f030039, 0x7f03003b, 0x7f03003c
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_fitToContents
+     * @attr name ir.aliprogramer.schoolhome:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_hideable
+     * @attr name ir.aliprogramer.schoolhome:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9226,17 +9389,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_peekHeight
+     * @attr name ir.aliprogramer.schoolhome:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_skipCollapsed
+     * @attr name ir.aliprogramer.schoolhome:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -9246,7 +9409,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking ir.aliprogramer.schoolhome2:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking ir.aliprogramer.schoolhome:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -9254,13 +9417,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:allowStacking
+     * @attr name ir.aliprogramer.schoolhome:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -9272,17 +9435,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor ir.aliprogramer.schoolhome2:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius ir.aliprogramer.schoolhome2:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation ir.aliprogramer.schoolhome2:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation ir.aliprogramer.schoolhome2:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap ir.aliprogramer.schoolhome2:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding ir.aliprogramer.schoolhome2:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding ir.aliprogramer.schoolhome2:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom ir.aliprogramer.schoolhome2:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft ir.aliprogramer.schoolhome2:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight ir.aliprogramer.schoolhome2:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop ir.aliprogramer.schoolhome2:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor ir.aliprogramer.schoolhome:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius ir.aliprogramer.schoolhome:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation ir.aliprogramer.schoolhome:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation ir.aliprogramer.schoolhome:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap ir.aliprogramer.schoolhome:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding ir.aliprogramer.schoolhome:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding ir.aliprogramer.schoolhome:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom ir.aliprogramer.schoolhome:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft ir.aliprogramer.schoolhome:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight ir.aliprogramer.schoolhome:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop ir.aliprogramer.schoolhome:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -9299,10 +9462,10 @@ public final class R {
      * @see #CardView_contentPaddingTop
      */
     public static final int[] CardView={
-        0x0101013f, 0x01010140, 0x7f030058, 0x7f030059, 
-        0x7f03005a, 0x7f03005b, 0x7f03005c, 0x7f03005d, 
-        0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f0300a0, 
-        0x7f0300a1
+        0x0101013f, 0x01010140, 0x7f030059, 0x7f03005a, 
+        0x7f03005b, 0x7f03005c, 0x7f03005d, 0x7f03005e, 
+        0x7f0300a0, 0x7f0300a1, 0x7f0300a2, 0x7f0300a3, 
+        0x7f0300a4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
@@ -9331,18 +9494,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardBackgroundColor
+     * @attr name ir.aliprogramer.schoolhome:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9351,11 +9514,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardCornerRadius
+     * @attr name ir.aliprogramer.schoolhome:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9364,11 +9527,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardElevation
+     * @attr name ir.aliprogramer.schoolhome:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9377,31 +9540,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardMaxElevation
+     * @attr name ir.aliprogramer.schoolhome:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardPreventCornerOverlap
+     * @attr name ir.aliprogramer.schoolhome:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:cardUseCompatPadding
+     * @attr name ir.aliprogramer.schoolhome:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9410,11 +9573,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentPadding
+     * @attr name ir.aliprogramer.schoolhome:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9423,11 +9586,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentPaddingBottom
+     * @attr name ir.aliprogramer.schoolhome:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9436,11 +9599,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentPaddingLeft
+     * @attr name ir.aliprogramer.schoolhome:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9449,11 +9612,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentPaddingRight
+     * @attr name ir.aliprogramer.schoolhome:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9462,7 +9625,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentPaddingTop
+     * @attr name ir.aliprogramer.schoolhome:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -9477,35 +9640,35 @@ public final class R {
      * <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIcon ir.aliprogramer.schoolhome2:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconEnabled ir.aliprogramer.schoolhome2:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconVisible ir.aliprogramer.schoolhome2:checkedIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipBackgroundColor ir.aliprogramer.schoolhome2:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipCornerRadius ir.aliprogramer.schoolhome2:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipEndPadding ir.aliprogramer.schoolhome2:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIcon ir.aliprogramer.schoolhome2:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconEnabled ir.aliprogramer.schoolhome2:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconSize ir.aliprogramer.schoolhome2:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconTint ir.aliprogramer.schoolhome2:chipIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconVisible ir.aliprogramer.schoolhome2:chipIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipMinHeight ir.aliprogramer.schoolhome2:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStartPadding ir.aliprogramer.schoolhome2:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeColor ir.aliprogramer.schoolhome2:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeWidth ir.aliprogramer.schoolhome2:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon ir.aliprogramer.schoolhome2:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEnabled ir.aliprogramer.schoolhome2:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEndPadding ir.aliprogramer.schoolhome2:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconSize ir.aliprogramer.schoolhome2:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconStartPadding ir.aliprogramer.schoolhome2:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconTint ir.aliprogramer.schoolhome2:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconVisible ir.aliprogramer.schoolhome2:closeIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_hideMotionSpec ir.aliprogramer.schoolhome2:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconEndPadding ir.aliprogramer.schoolhome2:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconStartPadding ir.aliprogramer.schoolhome2:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_rippleColor ir.aliprogramer.schoolhome2:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_showMotionSpec ir.aliprogramer.schoolhome2:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textEndPadding ir.aliprogramer.schoolhome2:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textStartPadding ir.aliprogramer.schoolhome2:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIcon ir.aliprogramer.schoolhome:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconEnabled ir.aliprogramer.schoolhome:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconVisible ir.aliprogramer.schoolhome:checkedIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipBackgroundColor ir.aliprogramer.schoolhome:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipCornerRadius ir.aliprogramer.schoolhome:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipEndPadding ir.aliprogramer.schoolhome:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIcon ir.aliprogramer.schoolhome:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconEnabled ir.aliprogramer.schoolhome:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconSize ir.aliprogramer.schoolhome:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconTint ir.aliprogramer.schoolhome:chipIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconVisible ir.aliprogramer.schoolhome:chipIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipMinHeight ir.aliprogramer.schoolhome:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStartPadding ir.aliprogramer.schoolhome:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeColor ir.aliprogramer.schoolhome:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeWidth ir.aliprogramer.schoolhome:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon ir.aliprogramer.schoolhome:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEnabled ir.aliprogramer.schoolhome:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEndPadding ir.aliprogramer.schoolhome:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconSize ir.aliprogramer.schoolhome:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconStartPadding ir.aliprogramer.schoolhome:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconTint ir.aliprogramer.schoolhome:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconVisible ir.aliprogramer.schoolhome:closeIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_hideMotionSpec ir.aliprogramer.schoolhome:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconEndPadding ir.aliprogramer.schoolhome:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconStartPadding ir.aliprogramer.schoolhome:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_rippleColor ir.aliprogramer.schoolhome:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_showMotionSpec ir.aliprogramer.schoolhome:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textEndPadding ir.aliprogramer.schoolhome:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textStartPadding ir.aliprogramer.schoolhome:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #Chip_android_textAppearance
      * @see #Chip_android_ellipsize
@@ -9544,14 +9707,14 @@ public final class R {
      */
     public static final int[] Chip={
         0x01010034, 0x010100ab, 0x0101011f, 0x0101014f, 
-        0x010101e5, 0x7f030061, 0x7f030062, 0x7f030063, 
-        0x7f030065, 0x7f030066, 0x7f030067, 0x7f030069, 
-        0x7f03006a, 0x7f03006b, 0x7f03006c, 0x7f03006d, 
-        0x7f03006e, 0x7f030073, 0x7f030074, 0x7f030075, 
-        0x7f03007c, 0x7f03007d, 0x7f03007e, 0x7f03007f, 
-        0x7f030080, 0x7f030081, 0x7f030082, 0x7f0300e9, 
-        0x7f0300f3, 0x7f0300f7, 0x7f03017e, 0x7f03018a, 
-        0x7f0301df, 0x7f0301e1
+        0x010101e5, 0x7f030062, 0x7f030063, 0x7f030064, 
+        0x7f030066, 0x7f030067, 0x7f030068, 0x7f03006a, 
+        0x7f03006b, 0x7f03006c, 0x7f03006d, 0x7f03006e, 
+        0x7f03006f, 0x7f030074, 0x7f030075, 0x7f030076, 
+        0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f030081, 
+        0x7f030082, 0x7f030083, 0x7f030084, 0x7f0300ec, 
+        0x7f0300f6, 0x7f0300fa, 0x7f030183, 0x7f030190, 
+        0x7f0301e5, 0x7f0301e7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -9619,7 +9782,7 @@ public final class R {
      */
     public static final int Chip_android_checkable=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9627,42 +9790,42 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkedIcon
+     * @attr name ir.aliprogramer.schoolhome:checkedIcon
      */
     public static final int Chip_checkedIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkedIconEnabled
+     * @attr name ir.aliprogramer.schoolhome:checkedIconEnabled
      */
     public static final int Chip_checkedIconEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkedIconVisible}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkedIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkedIconVisible
+     * @attr name ir.aliprogramer.schoolhome:checkedIconVisible
      */
     public static final int Chip_checkedIconVisible=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipBackgroundColor
+     * @attr name ir.aliprogramer.schoolhome:chipBackgroundColor
      */
     public static final int Chip_chipBackgroundColor=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9671,11 +9834,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipCornerRadius
+     * @attr name ir.aliprogramer.schoolhome:chipCornerRadius
      */
     public static final int Chip_chipCornerRadius=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9684,11 +9847,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipEndPadding
+     * @attr name ir.aliprogramer.schoolhome:chipEndPadding
      */
     public static final int Chip_chipEndPadding=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9696,21 +9859,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipIcon
+     * @attr name ir.aliprogramer.schoolhome:chipIcon
      */
     public static final int Chip_chipIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipIconEnabled
+     * @attr name ir.aliprogramer.schoolhome:chipIconEnabled
      */
     public static final int Chip_chipIconEnabled=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9719,32 +9882,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipIconSize
+     * @attr name ir.aliprogramer.schoolhome:chipIconSize
      */
     public static final int Chip_chipIconSize=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipIconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipIconTint
+     * @attr name ir.aliprogramer.schoolhome:chipIconTint
      */
     public static final int Chip_chipIconTint=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipIconVisible}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipIconVisible
+     * @attr name ir.aliprogramer.schoolhome:chipIconVisible
      */
     public static final int Chip_chipIconVisible=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9753,11 +9916,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipMinHeight
+     * @attr name ir.aliprogramer.schoolhome:chipMinHeight
      */
     public static final int Chip_chipMinHeight=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9766,22 +9929,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipStartPadding
+     * @attr name ir.aliprogramer.schoolhome:chipStartPadding
      */
     public static final int Chip_chipStartPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipStrokeColor
+     * @attr name ir.aliprogramer.schoolhome:chipStrokeColor
      */
     public static final int Chip_chipStrokeColor=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9790,11 +9953,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipStrokeWidth
+     * @attr name ir.aliprogramer.schoolhome:chipStrokeWidth
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9802,21 +9965,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIcon
+     * @attr name ir.aliprogramer.schoolhome:closeIcon
      */
     public static final int Chip_closeIcon=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconEnabled
+     * @attr name ir.aliprogramer.schoolhome:closeIconEnabled
      */
     public static final int Chip_closeIconEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9825,11 +9988,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconEndPadding
+     * @attr name ir.aliprogramer.schoolhome:closeIconEndPadding
      */
     public static final int Chip_closeIconEndPadding=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9838,11 +10001,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconSize
+     * @attr name ir.aliprogramer.schoolhome:closeIconSize
      */
     public static final int Chip_closeIconSize=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9851,32 +10014,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconStartPadding
+     * @attr name ir.aliprogramer.schoolhome:closeIconStartPadding
      */
     public static final int Chip_closeIconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconTint
+     * @attr name ir.aliprogramer.schoolhome:closeIconTint
      */
     public static final int Chip_closeIconTint=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIconVisible}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIconVisible
+     * @attr name ir.aliprogramer.schoolhome:closeIconVisible
      */
     public static final int Chip_closeIconVisible=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9884,11 +10047,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hideMotionSpec
+     * @attr name ir.aliprogramer.schoolhome:hideMotionSpec
      */
     public static final int Chip_hideMotionSpec=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9897,11 +10060,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconEndPadding
+     * @attr name ir.aliprogramer.schoolhome:iconEndPadding
      */
     public static final int Chip_iconEndPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9910,22 +10073,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconStartPadding
+     * @attr name ir.aliprogramer.schoolhome:iconStartPadding
      */
     public static final int Chip_iconStartPadding=29;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#rippleColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:rippleColor
+     * @attr name ir.aliprogramer.schoolhome:rippleColor
      */
     public static final int Chip_rippleColor=30;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9933,11 +10096,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:showMotionSpec
+     * @attr name ir.aliprogramer.schoolhome:showMotionSpec
      */
     public static final int Chip_showMotionSpec=31;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9946,11 +10109,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:textEndPadding
+     * @attr name ir.aliprogramer.schoolhome:textEndPadding
      */
     public static final int Chip_textEndPadding=32;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9959,7 +10122,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:textStartPadding
+     * @attr name ir.aliprogramer.schoolhome:textStartPadding
      */
     public static final int Chip_textStartPadding=33;
     /**
@@ -9969,12 +10132,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip ir.aliprogramer.schoolhome2:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing ir.aliprogramer.schoolhome2:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal ir.aliprogramer.schoolhome2:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical ir.aliprogramer.schoolhome2:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine ir.aliprogramer.schoolhome2:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection ir.aliprogramer.schoolhome2:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip ir.aliprogramer.schoolhome:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing ir.aliprogramer.schoolhome:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal ir.aliprogramer.schoolhome:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical ir.aliprogramer.schoolhome:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine ir.aliprogramer.schoolhome:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection ir.aliprogramer.schoolhome:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -9984,11 +10147,11 @@ public final class R {
      * @see #ChipGroup_singleSelection
      */
     public static final int[] ChipGroup={
-        0x7f030060, 0x7f03006f, 0x7f030070, 0x7f030071, 
-        0x7f03018e, 0x7f03018f
+        0x7f030061, 0x7f030070, 0x7f030071, 0x7f030072, 
+        0x7f030194, 0x7f030195
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9996,11 +10159,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:checkedChip
+     * @attr name ir.aliprogramer.schoolhome:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10009,11 +10172,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipSpacing
+     * @attr name ir.aliprogramer.schoolhome:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10022,11 +10185,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipSpacingHorizontal
+     * @attr name ir.aliprogramer.schoolhome:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10035,27 +10198,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipSpacingVertical
+     * @attr name ir.aliprogramer.schoolhome:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:singleLine
+     * @attr name ir.aliprogramer.schoolhome:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:singleSelection
+     * @attr name ir.aliprogramer.schoolhome:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
     /**
@@ -10065,11 +10228,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_color ir.aliprogramer.schoolhome2:civ_border_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_overlay ir.aliprogramer.schoolhome2:civ_border_overlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_width ir.aliprogramer.schoolhome2:civ_border_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_circle_background_color ir.aliprogramer.schoolhome2:civ_circle_background_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_fill_color ir.aliprogramer.schoolhome2:civ_fill_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_color ir.aliprogramer.schoolhome:civ_border_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_overlay ir.aliprogramer.schoolhome:civ_border_overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_width ir.aliprogramer.schoolhome:civ_border_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_circle_background_color ir.aliprogramer.schoolhome:civ_circle_background_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_fill_color ir.aliprogramer.schoolhome:civ_fill_color}</code></td><td></td></tr>
      * </table>
      * @see #CircleImageView_civ_border_color
      * @see #CircleImageView_civ_border_overlay
@@ -10078,32 +10241,32 @@ public final class R {
      * @see #CircleImageView_civ_fill_color
      */
     public static final int[] CircleImageView={
-        0x7f030077, 0x7f030078, 0x7f030079, 0x7f03007a, 
-        0x7f03007b
+        0x7f030079, 0x7f03007a, 0x7f03007b, 0x7f03007c, 
+        0x7f03007d
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#civ_border_color}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#civ_border_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:civ_border_color
+     * @attr name ir.aliprogramer.schoolhome:civ_border_color
      */
     public static final int CircleImageView_civ_border_color=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#civ_border_overlay}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#civ_border_overlay}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:civ_border_overlay
+     * @attr name ir.aliprogramer.schoolhome:civ_border_overlay
      */
     public static final int CircleImageView_civ_border_overlay=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#civ_border_width}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#civ_border_width}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10112,29 +10275,29 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:civ_border_width
+     * @attr name ir.aliprogramer.schoolhome:civ_border_width
      */
     public static final int CircleImageView_civ_border_width=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#civ_circle_background_color}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#civ_circle_background_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:civ_circle_background_color
+     * @attr name ir.aliprogramer.schoolhome:civ_circle_background_color
      */
     public static final int CircleImageView_civ_circle_background_color=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#civ_fill_color}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#civ_fill_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:civ_fill_color
+     * @attr name ir.aliprogramer.schoolhome:civ_fill_color
      */
     public static final int CircleImageView_civ_fill_color=4;
     /**
@@ -10144,22 +10307,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity ir.aliprogramer.schoolhome2:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance ir.aliprogramer.schoolhome2:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim ir.aliprogramer.schoolhome2:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity ir.aliprogramer.schoolhome2:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin ir.aliprogramer.schoolhome2:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom ir.aliprogramer.schoolhome2:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd ir.aliprogramer.schoolhome2:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart ir.aliprogramer.schoolhome2:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop ir.aliprogramer.schoolhome2:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance ir.aliprogramer.schoolhome2:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration ir.aliprogramer.schoolhome2:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger ir.aliprogramer.schoolhome2:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim ir.aliprogramer.schoolhome2:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title ir.aliprogramer.schoolhome2:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled ir.aliprogramer.schoolhome2:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId ir.aliprogramer.schoolhome2:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity ir.aliprogramer.schoolhome:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance ir.aliprogramer.schoolhome:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim ir.aliprogramer.schoolhome:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity ir.aliprogramer.schoolhome:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin ir.aliprogramer.schoolhome:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom ir.aliprogramer.schoolhome:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd ir.aliprogramer.schoolhome:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart ir.aliprogramer.schoolhome:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop ir.aliprogramer.schoolhome:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance ir.aliprogramer.schoolhome:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration ir.aliprogramer.schoolhome:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger ir.aliprogramer.schoolhome:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim ir.aliprogramer.schoolhome:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title ir.aliprogramer.schoolhome:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled ir.aliprogramer.schoolhome:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId ir.aliprogramer.schoolhome:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10179,13 +10342,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-        0x7f030086, 0x7f030087, 0x7f0300a2, 0x7f0300c2, 
-        0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
-        0x7f0300c7, 0x7f0300c8, 0x7f03017f, 0x7f030181, 
-        0x7f03019f, 0x7f0301ec, 0x7f0301ed, 0x7f0301f7
+        0x7f030088, 0x7f030089, 0x7f0300a5, 0x7f0300c5, 
+        0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 
+        0x7f0300ca, 0x7f0300cb, 0x7f030185, 0x7f030187, 
+        0x7f0301a5, 0x7f0301f2, 0x7f0301f3, 0x7f0301fd
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10206,11 +10369,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:collapsedTitleGravity
+     * @attr name ir.aliprogramer.schoolhome:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10218,22 +10381,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:collapsedTitleTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentScrim
+     * @attr name ir.aliprogramer.schoolhome:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10254,11 +10417,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleGravity
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10267,11 +10430,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleMargin
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10280,11 +10443,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleMarginBottom
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10293,11 +10456,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleMarginEnd
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10306,11 +10469,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleMarginStart
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10319,11 +10482,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleMarginTop
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10331,20 +10494,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:expandedTitleTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:scrimAnimationDuration
+     * @attr name ir.aliprogramer.schoolhome:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10353,42 +10516,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:scrimVisibleHeightTrigger
+     * @attr name ir.aliprogramer.schoolhome:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:statusBarScrim
+     * @attr name ir.aliprogramer.schoolhome:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#title}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:title
+     * @attr name ir.aliprogramer.schoolhome:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleEnabled
+     * @attr name ir.aliprogramer.schoolhome:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10396,7 +10559,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:toolbarId
+     * @attr name ir.aliprogramer.schoolhome:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -10406,17 +10569,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode ir.aliprogramer.schoolhome2:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier ir.aliprogramer.schoolhome2:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode ir.aliprogramer.schoolhome:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier ir.aliprogramer.schoolhome:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f030114, 0x7f030115
+        0x7f030119, 0x7f03011a
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10430,16 +10593,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_collapseMode
+     * @attr name ir.aliprogramer.schoolhome:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_collapseParallaxMultiplier
+     * @attr name ir.aliprogramer.schoolhome:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -10451,7 +10614,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha ir.aliprogramer.schoolhome2:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha ir.aliprogramer.schoolhome:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -10481,12 +10644,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:alpha
+     * @attr name ir.aliprogramer.schoolhome:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -10497,15 +10660,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint ir.aliprogramer.schoolhome2:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode ir.aliprogramer.schoolhome2:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint ir.aliprogramer.schoolhome:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode ir.aliprogramer.schoolhome:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-        0x01010107, 0x7f030056, 0x7f030057
+        0x01010107, 0x7f030057, 0x7f030058
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -10520,18 +10683,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonTint
+     * @attr name ir.aliprogramer.schoolhome:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10548,7 +10711,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonTintMode
+     * @attr name ir.aliprogramer.schoolhome:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -10563,50 +10726,50 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet ir.aliprogramer.schoolhome2:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator ir.aliprogramer.schoolhome2:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf ir.aliprogramer.schoolhome2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator ir.aliprogramer.schoolhome2:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf ir.aliprogramer.schoolhome2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf ir.aliprogramer.schoolhome2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio ir.aliprogramer.schoolhome2:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf ir.aliprogramer.schoolhome2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf ir.aliprogramer.schoolhome2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin ir.aliprogramer.schoolhome2:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end ir.aliprogramer.schoolhome2:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent ir.aliprogramer.schoolhome2:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default ir.aliprogramer.schoolhome2:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max ir.aliprogramer.schoolhome2:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min ir.aliprogramer.schoolhome2:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias ir.aliprogramer.schoolhome2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle ir.aliprogramer.schoolhome2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight ir.aliprogramer.schoolhome2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator ir.aliprogramer.schoolhome2:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf ir.aliprogramer.schoolhome2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf ir.aliprogramer.schoolhome2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator ir.aliprogramer.schoolhome2:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf ir.aliprogramer.schoolhome2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf ir.aliprogramer.schoolhome2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf ir.aliprogramer.schoolhome2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf ir.aliprogramer.schoolhome2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator ir.aliprogramer.schoolhome2:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf ir.aliprogramer.schoolhome2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf ir.aliprogramer.schoolhome2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias ir.aliprogramer.schoolhome2:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle ir.aliprogramer.schoolhome2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight ir.aliprogramer.schoolhome2:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default ir.aliprogramer.schoolhome2:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max ir.aliprogramer.schoolhome2:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min ir.aliprogramer.schoolhome2:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX ir.aliprogramer.schoolhome2:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY ir.aliprogramer.schoolhome2:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom ir.aliprogramer.schoolhome2:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd ir.aliprogramer.schoolhome2:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft ir.aliprogramer.schoolhome2:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight ir.aliprogramer.schoolhome2:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart ir.aliprogramer.schoolhome2:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop ir.aliprogramer.schoolhome2:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel ir.aliprogramer.schoolhome2:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet ir.aliprogramer.schoolhome:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator ir.aliprogramer.schoolhome:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf ir.aliprogramer.schoolhome:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator ir.aliprogramer.schoolhome:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf ir.aliprogramer.schoolhome:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf ir.aliprogramer.schoolhome:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio ir.aliprogramer.schoolhome:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf ir.aliprogramer.schoolhome:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf ir.aliprogramer.schoolhome:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin ir.aliprogramer.schoolhome:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end ir.aliprogramer.schoolhome:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent ir.aliprogramer.schoolhome:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default ir.aliprogramer.schoolhome:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max ir.aliprogramer.schoolhome:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min ir.aliprogramer.schoolhome:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias ir.aliprogramer.schoolhome:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle ir.aliprogramer.schoolhome:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight ir.aliprogramer.schoolhome:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator ir.aliprogramer.schoolhome:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf ir.aliprogramer.schoolhome:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf ir.aliprogramer.schoolhome:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator ir.aliprogramer.schoolhome:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf ir.aliprogramer.schoolhome:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf ir.aliprogramer.schoolhome:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf ir.aliprogramer.schoolhome:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf ir.aliprogramer.schoolhome:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator ir.aliprogramer.schoolhome:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf ir.aliprogramer.schoolhome:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf ir.aliprogramer.schoolhome:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias ir.aliprogramer.schoolhome:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle ir.aliprogramer.schoolhome:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight ir.aliprogramer.schoolhome:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default ir.aliprogramer.schoolhome:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max ir.aliprogramer.schoolhome:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min ir.aliprogramer.schoolhome:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX ir.aliprogramer.schoolhome:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY ir.aliprogramer.schoolhome:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom ir.aliprogramer.schoolhome:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd ir.aliprogramer.schoolhome:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft ir.aliprogramer.schoolhome:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight ir.aliprogramer.schoolhome:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart ir.aliprogramer.schoolhome:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop ir.aliprogramer.schoolhome:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel ir.aliprogramer.schoolhome:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -10660,18 +10823,18 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
         0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-        0x01010140, 0x7f030095, 0x7f030116, 0x7f030117, 
-        0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
-        0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
-        0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
-        0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
-        0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
-        0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
-        0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-        0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
+        0x01010140, 0x7f030098, 0x7f03011b, 0x7f03011c, 
+        0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
+        0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
+        0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
+        0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
+        0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
+        0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
+        0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 
         0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
-        0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140, 
-        0x7f030143
+        0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 
+        0x7f030142, 0x7f030143, 0x7f030144, 0x7f030145, 
+        0x7f030148
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -10743,7 +10906,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10751,20 +10914,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:constraintSet
+     * @attr name ir.aliprogramer.schoolhome:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBaseline_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10780,20 +10943,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBaseline_toBaselineOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10809,11 +10972,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_toBottomOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10829,21 +10992,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_toTopOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintDimensionRatio
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10859,11 +11022,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintEnd_toEndOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10879,11 +11042,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintEnd_toStartOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10892,11 +11055,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_begin
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10905,20 +11068,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_end
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_percent
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10931,11 +11094,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_default
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10944,11 +11107,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_max
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10957,20 +11120,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_min
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_bias
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10984,29 +11147,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_chainStyle
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_weight
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11022,11 +11185,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_toLeftOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11042,20 +11205,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_toRightOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11071,11 +11234,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_toLeftOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11091,11 +11254,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_toRightOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11111,11 +11274,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintStart_toEndOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11131,20 +11294,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintStart_toStartOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11160,11 +11323,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_toBottomOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11180,20 +11343,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_toTopOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_bias
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11207,20 +11370,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_chainStyle
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_weight
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11233,11 +11396,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_default
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11246,11 +11409,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_max
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11259,11 +11422,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_min
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11272,11 +11435,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_editor_absoluteX
+     * @attr name ir.aliprogramer.schoolhome:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11285,11 +11448,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_editor_absoluteY
+     * @attr name ir.aliprogramer.schoolhome:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11298,11 +11461,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginBottom
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11311,11 +11474,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginEnd
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11324,11 +11487,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginLeft
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11337,11 +11500,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginRight
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11350,11 +11513,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginStart
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11363,11 +11526,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginTop
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11382,7 +11545,7 @@ public final class R {
      * <tr><td>none</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_optimizationLevel
+     * @attr name ir.aliprogramer.schoolhome:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
     /**
@@ -11414,48 +11577,48 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator ir.aliprogramer.schoolhome2:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf ir.aliprogramer.schoolhome2:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator ir.aliprogramer.schoolhome2:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf ir.aliprogramer.schoolhome2:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf ir.aliprogramer.schoolhome2:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio ir.aliprogramer.schoolhome2:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf ir.aliprogramer.schoolhome2:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf ir.aliprogramer.schoolhome2:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin ir.aliprogramer.schoolhome2:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end ir.aliprogramer.schoolhome2:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent ir.aliprogramer.schoolhome2:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default ir.aliprogramer.schoolhome2:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max ir.aliprogramer.schoolhome2:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min ir.aliprogramer.schoolhome2:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias ir.aliprogramer.schoolhome2:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle ir.aliprogramer.schoolhome2:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight ir.aliprogramer.schoolhome2:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator ir.aliprogramer.schoolhome2:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf ir.aliprogramer.schoolhome2:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf ir.aliprogramer.schoolhome2:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator ir.aliprogramer.schoolhome2:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf ir.aliprogramer.schoolhome2:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf ir.aliprogramer.schoolhome2:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf ir.aliprogramer.schoolhome2:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf ir.aliprogramer.schoolhome2:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator ir.aliprogramer.schoolhome2:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf ir.aliprogramer.schoolhome2:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf ir.aliprogramer.schoolhome2:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias ir.aliprogramer.schoolhome2:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle ir.aliprogramer.schoolhome2:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight ir.aliprogramer.schoolhome2:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default ir.aliprogramer.schoolhome2:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max ir.aliprogramer.schoolhome2:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min ir.aliprogramer.schoolhome2:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX ir.aliprogramer.schoolhome2:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY ir.aliprogramer.schoolhome2:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom ir.aliprogramer.schoolhome2:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd ir.aliprogramer.schoolhome2:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft ir.aliprogramer.schoolhome2:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight ir.aliprogramer.schoolhome2:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart ir.aliprogramer.schoolhome2:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop ir.aliprogramer.schoolhome2:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator ir.aliprogramer.schoolhome:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf ir.aliprogramer.schoolhome:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator ir.aliprogramer.schoolhome:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf ir.aliprogramer.schoolhome:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf ir.aliprogramer.schoolhome:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio ir.aliprogramer.schoolhome:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf ir.aliprogramer.schoolhome:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf ir.aliprogramer.schoolhome:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin ir.aliprogramer.schoolhome:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end ir.aliprogramer.schoolhome:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent ir.aliprogramer.schoolhome:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default ir.aliprogramer.schoolhome:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max ir.aliprogramer.schoolhome:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min ir.aliprogramer.schoolhome:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias ir.aliprogramer.schoolhome:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle ir.aliprogramer.schoolhome:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight ir.aliprogramer.schoolhome:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator ir.aliprogramer.schoolhome:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf ir.aliprogramer.schoolhome:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf ir.aliprogramer.schoolhome:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator ir.aliprogramer.schoolhome:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf ir.aliprogramer.schoolhome:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf ir.aliprogramer.schoolhome:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf ir.aliprogramer.schoolhome:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf ir.aliprogramer.schoolhome:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator ir.aliprogramer.schoolhome:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf ir.aliprogramer.schoolhome:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf ir.aliprogramer.schoolhome:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias ir.aliprogramer.schoolhome:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle ir.aliprogramer.schoolhome:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight ir.aliprogramer.schoolhome:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default ir.aliprogramer.schoolhome:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max ir.aliprogramer.schoolhome:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min ir.aliprogramer.schoolhome:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX ir.aliprogramer.schoolhome:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY ir.aliprogramer.schoolhome:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom ir.aliprogramer.schoolhome:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd ir.aliprogramer.schoolhome:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft ir.aliprogramer.schoolhome:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight ir.aliprogramer.schoolhome:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart ir.aliprogramer.schoolhome:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop ir.aliprogramer.schoolhome:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -11528,17 +11691,17 @@ public final class R {
         0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
         0x01010322, 0x01010323, 0x01010324, 0x01010325, 
         0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 
-        0x010103fa, 0x01010440, 0x7f030116, 0x7f030117, 
-        0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
-        0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
-        0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
-        0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
-        0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
-        0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
-        0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-        0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
+        0x010103fa, 0x01010440, 0x7f03011b, 0x7f03011c, 
+        0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
+        0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
+        0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
+        0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
+        0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
+        0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
+        0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 
         0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
-        0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140
+        0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 
+        0x7f030142, 0x7f030143, 0x7f030144, 0x7f030145
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -11835,16 +11998,16 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBaseline_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11860,20 +12023,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBaseline_toBaselineOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11889,11 +12052,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_toBottomOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11909,21 +12072,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintBottom_toTopOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintDimensionRatio
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11939,11 +12102,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintEnd_toEndOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11959,11 +12122,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintEnd_toStartOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11972,11 +12135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_begin
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=30;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11985,20 +12148,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_end
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=31;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintGuide_percent
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=32;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12011,11 +12174,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_default
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=33;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12024,11 +12187,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_max
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=34;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12037,20 +12200,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHeight_min
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=35;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_bias
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12064,29 +12227,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_chainStyle
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintHorizontal_weight
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=39;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12102,11 +12265,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_toLeftOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12122,20 +12285,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintLeft_toRightOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=42;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12151,11 +12314,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_toLeftOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12171,11 +12334,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintRight_toRightOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12191,11 +12354,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintStart_toEndOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12211,20 +12374,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintStart_toStartOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_creator
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=47;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12240,11 +12403,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_toBottomOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12260,20 +12423,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintTop_toTopOf
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_bias
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=50;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12287,20 +12450,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_chainStyle
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintVertical_weight
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=52;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12313,11 +12476,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_default
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=53;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12326,11 +12489,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_max
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=54;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12339,11 +12502,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_constraintWidth_min
+     * @attr name ir.aliprogramer.schoolhome:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=55;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12352,11 +12515,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_editor_absoluteX
+     * @attr name ir.aliprogramer.schoolhome:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=56;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12365,11 +12528,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_editor_absoluteY
+     * @attr name ir.aliprogramer.schoolhome:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=57;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12378,11 +12541,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginBottom
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=58;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12391,11 +12554,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginEnd
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=59;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12404,11 +12567,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginLeft
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=60;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12417,11 +12580,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginRight
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=61;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12430,11 +12593,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginStart
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=62;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12443,7 +12606,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_goneMarginTop
+     * @attr name ir.aliprogramer.schoolhome:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
@@ -12453,17 +12616,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines ir.aliprogramer.schoolhome2:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground ir.aliprogramer.schoolhome2:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines ir.aliprogramer.schoolhome:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground ir.aliprogramer.schoolhome:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f03010c, 0x7f03019e
+        0x7f030111, 0x7f0301a4
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12471,11 +12634,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:keylines
+     * @attr name ir.aliprogramer.schoolhome:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12486,7 +12649,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:statusBarBackground
+     * @attr name ir.aliprogramer.schoolhome:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -12497,12 +12660,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor ir.aliprogramer.schoolhome2:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity ir.aliprogramer.schoolhome2:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior ir.aliprogramer.schoolhome2:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges ir.aliprogramer.schoolhome2:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge ir.aliprogramer.schoolhome2:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline ir.aliprogramer.schoolhome2:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor ir.aliprogramer.schoolhome:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity ir.aliprogramer.schoolhome:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior ir.aliprogramer.schoolhome:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges ir.aliprogramer.schoolhome:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge ir.aliprogramer.schoolhome:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline ir.aliprogramer.schoolhome:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -12513,8 +12676,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f030111, 0x7f030112, 0x7f030113, 
-        0x7f030138, 0x7f030141, 0x7f030142
+        0x010100b3, 0x7f030116, 0x7f030117, 0x7f030118, 
+        0x7f03013d, 0x7f030146, 0x7f030147
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -12546,7 +12709,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12554,11 +12717,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_anchor
+     * @attr name ir.aliprogramer.schoolhome:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12583,21 +12746,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_anchorGravity
+     * @attr name ir.aliprogramer.schoolhome:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_behavior
+     * @attr name ir.aliprogramer.schoolhome:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12616,11 +12779,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_dodgeInsetEdges
+     * @attr name ir.aliprogramer.schoolhome:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12638,16 +12801,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_insetEdge
+     * @attr name ir.aliprogramer.schoolhome:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout_keyline
+     * @attr name ir.aliprogramer.schoolhome:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -12657,8 +12820,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme ir.aliprogramer.schoolhome2:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle ir.aliprogramer.schoolhome2:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme ir.aliprogramer.schoolhome:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle ir.aliprogramer.schoolhome:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -12667,7 +12830,7 @@ public final class R {
         0x7f030041, 0x7f030042
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12675,11 +12838,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:bottomSheetDialogTheme
+     * @attr name ir.aliprogramer.schoolhome:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12687,7 +12850,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:bottomSheetStyle
+     * @attr name ir.aliprogramer.schoolhome:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -12697,14 +12860,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength ir.aliprogramer.schoolhome2:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength ir.aliprogramer.schoolhome2:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength ir.aliprogramer.schoolhome2:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color ir.aliprogramer.schoolhome2:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize ir.aliprogramer.schoolhome2:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars ir.aliprogramer.schoolhome2:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars ir.aliprogramer.schoolhome2:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness ir.aliprogramer.schoolhome2:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength ir.aliprogramer.schoolhome:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength ir.aliprogramer.schoolhome:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength ir.aliprogramer.schoolhome:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color ir.aliprogramer.schoolhome:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize ir.aliprogramer.schoolhome:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars ir.aliprogramer.schoolhome:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars ir.aliprogramer.schoolhome:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness ir.aliprogramer.schoolhome:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -12716,11 +12879,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030088, 
-        0x7f0300b4, 0x7f0300e2, 0x7f030193, 0x7f0301e3
+        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f03008a, 
+        0x7f0300b7, 0x7f0300e5, 0x7f030199, 0x7f0301e9
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12729,11 +12892,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:arrowHeadLength
+     * @attr name ir.aliprogramer.schoolhome:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12742,11 +12905,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:arrowShaftLength
+     * @attr name ir.aliprogramer.schoolhome:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12755,22 +12918,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:barLength
+     * @attr name ir.aliprogramer.schoolhome:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#color}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:color
+     * @attr name ir.aliprogramer.schoolhome:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12779,11 +12942,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:drawableSize
+     * @attr name ir.aliprogramer.schoolhome:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12792,21 +12955,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:gapBetweenBars
+     * @attr name ir.aliprogramer.schoolhome:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:spinBars
+     * @attr name ir.aliprogramer.schoolhome:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12815,7 +12978,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:thickness
+     * @attr name ir.aliprogramer.schoolhome:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -12825,19 +12988,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint ir.aliprogramer.schoolhome2:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode ir.aliprogramer.schoolhome2:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth ir.aliprogramer.schoolhome2:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize ir.aliprogramer.schoolhome2:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize ir.aliprogramer.schoolhome2:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec ir.aliprogramer.schoolhome2:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ ir.aliprogramer.schoolhome2:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize ir.aliprogramer.schoolhome2:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ ir.aliprogramer.schoolhome2:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor ir.aliprogramer.schoolhome2:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec ir.aliprogramer.schoolhome2:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding ir.aliprogramer.schoolhome2:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint ir.aliprogramer.schoolhome:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode ir.aliprogramer.schoolhome:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth ir.aliprogramer.schoolhome:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize ir.aliprogramer.schoolhome:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize ir.aliprogramer.schoolhome:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec ir.aliprogramer.schoolhome:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ ir.aliprogramer.schoolhome:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize ir.aliprogramer.schoolhome:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ ir.aliprogramer.schoolhome:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor ir.aliprogramer.schoolhome:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec ir.aliprogramer.schoolhome:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding ir.aliprogramer.schoolhome:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -12854,24 +13017,24 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-        0x7f030034, 0x7f030035, 0x7f03003d, 0x7f0300bb, 
-        0x7f0300cd, 0x7f0300ce, 0x7f0300e9, 0x7f0300f1, 
-        0x7f03015a, 0x7f030174, 0x7f03017e, 0x7f03018a, 
-        0x7f030201
+        0x7f030034, 0x7f030035, 0x7f03003d, 0x7f0300be, 
+        0x7f0300d0, 0x7f0300d1, 0x7f0300ec, 0x7f0300f4, 
+        0x7f03015f, 0x7f030179, 0x7f030183, 0x7f030190, 
+        0x7f030207
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTint
+     * @attr name ir.aliprogramer.schoolhome:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12888,11 +13051,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTintMode
+     * @attr name ir.aliprogramer.schoolhome:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12901,11 +13064,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:borderWidth
+     * @attr name ir.aliprogramer.schoolhome:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12914,11 +13077,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12927,11 +13090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabCustomSize
+     * @attr name ir.aliprogramer.schoolhome:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12945,11 +13108,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:fabSize
+     * @attr name ir.aliprogramer.schoolhome:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12957,11 +13120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hideMotionSpec
+     * @attr name ir.aliprogramer.schoolhome:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12970,11 +13133,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:hoveredFocusedTranslationZ
+     * @attr name ir.aliprogramer.schoolhome:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12983,11 +13146,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:maxImageSize
+     * @attr name ir.aliprogramer.schoolhome:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12996,22 +13159,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:pressedTranslationZ
+     * @attr name ir.aliprogramer.schoolhome:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:rippleColor
+     * @attr name ir.aliprogramer.schoolhome:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13019,17 +13182,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:showMotionSpec
+     * @attr name ir.aliprogramer.schoolhome:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:useCompatPadding
+     * @attr name ir.aliprogramer.schoolhome:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=12;
     /**
@@ -13039,7 +13202,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide ir.aliprogramer.schoolhome2:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide ir.aliprogramer.schoolhome:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -13047,13 +13210,13 @@ public final class R {
         0x7f030037
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_autoHide
+     * @attr name ir.aliprogramer.schoolhome:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -13063,17 +13226,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlowLayout_itemSpacing ir.aliprogramer.schoolhome2:itemSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlowLayout_lineSpacing ir.aliprogramer.schoolhome2:lineSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_itemSpacing ir.aliprogramer.schoolhome:itemSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_lineSpacing ir.aliprogramer.schoolhome:lineSpacing}</code></td><td></td></tr>
      * </table>
      * @see #FlowLayout_itemSpacing
      * @see #FlowLayout_lineSpacing
      */
     public static final int[] FlowLayout={
-        0x7f030107, 0x7f030148
+        0x7f03010c, 0x7f03014d
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemSpacing}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13082,11 +13245,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemSpacing
+     * @attr name ir.aliprogramer.schoolhome:itemSpacing
      */
     public static final int FlowLayout_itemSpacing=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#lineSpacing}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#lineSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13095,7 +13258,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:lineSpacing
+     * @attr name ir.aliprogramer.schoolhome:lineSpacing
      */
     public static final int FlowLayout_lineSpacing=1;
     /**
@@ -13105,12 +13268,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority ir.aliprogramer.schoolhome2:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts ir.aliprogramer.schoolhome2:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy ir.aliprogramer.schoolhome2:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout ir.aliprogramer.schoolhome2:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage ir.aliprogramer.schoolhome2:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery ir.aliprogramer.schoolhome2:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority ir.aliprogramer.schoolhome:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts ir.aliprogramer.schoolhome:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy ir.aliprogramer.schoolhome:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout ir.aliprogramer.schoolhome:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage ir.aliprogramer.schoolhome:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery ir.aliprogramer.schoolhome:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -13120,21 +13283,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 
-        0x7f0300dc, 0x7f0300dd
+        0x7f0300db, 0x7f0300dc, 0x7f0300dd, 0x7f0300de, 
+        0x7f0300df, 0x7f0300e0
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderAuthority
+     * @attr name ir.aliprogramer.schoolhome:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13142,11 +13305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderCerts
+     * @attr name ir.aliprogramer.schoolhome:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13159,11 +13322,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderFetchStrategy
+     * @attr name ir.aliprogramer.schoolhome:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -13176,27 +13339,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderFetchTimeout
+     * @attr name ir.aliprogramer.schoolhome:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderPackage
+     * @attr name ir.aliprogramer.schoolhome:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontProviderQuery
+     * @attr name ir.aliprogramer.schoolhome:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -13211,11 +13374,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font ir.aliprogramer.schoolhome2:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle ir.aliprogramer.schoolhome2:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings ir.aliprogramer.schoolhome2:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight ir.aliprogramer.schoolhome2:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex ir.aliprogramer.schoolhome2:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font ir.aliprogramer.schoolhome:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle ir.aliprogramer.schoolhome:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings ir.aliprogramer.schoolhome:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight ir.aliprogramer.schoolhome:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex ir.aliprogramer.schoolhome:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -13230,8 +13393,8 @@ public final class R {
      */
     public static final int[] FontFamilyFont={
         0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
-        0x01010570, 0x7f0300d6, 0x7f0300de, 0x7f0300df, 
-        0x7f0300e0, 0x7f030200
+        0x01010570, 0x7f0300d9, 0x7f0300e1, 0x7f0300e2, 
+        0x7f0300e3, 0x7f030206
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -13291,7 +13454,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#font}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13299,11 +13462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:font
+     * @attr name ir.aliprogramer.schoolhome:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13316,35 +13479,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontStyle
+     * @attr name ir.aliprogramer.schoolhome:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontVariationSettings
+     * @attr name ir.aliprogramer.schoolhome:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontWeight
+     * @attr name ir.aliprogramer.schoolhome:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:ttcIndex
+     * @attr name ir.aliprogramer.schoolhome:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -13356,14 +13519,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding ir.aliprogramer.schoolhome2:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding ir.aliprogramer.schoolhome:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-        0x01010109, 0x01010200, 0x7f0300e1
+        0x01010109, 0x01010200, 0x7f0300e4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -13408,13 +13571,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:foregroundInsidePadding
+     * @attr name ir.aliprogramer.schoolhome:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -13684,10 +13847,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider ir.aliprogramer.schoolhome2:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding ir.aliprogramer.schoolhome2:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild ir.aliprogramer.schoolhome2:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers ir.aliprogramer.schoolhome2:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider ir.aliprogramer.schoolhome:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding ir.aliprogramer.schoolhome:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild ir.aliprogramer.schoolhome:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers ir.aliprogramer.schoolhome:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -13701,8 +13864,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f0300b0, 0x7f0300b2, 0x7f03015b, 
-        0x7f030189
+        0x01010128, 0x7f0300b3, 0x7f0300b5, 0x7f030160, 
+        0x7f03018f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -13779,7 +13942,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#divider}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13787,11 +13950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:divider
+     * @attr name ir.aliprogramer.schoolhome:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13800,21 +13963,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:dividerPadding
+     * @attr name ir.aliprogramer.schoolhome:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:measureWithLargestChild
+     * @attr name ir.aliprogramer.schoolhome:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13829,7 +13992,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:showDividers
+     * @attr name ir.aliprogramer.schoolhome:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -13979,6 +14142,61 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownVerticalOffset=1;
     /**
+     * Attributes that can be used with a LoadingImageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop ir.aliprogramer.schoolhome:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio ir.aliprogramer.schoolhome:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust ir.aliprogramer.schoolhome:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * </table>
+     * @see #LoadingImageView_circleCrop
+     * @see #LoadingImageView_imageAspectRatio
+     * @see #LoadingImageView_imageAspectRatioAdjust
+     */
+    public static final int[] LoadingImageView={
+        0x7f030078, 0x7f0300fe, 0x7f0300ff
+      };
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#circleCrop}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ir.aliprogramer.schoolhome:circleCrop
+     */
+    public static final int LoadingImageView_circleCrop=0;
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#imageAspectRatio}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name ir.aliprogramer.schoolhome:imageAspectRatio
+     */
+    public static final int LoadingImageView_imageAspectRatio=1;
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#imageAspectRatioAdjust}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>adjust_height</td><td>2</td><td></td></tr>
+     * <tr><td>adjust_width</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ir.aliprogramer.schoolhome:imageAspectRatioAdjust
+     */
+    public static final int LoadingImageView_imageAspectRatioAdjust=2;
+    /**
      * Attributes that can be used with a MaterialButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -13989,18 +14207,18 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint ir.aliprogramer.schoolhome2:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode ir.aliprogramer.schoolhome2:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius ir.aliprogramer.schoolhome2:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon ir.aliprogramer.schoolhome2:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconGravity ir.aliprogramer.schoolhome2:iconGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding ir.aliprogramer.schoolhome2:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize ir.aliprogramer.schoolhome2:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint ir.aliprogramer.schoolhome2:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode ir.aliprogramer.schoolhome2:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor ir.aliprogramer.schoolhome2:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor ir.aliprogramer.schoolhome2:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth ir.aliprogramer.schoolhome2:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint ir.aliprogramer.schoolhome:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode ir.aliprogramer.schoolhome:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius ir.aliprogramer.schoolhome:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon ir.aliprogramer.schoolhome:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconGravity ir.aliprogramer.schoolhome:iconGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding ir.aliprogramer.schoolhome:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize ir.aliprogramer.schoolhome:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint ir.aliprogramer.schoolhome:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode ir.aliprogramer.schoolhome:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor ir.aliprogramer.schoolhome:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor ir.aliprogramer.schoolhome:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth ir.aliprogramer.schoolhome:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_insetLeft
      * @see #MaterialButton_android_insetRight
@@ -14021,9 +14239,9 @@ public final class R {
      */
     public static final int[] MaterialButton={
         0x010101b7, 0x010101b8, 0x010101b9, 0x010101ba, 
-        0x7f030034, 0x7f030035, 0x7f0300a5, 0x7f0300f2, 
-        0x7f0300f4, 0x7f0300f5, 0x7f0300f6, 0x7f0300f8, 
-        0x7f0300f9, 0x7f03017e, 0x7f0301a0, 0x7f0301a1
+        0x7f030034, 0x7f030035, 0x7f0300a8, 0x7f0300f5, 
+        0x7f0300f7, 0x7f0300f8, 0x7f0300f9, 0x7f0300fb, 
+        0x7f0300fc, 0x7f030183, 0x7f0301a6, 0x7f0301a7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#insetLeft}
@@ -14094,18 +14312,18 @@ public final class R {
      */
     public static final int MaterialButton_android_insetBottom=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTint
+     * @attr name ir.aliprogramer.schoolhome:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14122,11 +14340,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTintMode
+     * @attr name ir.aliprogramer.schoolhome:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14135,11 +14353,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:cornerRadius
+     * @attr name ir.aliprogramer.schoolhome:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#icon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14147,11 +14365,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:icon
+     * @attr name ir.aliprogramer.schoolhome:icon
      */
     public static final int MaterialButton_icon=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconGravity}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14164,11 +14382,11 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconGravity
+     * @attr name ir.aliprogramer.schoolhome:iconGravity
      */
     public static final int MaterialButton_iconGravity=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14177,11 +14395,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconPadding
+     * @attr name ir.aliprogramer.schoolhome:iconPadding
      */
     public static final int MaterialButton_iconPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14190,22 +14408,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconSize
+     * @attr name ir.aliprogramer.schoolhome:iconSize
      */
     public static final int MaterialButton_iconSize=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconTint
+     * @attr name ir.aliprogramer.schoolhome:iconTint
      */
     public static final int MaterialButton_iconTint=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14222,33 +14440,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconTintMode
+     * @attr name ir.aliprogramer.schoolhome:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:rippleColor
+     * @attr name ir.aliprogramer.schoolhome:rippleColor
      */
     public static final int MaterialButton_rippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:strokeColor
+     * @attr name ir.aliprogramer.schoolhome:strokeColor
      */
     public static final int MaterialButton_strokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14257,7 +14475,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:strokeWidth
+     * @attr name ir.aliprogramer.schoolhome:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=15;
     /**
@@ -14267,28 +14485,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor ir.aliprogramer.schoolhome2:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth ir.aliprogramer.schoolhome2:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor ir.aliprogramer.schoolhome:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth ir.aliprogramer.schoolhome:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
      */
     public static final int[] MaterialCardView={
-        0x7f0301a0, 0x7f0301a1
+        0x7f0301a6, 0x7f0301a7
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:strokeColor
+     * @attr name ir.aliprogramer.schoolhome:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14297,7 +14515,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:strokeWidth
+     * @attr name ir.aliprogramer.schoolhome:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -14307,38 +14525,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme ir.aliprogramer.schoolhome2:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle ir.aliprogramer.schoolhome2:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle ir.aliprogramer.schoolhome2:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle ir.aliprogramer.schoolhome2:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle ir.aliprogramer.schoolhome2:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent ir.aliprogramer.schoolhome2:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating ir.aliprogramer.schoolhome2:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary ir.aliprogramer.schoolhome2:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark ir.aliprogramer.schoolhome2:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary ir.aliprogramer.schoolhome2:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle ir.aliprogramer.schoolhome2:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle ir.aliprogramer.schoolhome2:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle ir.aliprogramer.schoolhome2:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle ir.aliprogramer.schoolhome2:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle ir.aliprogramer.schoolhome2:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground ir.aliprogramer.schoolhome2:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle ir.aliprogramer.schoolhome2:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle ir.aliprogramer.schoolhome2:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 ir.aliprogramer.schoolhome2:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 ir.aliprogramer.schoolhome2:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton ir.aliprogramer.schoolhome2:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption ir.aliprogramer.schoolhome2:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 ir.aliprogramer.schoolhome2:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 ir.aliprogramer.schoolhome2:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 ir.aliprogramer.schoolhome2:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 ir.aliprogramer.schoolhome2:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 ir.aliprogramer.schoolhome2:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 ir.aliprogramer.schoolhome2:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline ir.aliprogramer.schoolhome2:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 ir.aliprogramer.schoolhome2:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 ir.aliprogramer.schoolhome2:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle ir.aliprogramer.schoolhome2:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme ir.aliprogramer.schoolhome:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle ir.aliprogramer.schoolhome:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle ir.aliprogramer.schoolhome:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle ir.aliprogramer.schoolhome:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle ir.aliprogramer.schoolhome:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent ir.aliprogramer.schoolhome:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating ir.aliprogramer.schoolhome:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary ir.aliprogramer.schoolhome:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark ir.aliprogramer.schoolhome:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary ir.aliprogramer.schoolhome:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle ir.aliprogramer.schoolhome:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle ir.aliprogramer.schoolhome:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle ir.aliprogramer.schoolhome:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle ir.aliprogramer.schoolhome:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle ir.aliprogramer.schoolhome:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground ir.aliprogramer.schoolhome:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle ir.aliprogramer.schoolhome:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle ir.aliprogramer.schoolhome:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 ir.aliprogramer.schoolhome:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 ir.aliprogramer.schoolhome:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton ir.aliprogramer.schoolhome:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption ir.aliprogramer.schoolhome:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 ir.aliprogramer.schoolhome:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 ir.aliprogramer.schoolhome:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 ir.aliprogramer.schoolhome:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 ir.aliprogramer.schoolhome:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 ir.aliprogramer.schoolhome:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 ir.aliprogramer.schoolhome:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline ir.aliprogramer.schoolhome:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 ir.aliprogramer.schoolhome:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 ir.aliprogramer.schoolhome:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle ir.aliprogramer.schoolhome:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -14374,17 +14592,17 @@ public final class R {
      * @see #MaterialComponentsTheme_textInputStyle
      */
     public static final int[] MaterialComponentsTheme={
-        0x7f030041, 0x7f030042, 0x7f030068, 0x7f030072, 
-        0x7f030076, 0x7f030089, 0x7f03008a, 0x7f030090, 
-        0x7f030091, 0x7f030092, 0x7f0300ba, 0x7f0300d5, 
-        0x7f030156, 0x7f030157, 0x7f030161, 0x7f030180, 
-        0x7f030190, 0x7f0301c3, 0x7f0301c8, 0x7f0301c9, 
-        0x7f0301ca, 0x7f0301cb, 0x7f0301cc, 0x7f0301cd, 
-        0x7f0301ce, 0x7f0301cf, 0x7f0301d0, 0x7f0301d1, 
-        0x7f0301d6, 0x7f0301db, 0x7f0301dc, 0x7f0301e0
+        0x7f030041, 0x7f030042, 0x7f030069, 0x7f030073, 
+        0x7f030077, 0x7f03008b, 0x7f03008c, 0x7f030092, 
+        0x7f030093, 0x7f030095, 0x7f0300bd, 0x7f0300d8, 
+        0x7f03015b, 0x7f03015c, 0x7f030166, 0x7f030186, 
+        0x7f030196, 0x7f0301c9, 0x7f0301ce, 0x7f0301cf, 
+        0x7f0301d0, 0x7f0301d1, 0x7f0301d2, 0x7f0301d3, 
+        0x7f0301d4, 0x7f0301d5, 0x7f0301d6, 0x7f0301d7, 
+        0x7f0301dc, 0x7f0301e1, 0x7f0301e2, 0x7f0301e6
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14392,11 +14610,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:bottomSheetDialogTheme
+     * @attr name ir.aliprogramer.schoolhome:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14404,11 +14622,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:bottomSheetStyle
+     * @attr name ir.aliprogramer.schoolhome:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14416,11 +14634,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipGroupStyle
+     * @attr name ir.aliprogramer.schoolhome:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14428,11 +14646,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipStandaloneStyle
+     * @attr name ir.aliprogramer.schoolhome:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14440,66 +14658,66 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:chipStyle
+     * @attr name ir.aliprogramer.schoolhome:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorAccent}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorAccent
+     * @attr name ir.aliprogramer.schoolhome:colorAccent
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorBackgroundFloating
+     * @attr name ir.aliprogramer.schoolhome:colorBackgroundFloating
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorPrimary
+     * @attr name ir.aliprogramer.schoolhome:colorPrimary
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorPrimaryDark
+     * @attr name ir.aliprogramer.schoolhome:colorPrimaryDark
      */
     public static final int MaterialComponentsTheme_colorPrimaryDark=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorSecondary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:colorSecondary
+     * @attr name ir.aliprogramer.schoolhome:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14507,11 +14725,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:editTextStyle
+     * @attr name ir.aliprogramer.schoolhome:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14537,11 +14755,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name ir.aliprogramer.schoolhome2:floatingActionButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14549,11 +14767,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:materialButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14561,11 +14779,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:materialCardViewStyle
+     * @attr name ir.aliprogramer.schoolhome:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14573,11 +14791,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:navigationViewStyle
+     * @attr name ir.aliprogramer.schoolhome:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14588,11 +14806,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:scrimBackground
+     * @attr name ir.aliprogramer.schoolhome:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14600,11 +14818,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:snackbarButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14612,11 +14830,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabStyle
+     * @attr name ir.aliprogramer.schoolhome:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14624,11 +14842,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceBody1
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14636,11 +14854,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceBody2
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14648,11 +14866,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceButton
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14660,11 +14878,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceCaption
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14672,11 +14890,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline1
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14684,11 +14902,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline2
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14696,11 +14914,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline3
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14708,11 +14926,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline4
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14720,11 +14938,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline5
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14732,11 +14950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceHeadline6
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14744,11 +14962,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceOverline
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14756,11 +14974,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceSubtitle1
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14768,11 +14986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAppearanceSubtitle2
+     * @attr name ir.aliprogramer.schoolhome:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14780,7 +14998,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textInputStyle
+     * @attr name ir.aliprogramer.schoolhome:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
     /**
@@ -14906,16 +15124,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout ir.aliprogramer.schoolhome2:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass ir.aliprogramer.schoolhome2:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass ir.aliprogramer.schoolhome2:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers ir.aliprogramer.schoolhome2:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription ir.aliprogramer.schoolhome2:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint ir.aliprogramer.schoolhome2:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode ir.aliprogramer.schoolhome2:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers ir.aliprogramer.schoolhome2:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction ir.aliprogramer.schoolhome2:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText ir.aliprogramer.schoolhome2:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout ir.aliprogramer.schoolhome:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass ir.aliprogramer.schoolhome:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass ir.aliprogramer.schoolhome:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers ir.aliprogramer.schoolhome:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription ir.aliprogramer.schoolhome:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint ir.aliprogramer.schoolhome:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode ir.aliprogramer.schoolhome:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers ir.aliprogramer.schoolhome:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction ir.aliprogramer.schoolhome:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText ir.aliprogramer.schoolhome:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -14946,8 +15164,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-        0x7f030028, 0x7f030096, 0x7f0300f8, 0x7f0300f9, 
-        0x7f030162, 0x7f030188, 0x7f0301fc
+        0x7f030028, 0x7f030099, 0x7f0300fb, 0x7f0300fc, 
+        0x7f030167, 0x7f03018e, 0x7f030202
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -15092,7 +15310,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15100,31 +15318,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionLayout
+     * @attr name ir.aliprogramer.schoolhome:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionProviderClass
+     * @attr name ir.aliprogramer.schoolhome:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:actionViewClass
+     * @attr name ir.aliprogramer.schoolhome:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15141,32 +15359,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:alphabeticModifiers
+     * @attr name ir.aliprogramer.schoolhome:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentDescription
+     * @attr name ir.aliprogramer.schoolhome:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconTint
+     * @attr name ir.aliprogramer.schoolhome:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15183,11 +15401,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconTintMode
+     * @attr name ir.aliprogramer.schoolhome:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15204,11 +15422,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:numericModifiers
+     * @attr name ir.aliprogramer.schoolhome:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15224,17 +15442,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:showAsAction
+     * @attr name ir.aliprogramer.schoolhome:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:tooltipText
+     * @attr name ir.aliprogramer.schoolhome:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -15251,8 +15469,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing ir.aliprogramer.schoolhome2:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow ir.aliprogramer.schoolhome2:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing ir.aliprogramer.schoolhome:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow ir.aliprogramer.schoolhome:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -15266,8 +15484,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f030173, 
-        0x7f0301a2
+        0x0101012f, 0x01010130, 0x01010131, 0x7f030178, 
+        0x7f0301a8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -15357,17 +15575,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:preserveIconSpacing
+     * @attr name ir.aliprogramer.schoolhome:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15375,7 +15593,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:subMenuArrow
+     * @attr name ir.aliprogramer.schoolhome:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -15388,15 +15606,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout ir.aliprogramer.schoolhome2:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground ir.aliprogramer.schoolhome2:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding ir.aliprogramer.schoolhome2:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding ir.aliprogramer.schoolhome2:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint ir.aliprogramer.schoolhome2:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance ir.aliprogramer.schoolhome2:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor ir.aliprogramer.schoolhome2:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu ir.aliprogramer.schoolhome2:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout ir.aliprogramer.schoolhome:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground ir.aliprogramer.schoolhome:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding ir.aliprogramer.schoolhome:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding ir.aliprogramer.schoolhome:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint ir.aliprogramer.schoolhome:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance ir.aliprogramer.schoolhome:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor ir.aliprogramer.schoolhome:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu ir.aliprogramer.schoolhome:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -15412,9 +15630,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300bb, 
-        0x7f0300e4, 0x7f030100, 0x7f030101, 0x7f030103, 
-        0x7f030105, 0x7f030108, 0x7f03010b, 0x7f03015c
+        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300be, 
+        0x7f0300e7, 0x7f030105, 0x7f030106, 0x7f030108, 
+        0x7f03010a, 0x7f03010d, 0x7f030110, 0x7f030161
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -15455,7 +15673,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15464,11 +15682,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15476,11 +15694,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:headerLayout
+     * @attr name ir.aliprogramer.schoolhome:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15488,11 +15706,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemBackground
+     * @attr name ir.aliprogramer.schoolhome:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15501,11 +15719,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemHorizontalPadding
+     * @attr name ir.aliprogramer.schoolhome:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15514,22 +15732,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemIconPadding
+     * @attr name ir.aliprogramer.schoolhome:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemIconTint
+     * @attr name ir.aliprogramer.schoolhome:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15537,22 +15755,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:itemTextColor
+     * @attr name ir.aliprogramer.schoolhome:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#menu}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15560,7 +15778,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:menu
+     * @attr name ir.aliprogramer.schoolhome:menu
      */
     public static final int NavigationView_menu=11;
     /**
@@ -15572,14 +15790,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor ir.aliprogramer.schoolhome2:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor ir.aliprogramer.schoolhome:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f030163
+        0x01010176, 0x010102c9, 0x7f030168
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -15609,13 +15827,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:overlapAnchor
+     * @attr name ir.aliprogramer.schoolhome:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -15625,21 +15843,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor ir.aliprogramer.schoolhome2:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor ir.aliprogramer.schoolhome:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f030199
+        0x7f03019f
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:state_above_anchor
+     * @attr name ir.aliprogramer.schoolhome:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -15649,17 +15867,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons ir.aliprogramer.schoolhome2:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle ir.aliprogramer.schoolhome2:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons ir.aliprogramer.schoolhome:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle ir.aliprogramer.schoolhome:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f030164, 0x7f030167
+        0x7f030169, 0x7f03016c
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15668,11 +15886,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:paddingBottomNoButtons
+     * @attr name ir.aliprogramer.schoolhome:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15681,7 +15899,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:paddingTopNoTitle
+     * @attr name ir.aliprogramer.schoolhome:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -15693,15 +15911,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled ir.aliprogramer.schoolhome2:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable ir.aliprogramer.schoolhome2:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable ir.aliprogramer.schoolhome2:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable ir.aliprogramer.schoolhome2:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable ir.aliprogramer.schoolhome2:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager ir.aliprogramer.schoolhome2:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout ir.aliprogramer.schoolhome2:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount ir.aliprogramer.schoolhome2:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd ir.aliprogramer.schoolhome2:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled ir.aliprogramer.schoolhome:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable ir.aliprogramer.schoolhome:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable ir.aliprogramer.schoolhome:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable ir.aliprogramer.schoolhome:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable ir.aliprogramer.schoolhome:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager ir.aliprogramer.schoolhome:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout ir.aliprogramer.schoolhome:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount ir.aliprogramer.schoolhome:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd ir.aliprogramer.schoolhome:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -15716,9 +15934,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f0300cf, 0x7f0300d0, 
-        0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f030110, 
-        0x7f03017d, 0x7f030192, 0x7f030198
+        0x010100c4, 0x010100f1, 0x7f0300d2, 0x7f0300d3, 
+        0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f030115, 
+        0x7f030182, 0x7f030198, 0x7f03019e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -15756,17 +15974,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fastScrollEnabled
+     * @attr name ir.aliprogramer.schoolhome:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15774,11 +15992,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fastScrollHorizontalThumbDrawable
+     * @attr name ir.aliprogramer.schoolhome:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15786,11 +16004,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fastScrollHorizontalTrackDrawable
+     * @attr name ir.aliprogramer.schoolhome:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15798,11 +16016,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fastScrollVerticalThumbDrawable
+     * @attr name ir.aliprogramer.schoolhome:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15810,46 +16028,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:fastScrollVerticalTrackDrawable
+     * @attr name ir.aliprogramer.schoolhome:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:layoutManager
+     * @attr name ir.aliprogramer.schoolhome:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:reverseLayout
+     * @attr name ir.aliprogramer.schoolhome:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:spanCount
+     * @attr name ir.aliprogramer.schoolhome:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:stackFromEnd
+     * @attr name ir.aliprogramer.schoolhome:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -15859,15 +16077,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground ir.aliprogramer.schoolhome2:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground ir.aliprogramer.schoolhome:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-        0x7f0300fe
+        0x7f030103
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15878,7 +16096,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:insetForeground
+     * @attr name ir.aliprogramer.schoolhome:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -15888,7 +16106,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop ir.aliprogramer.schoolhome2:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop ir.aliprogramer.schoolhome:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -15896,7 +16114,7 @@ public final class R {
         0x7f03003a
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15905,7 +16123,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:behavior_overlapTop
+     * @attr name ir.aliprogramer.schoolhome:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -15919,19 +16137,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon ir.aliprogramer.schoolhome2:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon ir.aliprogramer.schoolhome2:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint ir.aliprogramer.schoolhome2:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon ir.aliprogramer.schoolhome2:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault ir.aliprogramer.schoolhome2:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout ir.aliprogramer.schoolhome2:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground ir.aliprogramer.schoolhome2:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint ir.aliprogramer.schoolhome2:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon ir.aliprogramer.schoolhome2:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon ir.aliprogramer.schoolhome2:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground ir.aliprogramer.schoolhome2:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout ir.aliprogramer.schoolhome2:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon ir.aliprogramer.schoolhome2:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon ir.aliprogramer.schoolhome:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon ir.aliprogramer.schoolhome:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint ir.aliprogramer.schoolhome:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon ir.aliprogramer.schoolhome:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault ir.aliprogramer.schoolhome:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout ir.aliprogramer.schoolhome:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground ir.aliprogramer.schoolhome:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint ir.aliprogramer.schoolhome:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon ir.aliprogramer.schoolhome:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon ir.aliprogramer.schoolhome:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground ir.aliprogramer.schoolhome:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout ir.aliprogramer.schoolhome:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon ir.aliprogramer.schoolhome:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -15953,10 +16171,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f03007c, 0x7f030094, 0x7f0300ab, 0x7f0300e3, 
-        0x7f0300fa, 0x7f03010f, 0x7f030177, 0x7f030178, 
-        0x7f030182, 0x7f030183, 0x7f0301a3, 0x7f0301a8, 
-        0x7f030203
+        0x7f03007e, 0x7f030097, 0x7f0300ae, 0x7f0300e6, 
+        0x7f0300fd, 0x7f030114, 0x7f03017c, 0x7f03017d, 
+        0x7f030188, 0x7f030189, 0x7f0301a9, 0x7f0301ae, 
+        0x7f030209
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -16069,7 +16287,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16077,11 +16295,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:closeIcon
+     * @attr name ir.aliprogramer.schoolhome:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16089,21 +16307,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:commitIcon
+     * @attr name ir.aliprogramer.schoolhome:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:defaultQueryHint
+     * @attr name ir.aliprogramer.schoolhome:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16111,21 +16329,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:goIcon
+     * @attr name ir.aliprogramer.schoolhome:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:iconifiedByDefault
+     * @attr name ir.aliprogramer.schoolhome:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#layout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16133,11 +16351,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:layout
+     * @attr name ir.aliprogramer.schoolhome:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16145,21 +16363,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:queryBackground
+     * @attr name ir.aliprogramer.schoolhome:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:queryHint
+     * @attr name ir.aliprogramer.schoolhome:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16167,11 +16385,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:searchHintIcon
+     * @attr name ir.aliprogramer.schoolhome:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16179,11 +16397,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:searchIcon
+     * @attr name ir.aliprogramer.schoolhome:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16191,11 +16409,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:submitBackground
+     * @attr name ir.aliprogramer.schoolhome:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16203,11 +16421,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:suggestionRowLayout
+     * @attr name ir.aliprogramer.schoolhome:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16215,9 +16433,85 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:voiceIcon
+     * @attr name ir.aliprogramer.schoolhome:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
+    /**
+     * Attributes that can be used with a SignInButton.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize ir.aliprogramer.schoolhome:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme ir.aliprogramer.schoolhome:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris ir.aliprogramer.schoolhome:scopeUris}</code></td><td></td></tr>
+     * </table>
+     * @see #SignInButton_buttonSize
+     * @see #SignInButton_colorScheme
+     * @see #SignInButton_scopeUris
+     */
+    public static final int[] SignInButton={
+        0x7f030054, 0x7f030094, 0x7f030184
+      };
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonSize}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>icon_only</td><td>2</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * <tr><td>wide</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ir.aliprogramer.schoolhome:buttonSize
+     */
+    public static final int SignInButton_buttonSize=0;
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#colorScheme}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>2</td><td></td></tr>
+     * <tr><td>dark</td><td>0</td><td></td></tr>
+     * <tr><td>light</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ir.aliprogramer.schoolhome:colorScheme
+     */
+    public static final int SignInButton_colorScheme=1;
+    /**
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#scopeUris}
+     * attribute's value can be found in the {@link #SignInButton} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name ir.aliprogramer.schoolhome:scopeUris
+     */
+    public static final int SignInButton_scopeUris=2;
     /**
      * Attributes that can be used with a Snackbar.
      * <p>Includes the following attributes:</p>
@@ -16225,17 +16519,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle ir.aliprogramer.schoolhome2:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarStyle ir.aliprogramer.schoolhome2:snackbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle ir.aliprogramer.schoolhome:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarStyle ir.aliprogramer.schoolhome:snackbarStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      * @see #Snackbar_snackbarStyle
      */
     public static final int[] Snackbar={
-        0x7f030190, 0x7f030191
+        0x7f030196, 0x7f030197
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16243,11 +16537,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:snackbarButtonStyle
+     * @attr name ir.aliprogramer.schoolhome:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#snackbarStyle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#snackbarStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16255,7 +16549,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:snackbarStyle
+     * @attr name ir.aliprogramer.schoolhome:snackbarStyle
      */
     public static final int Snackbar_snackbarStyle=1;
     /**
@@ -16266,15 +16560,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation ir.aliprogramer.schoolhome2:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth ir.aliprogramer.schoolhome2:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation ir.aliprogramer.schoolhome:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth ir.aliprogramer.schoolhome:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-        0x0101011f, 0x7f0300bb, 0x7f030158
+        0x0101011f, 0x7f0300be, 0x7f03015d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -16290,7 +16584,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16299,11 +16593,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:elevation
+     * @attr name ir.aliprogramer.schoolhome:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16312,7 +16606,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:maxActionInlineWidth
+     * @attr name ir.aliprogramer.schoolhome:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -16326,7 +16620,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme ir.aliprogramer.schoolhome2:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme ir.aliprogramer.schoolhome:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -16336,7 +16630,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f030171
+        0x7f030176
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -16401,7 +16695,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16409,7 +16703,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:popupTheme
+     * @attr name ir.aliprogramer.schoolhome:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -16531,17 +16825,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText ir.aliprogramer.schoolhome2:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack ir.aliprogramer.schoolhome2:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth ir.aliprogramer.schoolhome2:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding ir.aliprogramer.schoolhome2:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance ir.aliprogramer.schoolhome2:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding ir.aliprogramer.schoolhome2:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint ir.aliprogramer.schoolhome2:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode ir.aliprogramer.schoolhome2:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track ir.aliprogramer.schoolhome2:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint ir.aliprogramer.schoolhome2:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode ir.aliprogramer.schoolhome2:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText ir.aliprogramer.schoolhome:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack ir.aliprogramer.schoolhome:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth ir.aliprogramer.schoolhome:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding ir.aliprogramer.schoolhome:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance ir.aliprogramer.schoolhome:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding ir.aliprogramer.schoolhome:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint ir.aliprogramer.schoolhome:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode ir.aliprogramer.schoolhome:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track ir.aliprogramer.schoolhome:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint ir.aliprogramer.schoolhome:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode ir.aliprogramer.schoolhome:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -16559,10 +16853,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f03018b, 
-        0x7f030196, 0x7f0301a9, 0x7f0301aa, 0x7f0301ac, 
-        0x7f0301e4, 0x7f0301e5, 0x7f0301e6, 0x7f0301fd, 
-        0x7f0301fe, 0x7f0301ff
+        0x01010124, 0x01010125, 0x01010142, 0x7f030191, 
+        0x7f03019c, 0x7f0301af, 0x7f0301b0, 0x7f0301b2, 
+        0x7f0301ea, 0x7f0301eb, 0x7f0301ec, 0x7f030203, 
+        0x7f030204, 0x7f030205
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -16597,27 +16891,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#showText}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:showText
+     * @attr name ir.aliprogramer.schoolhome:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:splitTrack
+     * @attr name ir.aliprogramer.schoolhome:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16626,11 +16920,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:switchMinWidth
+     * @attr name ir.aliprogramer.schoolhome:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16639,11 +16933,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:switchPadding
+     * @attr name ir.aliprogramer.schoolhome:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16651,11 +16945,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:switchTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16664,22 +16958,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:thumbTextPadding
+     * @attr name ir.aliprogramer.schoolhome:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:thumbTint
+     * @attr name ir.aliprogramer.schoolhome:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16696,11 +16990,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:thumbTintMode
+     * @attr name ir.aliprogramer.schoolhome:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#track}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16708,22 +17002,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:track
+     * @attr name ir.aliprogramer.schoolhome:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:trackTint
+     * @attr name ir.aliprogramer.schoolhome:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16740,7 +17034,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:trackTintMode
+     * @attr name ir.aliprogramer.schoolhome:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -16802,31 +17096,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground ir.aliprogramer.schoolhome2:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart ir.aliprogramer.schoolhome2:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity ir.aliprogramer.schoolhome2:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint ir.aliprogramer.schoolhome2:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode ir.aliprogramer.schoolhome2:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator ir.aliprogramer.schoolhome2:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration ir.aliprogramer.schoolhome2:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor ir.aliprogramer.schoolhome2:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth ir.aliprogramer.schoolhome2:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity ir.aliprogramer.schoolhome2:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight ir.aliprogramer.schoolhome2:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel ir.aliprogramer.schoolhome2:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth ir.aliprogramer.schoolhome2:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth ir.aliprogramer.schoolhome2:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode ir.aliprogramer.schoolhome2:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding ir.aliprogramer.schoolhome2:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom ir.aliprogramer.schoolhome2:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd ir.aliprogramer.schoolhome2:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart ir.aliprogramer.schoolhome2:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop ir.aliprogramer.schoolhome2:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor ir.aliprogramer.schoolhome2:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor ir.aliprogramer.schoolhome2:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance ir.aliprogramer.schoolhome2:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor ir.aliprogramer.schoolhome2:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple ir.aliprogramer.schoolhome2:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground ir.aliprogramer.schoolhome:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart ir.aliprogramer.schoolhome:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity ir.aliprogramer.schoolhome:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint ir.aliprogramer.schoolhome:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode ir.aliprogramer.schoolhome:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator ir.aliprogramer.schoolhome:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration ir.aliprogramer.schoolhome:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor ir.aliprogramer.schoolhome:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth ir.aliprogramer.schoolhome:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity ir.aliprogramer.schoolhome:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight ir.aliprogramer.schoolhome:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel ir.aliprogramer.schoolhome:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth ir.aliprogramer.schoolhome:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth ir.aliprogramer.schoolhome:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode ir.aliprogramer.schoolhome:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding ir.aliprogramer.schoolhome:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom ir.aliprogramer.schoolhome:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd ir.aliprogramer.schoolhome:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart ir.aliprogramer.schoolhome:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop ir.aliprogramer.schoolhome:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor ir.aliprogramer.schoolhome:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor ir.aliprogramer.schoolhome:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance ir.aliprogramer.schoolhome:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor ir.aliprogramer.schoolhome:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple ir.aliprogramer.schoolhome:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -16855,16 +17149,16 @@ public final class R {
      * @see #TabLayout_tabUnboundedRipple
      */
     public static final int[] TabLayout={
-        0x7f0301ad, 0x7f0301ae, 0x7f0301af, 0x7f0301b0, 
-        0x7f0301b1, 0x7f0301b2, 0x7f0301b3, 0x7f0301b4, 
-        0x7f0301b5, 0x7f0301b6, 0x7f0301b7, 0x7f0301b8, 
-        0x7f0301b9, 0x7f0301ba, 0x7f0301bb, 0x7f0301bc, 
-        0x7f0301bd, 0x7f0301be, 0x7f0301bf, 0x7f0301c0, 
-        0x7f0301c1, 0x7f0301c2, 0x7f0301c4, 0x7f0301c5, 
-        0x7f0301c6
+        0x7f0301b3, 0x7f0301b4, 0x7f0301b5, 0x7f0301b6, 
+        0x7f0301b7, 0x7f0301b8, 0x7f0301b9, 0x7f0301ba, 
+        0x7f0301bb, 0x7f0301bc, 0x7f0301bd, 0x7f0301be, 
+        0x7f0301bf, 0x7f0301c0, 0x7f0301c1, 0x7f0301c2, 
+        0x7f0301c3, 0x7f0301c4, 0x7f0301c5, 0x7f0301c6, 
+        0x7f0301c7, 0x7f0301c8, 0x7f0301ca, 0x7f0301cb, 
+        0x7f0301cc
       };
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16872,11 +17166,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabBackground
+     * @attr name ir.aliprogramer.schoolhome:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16885,11 +17179,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabContentStart
+     * @attr name ir.aliprogramer.schoolhome:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16902,22 +17196,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabGravity
+     * @attr name ir.aliprogramer.schoolhome:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIconTint
+     * @attr name ir.aliprogramer.schoolhome:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16934,11 +17228,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIconTintMode
+     * @attr name ir.aliprogramer.schoolhome:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16946,41 +17240,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicator
+     * @attr name ir.aliprogramer.schoolhome:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicatorAnimationDuration
+     * @attr name ir.aliprogramer.schoolhome:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicatorColor
+     * @attr name ir.aliprogramer.schoolhome:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicatorFullWidth
+     * @attr name ir.aliprogramer.schoolhome:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16995,11 +17289,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicatorGravity
+     * @attr name ir.aliprogramer.schoolhome:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17008,21 +17302,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabIndicatorHeight
+     * @attr name ir.aliprogramer.schoolhome:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabInlineLabel
+     * @attr name ir.aliprogramer.schoolhome:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17031,11 +17325,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabMaxWidth
+     * @attr name ir.aliprogramer.schoolhome:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17044,11 +17338,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabMinWidth
+     * @attr name ir.aliprogramer.schoolhome:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17061,11 +17355,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabMode
+     * @attr name ir.aliprogramer.schoolhome:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17074,11 +17368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabPadding
+     * @attr name ir.aliprogramer.schoolhome:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17087,11 +17381,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabPaddingBottom
+     * @attr name ir.aliprogramer.schoolhome:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17100,11 +17394,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabPaddingEnd
+     * @attr name ir.aliprogramer.schoolhome:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17113,11 +17407,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabPaddingStart
+     * @attr name ir.aliprogramer.schoolhome:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17126,33 +17420,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabPaddingTop
+     * @attr name ir.aliprogramer.schoolhome:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabRippleColor
+     * @attr name ir.aliprogramer.schoolhome:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabSelectedTextColor
+     * @attr name ir.aliprogramer.schoolhome:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17160,28 +17454,28 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabTextColor
+     * @attr name ir.aliprogramer.schoolhome:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:tabUnboundedRipple
+     * @attr name ir.aliprogramer.schoolhome:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
     /**
@@ -17202,8 +17496,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily ir.aliprogramer.schoolhome2:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps ir.aliprogramer.schoolhome2:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily ir.aliprogramer.schoolhome:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps ir.aliprogramer.schoolhome:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -17222,8 +17516,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f0300d7, 
-        0x7f0301c7
+        0x01010163, 0x01010164, 0x010103ac, 0x7f0300da, 
+        0x7f0301cd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -17369,17 +17663,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:fontFamily
+     * @attr name ir.aliprogramer.schoolhome:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17389,7 +17683,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:textAllCaps
+     * @attr name ir.aliprogramer.schoolhome:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -17401,32 +17695,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor ir.aliprogramer.schoolhome2:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode ir.aliprogramer.schoolhome2:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop ir.aliprogramer.schoolhome2:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd ir.aliprogramer.schoolhome2:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart ir.aliprogramer.schoolhome2:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd ir.aliprogramer.schoolhome2:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart ir.aliprogramer.schoolhome2:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor ir.aliprogramer.schoolhome2:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth ir.aliprogramer.schoolhome2:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled ir.aliprogramer.schoolhome2:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength ir.aliprogramer.schoolhome2:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance ir.aliprogramer.schoolhome2:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance ir.aliprogramer.schoolhome2:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled ir.aliprogramer.schoolhome2:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance ir.aliprogramer.schoolhome2:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText ir.aliprogramer.schoolhome2:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled ir.aliprogramer.schoolhome2:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance ir.aliprogramer.schoolhome2:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled ir.aliprogramer.schoolhome2:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled ir.aliprogramer.schoolhome2:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance ir.aliprogramer.schoolhome2:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription ir.aliprogramer.schoolhome2:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable ir.aliprogramer.schoolhome2:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled ir.aliprogramer.schoolhome2:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint ir.aliprogramer.schoolhome2:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode ir.aliprogramer.schoolhome2:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor ir.aliprogramer.schoolhome:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode ir.aliprogramer.schoolhome:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop ir.aliprogramer.schoolhome:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd ir.aliprogramer.schoolhome:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart ir.aliprogramer.schoolhome:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd ir.aliprogramer.schoolhome:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart ir.aliprogramer.schoolhome:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor ir.aliprogramer.schoolhome:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth ir.aliprogramer.schoolhome:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled ir.aliprogramer.schoolhome:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength ir.aliprogramer.schoolhome:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance ir.aliprogramer.schoolhome:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance ir.aliprogramer.schoolhome:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled ir.aliprogramer.schoolhome:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance ir.aliprogramer.schoolhome:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText ir.aliprogramer.schoolhome:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled ir.aliprogramer.schoolhome:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance ir.aliprogramer.schoolhome:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled ir.aliprogramer.schoolhome:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled ir.aliprogramer.schoolhome:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance ir.aliprogramer.schoolhome:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription ir.aliprogramer.schoolhome:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable ir.aliprogramer.schoolhome:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled ir.aliprogramer.schoolhome:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint ir.aliprogramer.schoolhome:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode ir.aliprogramer.schoolhome:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -17460,11 +17754,11 @@ public final class R {
     public static final int[] TextInputLayout={
         0x0101009a, 0x01010150, 0x7f030043, 0x7f030044, 
         0x7f030045, 0x7f030046, 0x7f030047, 0x7f030048, 
-        0x7f030049, 0x7f03004a, 0x7f03004b, 0x7f0300a6, 
-        0x7f0300a7, 0x7f0300a8, 0x7f0300a9, 0x7f0300be, 
-        0x7f0300bf, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 
-        0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 0x7f03016b, 
-        0x7f03016c, 0x7f03016d, 0x7f03016e, 0x7f03016f
+        0x7f030049, 0x7f03004a, 0x7f03004b, 0x7f0300a9, 
+        0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 0x7f0300c1, 
+        0x7f0300c2, 0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 
+        0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 0x7f030170, 
+        0x7f030171, 0x7f030172, 0x7f030173, 0x7f030174
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -17492,18 +17786,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxBackgroundColor
+     * @attr name ir.aliprogramer.schoolhome:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17517,11 +17811,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxBackgroundMode
+     * @attr name ir.aliprogramer.schoolhome:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17530,11 +17824,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxCollapsedPaddingTop
+     * @attr name ir.aliprogramer.schoolhome:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17543,11 +17837,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxCornerRadiusBottomEnd
+     * @attr name ir.aliprogramer.schoolhome:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17556,11 +17850,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxCornerRadiusBottomStart
+     * @attr name ir.aliprogramer.schoolhome:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17569,11 +17863,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxCornerRadiusTopEnd
+     * @attr name ir.aliprogramer.schoolhome:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17582,22 +17876,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxCornerRadiusTopStart
+     * @attr name ir.aliprogramer.schoolhome:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxStrokeColor
+     * @attr name ir.aliprogramer.schoolhome:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17606,30 +17900,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:boxStrokeWidth
+     * @attr name ir.aliprogramer.schoolhome:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:counterEnabled
+     * @attr name ir.aliprogramer.schoolhome:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:counterMaxLength
+     * @attr name ir.aliprogramer.schoolhome:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17637,11 +17931,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:counterOverflowTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17649,21 +17943,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:counterTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:errorEnabled
+     * @attr name ir.aliprogramer.schoolhome:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17671,31 +17965,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:errorTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:helperText
+     * @attr name ir.aliprogramer.schoolhome:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:helperTextEnabled
+     * @attr name ir.aliprogramer.schoolhome:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17703,31 +17997,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:helperTextTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hintAnimationEnabled
+     * @attr name ir.aliprogramer.schoolhome:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hintEnabled
+     * @attr name ir.aliprogramer.schoolhome:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17735,21 +18029,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:hintTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:passwordToggleContentDescription
+     * @attr name ir.aliprogramer.schoolhome:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17757,32 +18051,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:passwordToggleDrawable
+     * @attr name ir.aliprogramer.schoolhome:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:passwordToggleEnabled
+     * @attr name ir.aliprogramer.schoolhome:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:passwordToggleTint
+     * @attr name ir.aliprogramer.schoolhome:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17798,7 +18092,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:passwordToggleTintMode
+     * @attr name ir.aliprogramer.schoolhome:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -17809,15 +18103,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme ir.aliprogramer.schoolhome2:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance ir.aliprogramer.schoolhome2:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme ir.aliprogramer.schoolhome:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance ir.aliprogramer.schoolhome:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
      * @see #ThemeEnforcement_enforceTextAppearance
      */
     public static final int[] ThemeEnforcement={
-        0x01010034, 0x7f0300bc, 0x7f0300bd
+        0x01010034, 0x7f0300bf, 0x7f0300c0
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -17832,23 +18126,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:enforceMaterialTheme
+     * @attr name ir.aliprogramer.schoolhome:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:enforceTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -17860,33 +18154,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity ir.aliprogramer.schoolhome2:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription ir.aliprogramer.schoolhome2:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon ir.aliprogramer.schoolhome2:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd ir.aliprogramer.schoolhome2:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions ir.aliprogramer.schoolhome2:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft ir.aliprogramer.schoolhome2:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight ir.aliprogramer.schoolhome2:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart ir.aliprogramer.schoolhome2:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation ir.aliprogramer.schoolhome2:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo ir.aliprogramer.schoolhome2:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription ir.aliprogramer.schoolhome2:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight ir.aliprogramer.schoolhome2:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription ir.aliprogramer.schoolhome2:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon ir.aliprogramer.schoolhome2:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme ir.aliprogramer.schoolhome2:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle ir.aliprogramer.schoolhome2:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance ir.aliprogramer.schoolhome2:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor ir.aliprogramer.schoolhome2:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title ir.aliprogramer.schoolhome2:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin ir.aliprogramer.schoolhome2:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom ir.aliprogramer.schoolhome2:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd ir.aliprogramer.schoolhome2:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart ir.aliprogramer.schoolhome2:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop ir.aliprogramer.schoolhome2:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins ir.aliprogramer.schoolhome2:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance ir.aliprogramer.schoolhome2:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor ir.aliprogramer.schoolhome2:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity ir.aliprogramer.schoolhome:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription ir.aliprogramer.schoolhome:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon ir.aliprogramer.schoolhome:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd ir.aliprogramer.schoolhome:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions ir.aliprogramer.schoolhome:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft ir.aliprogramer.schoolhome:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight ir.aliprogramer.schoolhome:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart ir.aliprogramer.schoolhome:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation ir.aliprogramer.schoolhome:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo ir.aliprogramer.schoolhome:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription ir.aliprogramer.schoolhome:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight ir.aliprogramer.schoolhome:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription ir.aliprogramer.schoolhome:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon ir.aliprogramer.schoolhome:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme ir.aliprogramer.schoolhome:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle ir.aliprogramer.schoolhome:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance ir.aliprogramer.schoolhome:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor ir.aliprogramer.schoolhome:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title ir.aliprogramer.schoolhome:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin ir.aliprogramer.schoolhome:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom ir.aliprogramer.schoolhome:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd ir.aliprogramer.schoolhome:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart ir.aliprogramer.schoolhome:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop ir.aliprogramer.schoolhome:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins ir.aliprogramer.schoolhome:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance ir.aliprogramer.schoolhome:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor ir.aliprogramer.schoolhome:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -17919,14 +18213,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-        0x010100af, 0x01010140, 0x7f030051, 0x7f030084, 
-        0x7f030085, 0x7f030097, 0x7f030098, 0x7f030099, 
-        0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f030154, 
-        0x7f030155, 0x7f030159, 0x7f03015e, 0x7f03015f, 
-        0x7f030171, 0x7f0301a4, 0x7f0301a5, 0x7f0301a6, 
-        0x7f0301ec, 0x7f0301ee, 0x7f0301ef, 0x7f0301f0, 
-        0x7f0301f1, 0x7f0301f2, 0x7f0301f3, 0x7f0301f4, 
-        0x7f0301f5
+        0x010100af, 0x01010140, 0x7f030051, 0x7f030086, 
+        0x7f030087, 0x7f03009a, 0x7f03009b, 0x7f03009c, 
+        0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f030159, 
+        0x7f03015a, 0x7f03015e, 0x7f030163, 0x7f030164, 
+        0x7f030176, 0x7f0301aa, 0x7f0301ab, 0x7f0301ac, 
+        0x7f0301f2, 0x7f0301f4, 0x7f0301f5, 0x7f0301f6, 
+        0x7f0301f7, 0x7f0301f8, 0x7f0301f9, 0x7f0301fa, 
+        0x7f0301fb
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -17971,7 +18265,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -17984,21 +18278,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:buttonGravity
+     * @attr name ir.aliprogramer.schoolhome:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:collapseContentDescription
+     * @attr name ir.aliprogramer.schoolhome:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18006,11 +18300,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:collapseIcon
+     * @attr name ir.aliprogramer.schoolhome:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18019,11 +18313,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetEnd
+     * @attr name ir.aliprogramer.schoolhome:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18032,11 +18326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetEndWithActions
+     * @attr name ir.aliprogramer.schoolhome:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18045,11 +18339,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetLeft
+     * @attr name ir.aliprogramer.schoolhome:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18058,11 +18352,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetRight
+     * @attr name ir.aliprogramer.schoolhome:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18071,11 +18365,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetStart
+     * @attr name ir.aliprogramer.schoolhome:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18084,11 +18378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:contentInsetStartWithNavigation
+     * @attr name ir.aliprogramer.schoolhome:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#logo}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18096,21 +18390,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:logo
+     * @attr name ir.aliprogramer.schoolhome:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:logoDescription
+     * @attr name ir.aliprogramer.schoolhome:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18119,21 +18413,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:maxButtonHeight
+     * @attr name ir.aliprogramer.schoolhome:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:navigationContentDescription
+     * @attr name ir.aliprogramer.schoolhome:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18141,11 +18435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:navigationIcon
+     * @attr name ir.aliprogramer.schoolhome:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18153,21 +18447,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:popupTheme
+     * @attr name ir.aliprogramer.schoolhome:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitle
+     * @attr name ir.aliprogramer.schoolhome:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18175,32 +18469,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitleTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:subtitleTextColor
+     * @attr name ir.aliprogramer.schoolhome:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#title}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name ir.aliprogramer.schoolhome2:title
+     * @attr name ir.aliprogramer.schoolhome:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18209,11 +18503,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMargin
+     * @attr name ir.aliprogramer.schoolhome:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18222,11 +18516,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMarginBottom
+     * @attr name ir.aliprogramer.schoolhome:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18235,11 +18529,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMarginEnd
+     * @attr name ir.aliprogramer.schoolhome:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18248,11 +18542,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMarginStart
+     * @attr name ir.aliprogramer.schoolhome:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18261,11 +18555,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMarginTop
+     * @attr name ir.aliprogramer.schoolhome:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18274,11 +18568,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleMargins
+     * @attr name ir.aliprogramer.schoolhome:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18286,18 +18580,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleTextAppearance
+     * @attr name ir.aliprogramer.schoolhome:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:titleTextColor
+     * @attr name ir.aliprogramer.schoolhome:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -18309,9 +18603,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd ir.aliprogramer.schoolhome2:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart ir.aliprogramer.schoolhome2:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme ir.aliprogramer.schoolhome2:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd ir.aliprogramer.schoolhome:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart ir.aliprogramer.schoolhome:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme ir.aliprogramer.schoolhome:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -18320,8 +18614,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f030165, 0x7f030166, 
-        0x7f0301e2
+        0x01010000, 0x010100da, 0x7f03016a, 0x7f03016b, 
+        0x7f0301e8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -18354,7 +18648,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18363,11 +18657,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:paddingEnd
+     * @attr name ir.aliprogramer.schoolhome:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18376,11 +18670,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name ir.aliprogramer.schoolhome2:paddingStart
+     * @attr name ir.aliprogramer.schoolhome:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#theme}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18388,7 +18682,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:theme
+     * @attr name ir.aliprogramer.schoolhome:theme
      */
     public static final int View_theme=4;
     /**
@@ -18399,8 +18693,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint ir.aliprogramer.schoolhome2:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode ir.aliprogramer.schoolhome2:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint ir.aliprogramer.schoolhome:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode ir.aliprogramer.schoolhome:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -18425,18 +18719,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTint
+     * @attr name ir.aliprogramer.schoolhome:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome2.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link ir.aliprogramer.schoolhome.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18453,7 +18747,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name ir.aliprogramer.schoolhome2:backgroundTintMode
+     * @attr name ir.aliprogramer.schoolhome:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

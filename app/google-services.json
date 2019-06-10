@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440785511012",
+    "firebase_url": "https://schoolhome-cef33.firebaseio.com",
+    "project_id": "schoolhome-cef33",
+    "storage_bucket": "schoolhome-cef33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440785511012:android:584be592a45ad2fe",
+        "android_client_info": {
+          "package_name": "ir.aliprogramer.schoolhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440785511012-akr5729l8j4j1a5oboa96tmel3a5ld4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.aliprogramer.schoolhome",
+            "certificate_hash": "352b7ba7c219a8ed754004fd561acab0fe6247e3"
+          }
+        },
+        {
+          "client_id": "440785511012-0obhdsitlvqp61ctkk7pi6t8c1472k8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg73QCUp9tD8lL7PLRdyQH7dL6_BBv-ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440785511012-0obhdsitlvqp61ctkk7pi6t8c1472k8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "ir.aliprogramer.schoolhome2"
+        applicationId "ir.aliprogramer.schoolhome"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -48,4 +48,11 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+
+
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-iid:18.0.0'
+    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+    implementation 'android.arch.work:work-runtime:1.0.1'
 }
+apply plugin: 'com.google.gms.google-services'

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ir.aliprogramer.schoolhome2"
+    package="ir.aliprogramer.schoolhome"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,6 +10,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +23,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
+
+        <!--
+    Set custom default icon. This is used when no icon is set for incoming notification messages.
+    See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
         <activity android:name="ir.aliprogramer.schoolhome.Activity.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +54,180 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeHome" />
+
+        <service
+            android:name="ir.aliprogramer.schoolhome.Notifications.MyFirebaseMessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+>
+        </service>
+
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.work.impl.WorkManagerInitializer"
+            android:authorities="ir.aliprogramer.schoolhome.workmanager-init"
+            android:directBootAware="false"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="ir.aliprogramer.schoolhome.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="ir.aliprogramer.schoolhome.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
     </application>
 
 </manifest>

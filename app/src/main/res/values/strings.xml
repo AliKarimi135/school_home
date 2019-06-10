@@ -16,5 +16,9 @@
     <string name="alertmark">افزودن نمره</string>
     <string name="edith">ویرایش</string>
     <string name="delete">حذف</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
     <string name="edith_mark_mess">ویرایش یا حذف نمره</string>
 </resources>
